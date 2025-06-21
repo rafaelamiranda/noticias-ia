@@ -1,76 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-  <title>Notícias de Inteligência Artificial</title>
-  <link>https://seu.subdominio.com</link>
-  <description>As últimas notícias sobre Inteligência Artificial, atualizadas diariamente.</description>
-  <atom:link href="https://seu.subdominio.com/feed.xml" rel="self" type="application/rss+xml" />
-  <language>pt-br</language>
-  <lastBuildDate>Sat, 21 Jun 2025 10:00:00 GMT</lastBuildDate>
-
-  <item>
-    <title>Nvidia e Foxconn Usarão Robôs Humanoides em Fábrica nos EUA</title>
-    <link>https://www.tecmundo.com.br/mercado/405276-nvidia-e-foxconn-planejam-usar-robos-humanoides-em-nova-fabrica-nos-estados-unidos.htm</link>
-    <guid isPermaLink="true">https://www.tecmundo.com.br/mercado/405276-nvidia-e-foxconn-planejam-usar-robos-humanoides-em-nova-fabrica-nos-estados-unidos.htm</guid>
-    <description><![CDATA[Em uma iniciativa pioneira, Nvidia e Foxconn estão em negociações para implantar robôs humanoides em uma nova fábrica no Texas, que serão utilizados na montagem de servidores de IA.]]></description>
-    <pubDate>Fri, 21 Jun 2025 00:00:00 GMT</pubDate>
-  </item>
-
-  <item>
-    <title>Advogado de Drauzio Varella Luta Contra Deepfakes Ilegais</title>
-    <link>https://www.estadao.com.br/cultura/alice-ferraz/e-uma-luta-ingloria-diz-advogado-de-drauzio-varella-sobre-guerra-contra-deepfakes/</link>
-    <guid isPermaLink="true">https://www.estadao.com.br/cultura/alice-ferraz/e-uma-luta-ingloria-diz-advogado-de-drauzio-varella-sobre-guerra-contra-deepfakes/</guid>
-    <description><![CDATA[A defesa do médico Drauzio Varella trava uma batalha judicial contra a proliferação de vídeos falsos (deepfakes) que usam sua imagem e voz para vender produtos ilegais.]]></description>
-    <pubDate>Fri, 21 Jun 2025 00:00:00 GMT</pubDate>
-  </item>
-
-  <item>
-    <title>CEO da Amazon Prevê Redução de Empregos com Avanço da IA</title>
-    <link>https://exame.com/inteligencia-artificial/com-investimento-de-us-100-bilhoes-em-ia-amazon-preve-reducao-do-numero-de-empregos/</link>
-    <guid isPermaLink="true">https://exame.com/inteligencia-artificial/com-investimento-de-us-100-bilhoes-em-ia-amazon-preve-reducao-do-numero-de-empregos/</guid>
-    <description><![CDATA[Com um investimento previsto de US$ 100 bilhões em IA, o CEO da Amazon, Andy Jassy, declarou que a empresa espera reduzir o número de funcionários em funções corporativas à medida que ganha eficiência com a automação.]]></description>
-    <pubDate>Thu, 20 Jun 2025 00:00:00 GMT</pubDate>
-  </item>
-  
-  <item>
-    <title>Adobe Lança "Project Indigo" para Fotografia Natural no iPhone</title>
-    <link>https://petapixel.com/2025/06/19/adobes-new-computational-iphone-camera-app-looks-incredible/</link>
-    <guid isPermaLink="true">https://petapixel.com/2025/06/19/adobes-new-computational-iphone-camera-app-looks-incredible/</guid>
-    <description><![CDATA[A Adobe lançou um novo aplicativo de câmera, o Project Indigo, que utiliza IA para produzir fotos com um aspecto mais natural e menos processado, similar ao de câmeras SLR.]]></description>
-    <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
-  </item>
-
-  <item>
-    <title>YouTube Integra IA do Google para Gerar Vídeos no Shorts</title>
-    <link>https://www.gsmarena.com/google_will_let_creators_generate_videos_for_youtube_shorts_using_the_veo_3_ai_model-news-68323.php</link>
-    <guid isPermaLink="true">https://www.gsmarena.com/google_will_let_creators_generate_videos_for_youtube_shorts_using_the_veo_3_ai_model-news-68323.php</guid>
-    <description><![CDATA[O YouTube anunciou que integrará o modelo de IA para geração de vídeo do Google, o Veo 3, em sua plataforma Shorts, permitindo que criadores produzam vídeos a partir de simples comandos de texto.]]></description>
-    <pubDate>Thu, 20 Jun 2025 00:00:00 GMT</pubDate>
-  </item>
-
-  <item>
-    <title>Meta e Oakley Lançam Novos Óculos Inteligentes com IA</title>
-    <link>https://www.tecmundo.com.br/produto/405266-meta-lanca-novos-oculos-inteligentes-com-a-oakley-que-gravam-ate-em-3k.htm</link>
-    <guid isPermaLink="true">https://www.tecmundo.com.br/produto/405266-meta-lanca-novos-oculos-inteligentes-com-a-oakley-que-gravam-ate-em-3k.htm</guid>
-    <description><![CDATA[A Meta, em parceria com a Oakley, lançou uma nova linha de óculos inteligentes que contam com câmera de 12 MP e integração com a assistente de IA da Meta para comandos de voz.]]></description>
-    <pubDate>Fri, 21 Jun 2025 00:00:00 GMT</pubDate>
-  </item>
-
-  <item>
-    <title>Apple Revela Planos de Usar IA para Projetar Seus Próprios Chips</title>
-    <link>https://macmagazine.com.br/post/2025/06/19/apple-quer-usar-ia-para-produzir-seus-chips-diz-executivo-da-empresa/</link>
-    <guid isPermaLink="true">https://macmagazine.com.br/post/2025/06/19/apple-quer-usar-ia-para-produzir-seus-chips-diz-executivo-da-empresa/</guid>
-    <description><![CDATA[Johny Srouji, chefe do Apple Silicon, afirmou que a empresa pretende usar inteligência artificial para otimizar e acelerar o design de seus futuros chips, buscando aprimorar o desempenho.]]></description>
-    <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
-  </item>
-
-  <item>
-    <title>Estudo do MIT Aponta "Custo Cognitivo" ao Usar ChatGPT para Escrever</title>
-    <link>https://mashable.com/article/chatgpt-writing-study-mit-cognitive-cost</link>
-    <guid isPermaLink="true">https://mashable.com/article/chatgpt-writing-study-mit-cognitive-cost</guid>
-    <description><![CDATA[Uma nova pesquisa do MIT sugere que depender excessivamente de ferramentas como o ChatGPT para tarefas de escrita pode levar a um menor engajamento cerebral e uma compreensão mais superficial do conteúdo.]]></description>
-    <pubDate>Fri, 21 Jun 2025 00:00:00 GMT</pubDate>
-  </item>
-
-</channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Notícias de Inteligência Artificial</title>
+    <link>https://github.com/rafaelamiranda/noticias-ia</link>
+    <description>Principais notícias relacionadas a inteligência artificial das últimas 24 horas, organizadas por categoria.</description>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 21 Jun 2025 13:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Adobe lança Project Indigo, app de câmera com IA para fotos mais naturais no iPhone</title>
+      <link>https://exame.com/inteligencia-artificial/adobe-lanca-project-indigo-app-de-camera-com-ia-para-fotos-mais-naturais-no-iphone/</link>
+      <description>Categoria: Tecnologia e Inovação. A Adobe lançou um novo aplicativo de câmera para iPhones, o Project Indigo, que utiliza inteligência artificial para criar fotos mais naturais e fiéis à realidade. O app foi desenvolvido por ex-engenheiros do Google e combina fotografia computacional com recursos manuais.</description>
+    </item>
+    <item>
+      <title>Zuckerberg recruta mais dois nomes de peso para "supertime" de IA da Meta</title>
+      <link>https://exame.com/inteligencia-artificial/zuckerberg-recruta-mais-dois-nomes-de-peso-para-supertime-de-ia-da-meta/</link>
+      <description>Categoria: Negócios e Mercado. Mark Zuckerberg, CEO da Meta, continua investindo pesado em inteligência artificial, contratando Daniel Gross e Nat Friedman para seu "supertime" de IA. A empresa busca liderar a corrida por uma inteligência artificial geral (AGI).</description>
+    </item>
+    <item>
+      <title>Com investimento de US$ 100 bilhões em IA, Amazon prevê redução do número de empregos</title>
+      <link>https://exame.com/inteligencia-artificial/com-investimento-de-us-100-bilhoes-em-ia-amazon-preve-reducao-do-numero-de-empregos/</link>
+      <description>Categoria: Economia e Emprego. A Amazon planeja investir US$ 100 bilhões em inteligência artificial, o que pode levar à redução de postos de trabalho em algumas áreas, conforme declarado pelo CEO Andy Jassy. A empresa busca aumentar a eficiência e produtividade através da IA.</description>
+    </item>
+    <item>
+      <title>Para impulsionar criatividade com IA, YouTube anuncia integração do Google Veo 3 ao Shorts</title>
+      <link>https://exame.com/inteligencia-artificial/para-impulsionar-criatividade-com-ia-youtube-anuncia-integracao-do-google-veo-3-ao-shorts/</link>
+      <description>Categoria: Mídia e Entretenimento. O YouTube integrará o Google Veo 3, uma ferramenta avançada de inteligência artificial para geração de vídeos e áudios a partir de texto, ao Shorts. A iniciativa visa impulsionar a criatividade dos usuários na plataforma.</description>
+    </item>
+    <item>
+      <title>Até que a IA nos separe: o que explica a crise no casamento entre OpenAI e Microsoft</title>
+      <link>https://exame.com/inteligencia-artificial/ate-que-a-ia-nos-separe-o-que-explica-a-crise-no-casamento-entre-openai-e-microsoft/</link>
+      <description>Categoria: Tecnologia e Parcerias. A parceria entre Microsoft e OpenAI enfrenta um impasse público devido a disputas por propriedade intelectual, autonomia estratégica e rumores de processos antitruste, expondo o desgaste de uma das alianças mais importantes no campo da inteligência artificial.</description>
+    </item>
+    <item>
+      <title>Avatar de inteligência artificial vende US$ 7 milhões em 6 horas e supera influenciadores; entenda</title>
+      <link>https://exame.com/inteligencia-artificial/avatar-de-inteligencia-artificial-vende-us-7-milhoes-em-6-horas-e-supera-influenciadores-entenda/</link>
+      <description>Categoria: Marketing e Influência. Um avatar de inteligência artificial gerado pela Baidu, na China, vendeu mais de US$ 7 milhões em seis horas durante uma transmissão ao vivo, superando influenciadores humanos e demonstrando o potencial da IA no marketing e e-commerce.</description>
+    </item>
+  </channel>
 </rss>
