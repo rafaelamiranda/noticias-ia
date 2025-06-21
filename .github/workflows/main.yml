@@ -1,3 +1,5 @@
+# .github/workflows/build-and-deploy.yml
+
 name: Atualizar e Deployar Feed RSS
 
 on:
@@ -19,3 +21,19 @@ jobs:
 
       - name: Executar script para gerar XML
         run: python generate_rss.py
+
+      - name: Fazer commit e push das alterações
+        run: |
+          # Configura o Git com o nome e e-mail do bot da Action
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions-bot@github.com"
+          
+          # Adiciona o arquivo modificado ao stage
+          git add index.xml
+          
+          # Faz o commit apenas se houver alterações no arquivo
+          # O "|| exit 0" evita que o workflow falhe se não houver nada para commitar
+          git diff --staged --quiet || git commit -m "chore: Atualiza o feed de notícias RSS"
+          
+          # Empurra (push) as alterações para o repositório
+          git push
