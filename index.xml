@@ -3,38 +3,15 @@
   <channel>
     <title>Notícias de Inteligência Artificial</title>
     <link>https://github.com/rafaelamiranda/noticias-ia</link>
-    <description>Principais notícias relacionadas a inteligência artificial das últimas 24 horas, organizadas por categoria.</description>
+    <description>Principais notícias relacionadas a inteligência artificial das últimas 24 horas.</description>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 21 Jun 2025 13:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 18:00:00 GMT</lastBuildDate>
     <item>
-      <title>Adobe lança Project Indigo, app de câmera com IA para fotos mais naturais no iPhone</title>
-      <link>https://exame.com/inteligencia-artificial/adobe-lanca-project-indigo-app-de-camera-com-ia-para-fotos-mais-naturais-no-iphone/</link>
-      <description>Categoria: Tecnologia e Inovação. A Adobe lançou um novo aplicativo de câmera para iPhones, o Project Indigo, que utiliza inteligência artificial para criar fotos mais naturais e fiéis à realidade. O app foi desenvolvido por ex-engenheiros do Google e combina fotografia computacional com recursos manuais.</description>
-    </item>
-    <item>
-      <title>Zuckerberg recruta mais dois nomes de peso para "supertime" de IA da Meta</title>
-      <link>https://exame.com/inteligencia-artificial/zuckerberg-recruta-mais-dois-nomes-de-peso-para-supertime-de-ia-da-meta/</link>
-      <description>Categoria: Negócios e Mercado. Mark Zuckerberg, CEO da Meta, continua investindo pesado em inteligência artificial, contratando Daniel Gross e Nat Friedman para seu "supertime" de IA. A empresa busca liderar a corrida por uma inteligência artificial geral (AGI).</description>
-    </item>
-    <item>
-      <title>Com investimento de US$ 100 bilhões em IA, Amazon prevê redução do número de empregos</title>
-      <link>https://exame.com/inteligencia-artificial/com-investimento-de-us-100-bilhoes-em-ia-amazon-preve-reducao-do-numero-de-empregos/</link>
-      <description>Categoria: Economia e Emprego. A Amazon planeja investir US$ 100 bilhões em inteligência artificial, o que pode levar à redução de postos de trabalho em algumas áreas, conforme declarado pelo CEO Andy Jassy. A empresa busca aumentar a eficiência e produtividade através da IA.</description>
-    </item>
-    <item>
-      <title>Para impulsionar criatividade com IA, YouTube anuncia integração do Google Veo 3 ao Shorts</title>
-      <link>https://exame.com/inteligencia-artificial/para-impulsionar-criatividade-com-ia-youtube-anuncia-integracao-do-google-veo-3-ao-shorts/</link>
-      <description>Categoria: Mídia e Entretenimento. O YouTube integrará o Google Veo 3, uma ferramenta avançada de inteligência artificial para geração de vídeos e áudios a partir de texto, ao Shorts. A iniciativa visa impulsionar a criatividade dos usuários na plataforma.</description>
-    </item>
-    <item>
-      <title>Até que a IA nos separe: o que explica a crise no casamento entre OpenAI e Microsoft</title>
-      <link>https://exame.com/inteligencia-artificial/ate-que-a-ia-nos-separe-o-que-explica-a-crise-no-casamento-entre-openai-e-microsoft/</link>
-      <description>Categoria: Tecnologia e Parcerias. A parceria entre Microsoft e OpenAI enfrenta um impasse público devido a disputas por propriedade intelectual, autonomia estratégica e rumores de processos antitruste, expondo o desgaste de uma das alianças mais importantes no campo da inteligência artificial.</description>
-    </item>
-    <item>
-      <title>Avatar de inteligência artificial vende US$ 7 milhões em 6 horas e supera influenciadores; entenda</title>
-      <link>https://exame.com/inteligencia-artificial/avatar-de-inteligencia-artificial-vende-us-7-milhoes-em-6-horas-e-supera-influenciadores-entenda/</link>
-      <description>Categoria: Marketing e Influência. Um avatar de inteligência artificial gerado pela Baidu, na China, vendeu mais de US$ 7 milhões em seis horas durante uma transmissão ao vivo, superando influenciadores humanos e demonstrando o potencial da IA no marketing e e-commerce.</description>
+      <title>Exemplo de notícia sobre IA</title>
+      <link>https://example.com/ia1</link>
+      <description>Breve resumo da notícia sobre inteligência artificial.</description>
+      <pubDate>Sat, 21 Jun 2025 17:00:00 GMT</pubDate>
+      <guid>https://example.com/ia1</guid>
     </item>
   </channel>
 </rss>
