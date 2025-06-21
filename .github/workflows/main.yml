@@ -1,37 +1,29 @@
 name: Atualizar e Deployar Feed RSS
 
 on:
-  workflow_dispatch: # Permite acionar manualmente
+  workflow_dispatch:
   schedule:
-    - cron: '0 5 * * *' # Executa todos os dias às 05:00 da manhã
+    - cron: '0 8 * * *'
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v4 # Versão atualizada para mais segurança e performance
+        uses: actions/checkout@v4
 
       - name: Configurar Python
-        uses: actions/setup-python@v5 # Versão atualizada
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Instalar dependências
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
-
       - name: Executar script para gerar XML
-        run: python generate_rss.py # Nome do seu script Python
-
-      - name: Install Wrangler
-        run: npm install -g wrangler # Instala o Wrangler globalmente
+        run: python generate_rss.py
 
       - name: Deploy no Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3.4.0 
+        uses: cloudflare/wrangler-action@v3.4.0
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'noticias-ia' # Nome do seu projeto no Cloudflare Pages
-          directory: '.' # Diretório que contém os arquivos para deploy
+          projectName: 'noticias-ia'
+          directory: '.'
