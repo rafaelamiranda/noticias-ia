@@ -27,9 +27,9 @@ jobs:
 
       - name: Install Wrangler
         run: npm install -g wrangler # Instala o Wrangler globalmente
-        
+
       - name: Deploy no Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v3.4.0 
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
