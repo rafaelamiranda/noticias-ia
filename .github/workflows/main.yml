@@ -3,7 +3,7 @@ name: Atualizar e Deployar Feed RSS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 */6 * * *'
 
 jobs:
   build-and-deploy:
@@ -19,11 +19,3 @@ jobs:
 
       - name: Executar script para gerar XML
         run: python generate_rss.py
-
-      - name: Deploy no Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3.4.0
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'noticias-ia'
-          directory: '.'
