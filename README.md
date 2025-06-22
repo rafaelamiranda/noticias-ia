@@ -11,6 +11,6 @@ Este projeto coleta automaticamente as principais notícias sobre inteligência 
 
 ## Atualizações automáticas
 
-Um fluxo de trabalho do GitHub Actions agendado executa o script todos os dias às 05h (UTC-3), equivalente a 08h UTC, e publica o arquivo atualizado no Cloudflare Pages.
+Um fluxo de trabalho do GitHub Actions agendado executa o script todos os dias às 06h (UTC-3), equivalente a 09h UTC, e publica o arquivo atualizado no Cloudflare Pages.
 
 Para acionar manualmente o workflow ou alterar configurações de deploy, edite `.github/workflows/main.yml`.
