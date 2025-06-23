@@ -1,5 +1,8 @@
 # Notícias IA
 
+![](brave_screenshot_n8n.rafaelamiranda.com.br.png)  
+
+
 Este projeto coleta automaticamente as principais notícias sobre inteligência artificial publicadas nas últimas 24 horas e gera um feed RSS em `index.xml`.
 
 ## Como funciona
