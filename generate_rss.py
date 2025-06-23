@@ -3,10 +3,10 @@ import xml.etree.ElementTree as ET
 import datetime
 import html
 import re
-import argparse
 from email.utils import parsedate_to_datetime
 
 MAX_DESCRIPTION = 90
+
 
 def _clean_html(text: str) -> str:
     if not text:
@@ -15,10 +15,12 @@ def _clean_html(text: str) -> str:
     text = re.sub(r"<.*?>", "", text)
     return text.strip()
 
+
 def _short(text: str, max_len: int = MAX_DESCRIPTION) -> str:
     if len(text) <= max_len:
         return text
     return text[: max_len - 3].rstrip() + "..."
+
 
 def build_feed_url(lang: str) -> str:
     """Retorna a URL do RSS com base no idioma."""
@@ -36,6 +38,7 @@ def build_feed_url(lang: str) -> str:
         f"https://news.google.com/rss/search?"
         f"q={query}&hl={hl}&gl={gl}&ceid={ceid}"
     )
+
 
 def fetch_items(feed_url: str):
     with urllib.request.urlopen(feed_url) as response:
@@ -62,29 +65,39 @@ def fetch_items(feed_url: str):
         })
     return items
 
+
 def filter_last_24_hours(items):
     now = datetime.datetime.now(datetime.timezone.utc)
     one_day = datetime.timedelta(days=1)
     return [item for item in items if now - item["pubDate"] <= one_day]
 
-def generate_rss(lang: str):
-    feed_url = build_feed_url(lang)
-    all_items = fetch_items(feed_url)
-    news_items = filter_last_24_hours(all_items)
+
+def generate_combined_rss():
+    languages = ["pt", "en"]
+    all_items = []
+    for lang in languages:
+        url = build_feed_url(lang)
+        fetched = fetch_items(url)
+        filtered = filter_last_24_hours(fetched)
+        all_items.extend(filtered)
+
+    # Ordena por data de publicação (mais recente primeiro)
+    all_items.sort(key=lambda x: x["pubDate"], reverse=True)
+
     now = datetime.datetime.now(datetime.timezone.utc)
     lines = [
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
         "<rss version=\"2.0\">",
         "  <channel>",
-        f"    <title>Notícias de Inteligência Artificial ({lang})</title>",
+        "    <title>Notícias de Inteligência Artificial (PT & EN)</title>",
         "    <link>https://github.com/rafaelamiranda/noticias-ia</link>",
-        "    <description>"
-        "Principais notícias relacionadas a inteligência artificial"
-        f" das últimas 24 horas ({lang})."
-        "</description>",
+        "    <description>",
+        "Principais notícias relacionadas a inteligência artificial",
+        "das últimas 24 horas, em Português e Inglês.",
+        "    </description>",
         f"    <lastBuildDate>{now.strftime('%a, %d %b %Y %H:%M:%S GMT')}</lastBuildDate>",
     ]
-    for item in news_items:
+    for item in all_items:
         lines.extend([
             "    <item>",
             f"      <title>{html.escape(item['title'])}</title>",
@@ -95,20 +108,11 @@ def generate_rss(lang: str):
             "    </item>",
         ])
     lines.extend(["  </channel>", "</rss>"])
-    filename = f"index_{lang}.xml"
+    filename = "index.xml"
     with open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-    print(f"RSS gerado: {filename}")
+    print(f"RSS combinado gerado: {filename}")
+
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Gera RSS de notícias de IA (PT ou EN)."
-    )
-    parser.add_argument(
-        "--lang",
-        choices=["pt", "en"],
-        default="pt",
-        help="Idioma da busca: 'pt' para português ou 'en' para inglês."
-    )
-    args = parser.parse_args()
-    generate_rss(args.lang)
+    generate_combined_rss()
