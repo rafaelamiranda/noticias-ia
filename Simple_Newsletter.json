@@ -1,0 +1,241 @@
+{
+  "name": "Simple Newsletter",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 6,
+              "triggerAtMinute": 45
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -140,
+        -20
+      ],
+      "id": "69dc8642-faa8-4dac-acb0-461722c4ba24",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-flash",
+        "options": {
+          "temperature": 0.2
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        540,
+        200
+      ],
+      "id": "0ac3b4db-2405-482c-bae6-8d9ca99585de",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "9RPinaMO9qVgPYGs",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.conteudoDecodificado }}",
+        "messages": {
+          "messageValues": [
+            {
+              "message": "=## MISSÃO PRINCIPAL\n\nSua missão é transformar uma lista de artigos brutos emresumos de notícias individuais com uma formatação minimalista e limpa, prontos para publicação.\n\n\n\n## PERSONA\n\nVocê é um editor de notícias sênior, especialista em analisar e sintetizar informações complexas de forma clara e direta. Seu estilo é informativo e conciso.\n\n\n\n## ESTRUTURA DE SAÍDA OBRIGATÓRIA\n\nPara CADA um dos artigos recebidos, você DEVE gerar um bloco de texto que siga EXATAMENTE este formato, sem negritos ou separadores visuais:\n\n\n\n{Título Otimizado e Cativante da Notícia}\n\n{Parágrafo único de resumo analítico que começa na linha seguinte e integra o link \"Saiba Mais\" no final.}\n\n\n\n\n\n## INSTRUÇÕES DETALHADAS\n\n1.  **Processamento em Loop:** Processe os artigos de entrada um por um.\n\n2.  **O Título:** Crie um título jornalístico e coloque-o em sua própria linha como texto normal, **usando negrito** e um tamanho maior que o parágrafo da instrução 4.\n\n3. Linha em branco\n\n4.  **O Parágrafo (Linha Seguinte):** Na linha seguinte ao título, escreva o parágrafo de síntese analítica.\n\n5.  **O Link Integrado (`[Saiba Mais]`):** Incorpore o link `[Saiba Mais]({link})` diretamente ao final da última frase do parágrafo.\n\n6.  **O Separador:**  Use separador visual (`---`). Garanta que haja duas quebras de linha (uma linha em branco) após o parágrafo de cada resumo para criar o espaçamento.\n\n\n\n## EXEMPLOS DE QUALIDADE (GOLD STANDARD)\n\nEste é o nível de qualidade e **formato exato** que você deve replicar:\n\n\n\n**Exemplo:**\n\n\n\n***Blackberry Retorna como Símbolo de 'Detox Digital' e Vira Febre no TikTok.***\n\nCelulares Blackberry com teclado QWERTY estão ressurgindo como uma tendência no TikTok, impulsionados pela Geração Z em busca de um \"detox digital\". A nostalgia pelo teclado físico e a menor quantidade de aplicativos nesses aparelhos antigos, disponíveis apenas no mercado de usados, atraem usuários que desejam reduzir o vício em smartphones modernos. Embora a Blackberry tenha perdido sua liderança para o iPhone e lançado seu último modelo em 2018 (já com Android), a popularidade no TikTok reflete um movimento contracultural contra a superconectividade, destacando a busca por uma vida digital mais equilibrada.\n\n[Saiba Mais](https://www.example.com/link-da-noticia-1).\n\n\n\n\n\n## VERIFICAÇÃO FINAL (REGRA CRÍTICA)\n\n- Antes de gerar a resposta final, revise todas as notícias, caso tenha alguma duplicada ou de contexto igual remova e deixa apenas uma.\n\n- Separe as 10 notícias mais relevantes e envie apenas elas."
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        520,
+        -20
+      ],
+      "id": "9622d1ca-de39-40cd-ba90-453413d634f6",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "sendTo": "rafsbrug@gmail.com",
+        "subject": "=Newsletter da Rafa",
+        "message": "={{ $json.data }}",
+        "options": {
+          "appendAttribution": false,
+          "senderName": "Rafaela Miranda"
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1100,
+        -20
+      ],
+      "id": "2a1f933c-0a3a-4ff6-9ee9-46933c9e391d",
+      "name": "Gmail",
+      "webhookId": "3a04bba5-39ca-4dc1-a9c2-cd4e206cbb79",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "Z28sGwQhTa9MbF5Z",
+          "name": "rafsbrug@gmail.com"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "markdownToHtml",
+        "markdown": "={{ $json.text }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.markdown",
+      "typeVersion": 1,
+      "position": [
+        900,
+        -20
+      ],
+      "id": "68d5a182-51bf-459a-a014-2a806c4e9f3f",
+      "name": "Markdown"
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "rafaelamiranda",
+          "mode": "name"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "noticias-ia",
+          "mode": "list",
+          "cachedResultName": "noticias-ia",
+          "cachedResultUrl": "https://github.com/rafaelamiranda/noticias-ia"
+        },
+        "filePath": "index.xml",
+        "asBinaryProperty": false,
+        "additionalParameters": {}
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [
+        80,
+        -20
+      ],
+      "id": "b69ab42b-8d23-4828-8cdc-5b339827a153",
+      "name": "GitHub",
+      "webhookId": "132e5c6a-13fb-436d-8e58-7db1e0df2ef8",
+      "credentials": {
+        "githubApi": {
+          "id": "y7K3s5zlYyaqB9aD",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Pega o primeiro item que chega no nó\nconst item = $input.item;\n\n// Pega o conteúdo base64 da propriedade 'content'\nconst base64Content = item.json.content;\n\n// Limpa possíveis espaços ou quebras de linha (como medida de segurança)\nconst cleanedBase64 = base64Content.replace(/\\s/g, '');\n\n// Decodifica o conteúdo de Base64 para texto legível (UTF-8)\nconst decodedContent = Buffer.from(cleanedBase64, 'base64').toString('utf8');\n\n// Cria um novo campo chamado 'conteudoDecodificado' no seu item\nitem.json.conteudoDecodificado = decodedContent;\n\n// Retorna o item já com o novo campo para o próximo nó\nreturn item;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        300,
+        -20
+      ],
+      "id": "07f1899b-bc77-4993-b468-91ddb438e04b",
+      "name": "Code"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "GitHub",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Markdown",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Markdown": {
+      "main": [
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GitHub": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Sao_Paulo",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "a6294339-769b-4b50-8dfd-7e541699f110",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "77934daf3d760ac5a351dcb2ea058bd5dbf44ed7045dad076eb42059dce9b41f"
+  },
+  "id": "OxkpLu20vyUu4zGd",
+  "tags": []
+}
