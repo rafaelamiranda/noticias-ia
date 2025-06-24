@@ -5,12 +5,13 @@ import html
 import re
 from email.utils import parsedate_to_datetime
 import requests
-from bs4 import BeautifulSoup # Importe a biblioteca BeautifulSoup
+from bs4 import BeautifulSoup
+import base64 # Certifique-se de que esta linha está presente
 
 MAX_DESCRIPTION = 90
 
 
-def _clean_html(text: str) -> str:
+def _clean_html(text: str ) -> str:
     if not text:
         return ""
     text = html.unescape(text)
@@ -44,34 +45,67 @@ def build_feed_url(lang: str) -> str:
 
 def get_final_redirect_url(url: str) -> str:
     """
-    Obtém a URL final de uma notícia do Google Notícias,
-    analisando a tag canonical ou redirecionamentos JavaScript.
+    Tenta obter a URL final de uma notícia do Google Notícias.
+    Primeiro tenta decodificar a string CBMi.
+    Se falhar, tenta analisar a tag canonical ou redirecionamentos JavaScript.
     """
+    # Tenta decodificar a URL do Google Notícias (formato CBMi)
+    if "news.google.com/rss/articles/CBM" in url:
+        try:
+            # Extrai a parte codificada em base64.
+            # O padrão CBMi pode vir seguido de um '?' ou ser o final da string.
+            # Também considera o formato /articles/CBM<encoded_string>
+            match = re.search(r'CBM(.*?)(?:\?|$)|\/articles\/(.*?)(?:\?|$)', url)
+            if match:
+                # Prioriza o grupo 1 (CBM<encoded_string>?) se existir, senão o grupo 2 (/articles/<encoded_string>?)
+                encoded_part = match.group(1) if match.group(1) else match.group(2)
+                
+                # Adiciona padding se necessário para base64 URL-safe
+                missing_padding = len(encoded_part) % 4
+                if missing_padding != 0:
+                    encoded_part += '=' * (4 - missing_padding)
+                
+                decoded_bytes = base64.urlsafe_b64decode(encoded_part)
+                decoded_string = decoded_bytes.decode('utf-8', errors='ignore')
+                
+                # Procura pela primeira URL http(s ):// na string decodificada
+                # A URL real geralmente é a primeira que aparece.
+                url_match = re.search(r'https?://[^\s"\']+', decoded_string )
+                if url_match:
+                    print(f"URL decodificada de CBMi: {url_match.group(0)}")
+                    return url_match.group(0)
+                else:
+                    print(f"Nenhuma URL encontrada na string decodificada: {decoded_string}")
+
+        except Exception as e:
+            print(f"Erro ao decodificar CBMi URL {url}: {e}")
+
+    # Se a decodificação CBMi falhou ou não se aplica, tenta a abordagem anterior (requests.get + BeautifulSoup)
     try:
-        # Faz uma requisição GET completa para obter o conteúdo HTML
         response = requests.get(url, allow_redirects=True, timeout=10)
         response.raise_for_status() # Levanta um erro para respostas HTTP ruins (4xx ou 5xx)
 
         # Se a URL final após os redirecionamentos HTTP já não for do Google Notícias,
         # significa que requests.get já resolveu.
         if "news.google.com" not in response.url:
+            print(f"Redirecionamento HTTP direto para: {response.url}")
             return response.url
 
-        # Caso contrário, precisamos analisar o HTML
         soup = BeautifulSoup(response.text, 'html.parser')
 
         # Tenta encontrar a tag <link rel="canonical">
         canonical_link = soup.find('link', {'rel': 'canonical'})
         if canonical_link and canonical_link.get('href'):
+            print(f"URL canonical encontrada: {canonical_link.get('href')}")
             return canonical_link.get('href')
 
-        # Se não encontrar canonical, tenta encontrar redirecionamento JavaScript
-        # Isso é mais complexo e pode variar, mas um padrão comum é window.location.href
+        # Tenta encontrar redirecionamento JavaScript (padrão window.location.href)
         script_tags = soup.find_all('script')
         for script in script_tags:
             if script.string and 'window.location.href' in script.string:
                 match = re.search(r'window\.location\.href\s*=\s*["\'](.*?)["\']', script.string)
                 if match:
+                    print(f"Redirecionamento JS encontrado: {match.group(1)}")
                     return match.group(1)
 
         # Se nada for encontrado, retorna a URL original do Google Notícias
@@ -82,6 +116,8 @@ def get_final_redirect_url(url: str) -> str:
         print(f"Erro ao obter ou analisar URL final para {url}: {e}")
         return url # Em caso de erro, retorna a URL original do Google Notícias
 
+
+# ... (o restante do seu script generate_rss.py permanece o mesmo) ...
 
 def fetch_items(feed_url: str):
     with urllib.request.urlopen(feed_url) as response:
@@ -168,4 +204,3 @@ def generate_combined_rss():
 
 if __name__ == "__main__":
     generate_combined_rss()
-
