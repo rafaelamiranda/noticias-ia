@@ -48,6 +48,7 @@ def get_final_redirect_url(url: str) -> str:
         print(f"Erro ao obter URL final para {url}: {e}")
         return url # Em caso de erro, retorna a URL original do Google Notícias
 
+
 def fetch_items(feed_url: str):
     with urllib.request.urlopen(feed_url) as response:
         data = response.read()
@@ -57,8 +58,12 @@ def fetch_items(feed_url: str):
         title = item.findtext("title", default="")
         google_news_link = item.findtext("link", default="") # Link do Google Notícias
         
+        print(f"URL do Google Notícias (original): {google_news_link}") # Adicione esta linha
+        
         # Obter a URL final da notícia
         final_link = get_final_redirect_url(google_news_link)
+        
+        print(f"URL final obtida por requests.head: {final_link}") # Adicione esta linha
 
         desc_raw = item.findtext("description", default="")
         description = _short(_clean_html(desc_raw))
@@ -87,7 +92,7 @@ def generate_combined_rss():
     all_items = []
     for lang in languages:
         url = build_feed_url(lang)
-        fetched_items = fetch_items(url) # Renomeado para clareza
+        fetched_items = fetch_items(url)
         all_items.extend(fetched_items)
 
     # Aplica o filtro de 24 horas a todos os itens coletados
