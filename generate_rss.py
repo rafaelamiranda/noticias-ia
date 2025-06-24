@@ -4,9 +4,8 @@ import datetime
 import html
 import re
 from email.utils import parsedate_to_datetime
-import requests
-from bs4 import BeautifulSoup
-import base64 # Certifique-se de que esta linha está presente
+import urllib.parse
+import base64
 
 MAX_DESCRIPTION = 90
 
@@ -80,41 +79,35 @@ def get_final_redirect_url(url: str) -> str:
         except Exception as e:
             print(f"Erro ao decodificar CBMi URL {url}: {e}")
 
-    # Se a decodificação CBMi falhou ou não se aplica, tenta a abordagem anterior (requests.get + BeautifulSoup)
+    # Se a decodificação CBMi falhou ou não se aplica, tenta resolver usando urllib
     try:
-        response = requests.get(url, allow_redirects=True, timeout=10)
-        response.raise_for_status() # Levanta um erro para respostas HTTP ruins (4xx ou 5xx)
+        with urllib.request.urlopen(url) as resp:
+            final_url = resp.geturl()
+            html_content = resp.read().decode("utf-8", errors="ignore")
 
-        # Se a URL final após os redirecionamentos HTTP já não for do Google Notícias,
-        # significa que requests.get já resolveu.
-        if "news.google.com" not in response.url:
-            print(f"Redirecionamento HTTP direto para: {response.url}")
-            return response.url
+        if "news.google.com" not in final_url:
+            print(f"Redirecionamento HTTP direto para: {final_url}")
+            return final_url
 
-        soup = BeautifulSoup(response.text, 'html.parser')
+        # Procura tag canonical
+        match = re.search(r'<link[^>]+rel=["\']canonical["\'][^>]*href=["\']([^"\']+)', html_content, re.IGNORECASE)
+        if match:
+            print(f"URL canonical encontrada: {match.group(1)}")
+            return match.group(1)
 
-        # Tenta encontrar a tag <link rel="canonical">
-        canonical_link = soup.find('link', {'rel': 'canonical'})
-        if canonical_link and canonical_link.get('href'):
-            print(f"URL canonical encontrada: {canonical_link.get('href')}")
-            return canonical_link.get('href')
+        # Procura window.location.href
+        match = re.search(r'window\.location\.href\s*=\s*["\']([^"\']+)', html_content)
+        if match:
+            print(f"Redirecionamento JS encontrado: {match.group(1)}")
+            return match.group(1)
 
-        # Tenta encontrar redirecionamento JavaScript (padrão window.location.href)
-        script_tags = soup.find_all('script')
-        for script in script_tags:
-            if script.string and 'window.location.href' in script.string:
-                match = re.search(r'window\.location\.href\s*=\s*["\'](.*?)["\']', script.string)
-                if match:
-                    print(f"Redirecionamento JS encontrado: {match.group(1)}")
-                    return match.group(1)
+        # Se nada for encontrado, usa a própria URL final
+        print(f"Não foi possível determinar URL final para {url}. Retornando a URL original do Google Notícias.")
+        return final_url
 
-        # Se nada for encontrado, retorna a URL original do Google Notícias
-        print(f"Não foi possível encontrar a URL final para {url}. Retornando a URL original do Google Notícias.")
-        return url
-
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         print(f"Erro ao obter ou analisar URL final para {url}: {e}")
-        return url # Em caso de erro, retorna a URL original do Google Notícias
+        return url
 
 
 # ... (o restante do seu script generate_rss.py permanece o mesmo) ...
