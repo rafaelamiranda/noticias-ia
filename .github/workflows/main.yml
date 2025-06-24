@@ -1,18 +1,16 @@
-# .github/workflows/build-and-deploy.yml
-
 name: Atualizar e Deployar Feed RSS
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 9 * * *' # Executa todos os dias às 09:00 UTC
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     
     permissions:
-      contents: write
+      contents: write # Permissão para escrever no repositório (para o commit)
 
     steps:
       - name: Checkout do repositório
@@ -21,7 +19,10 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.10' # Ou a versão que você preferir, '3.x' também funciona
+
+      - name: Instalar dependências
+        run: pip install requests # Adicione esta linha para instalar a biblioteca requests
 
       - name: Executar script para gerar XML
         run: python generate_rss.py
@@ -31,5 +32,6 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions-bot@github.com"
           git add index.xml
+          # Verifica se há alterações antes de commitar para evitar commits vazios
           git diff --staged --quiet || git commit -m "chore: Atualiza o feed de notícias RSS"
           git push

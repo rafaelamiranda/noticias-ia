@@ -87,11 +87,10 @@ def generate_combined_rss():
     all_items = []
     for lang in languages:
         url = build_feed_url(lang)
-        fetched = fetch_items(url)
-        all_items.extend(filtered) # 'filtered' não está definido aqui, deveria ser 'fetched' ou aplicar o filtro depois
+        fetched_items = fetch_items(url) # Renomeado para clareza
+        all_items.extend(fetched_items)
 
-    # Correção: aplicar o filtro após coletar todos os itens, ou dentro do loop se preferir
-    # Vamos aplicar depois para simplificar o exemplo
+    # Aplica o filtro de 24 horas a todos os itens coletados
     all_items = filter_last_24_hours(all_items)
 
     # Ordena por data de publicação (mais recente primeiro)
