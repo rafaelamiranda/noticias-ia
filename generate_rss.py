@@ -4,9 +4,11 @@ import datetime
 import html
 import re
 from email.utils import parsedate_to_datetime
-import requests # Importe a biblioteca requests
+import requests
+from bs4 import BeautifulSoup # Importe a biblioteca BeautifulSoup
 
 MAX_DESCRIPTION = 90
+
 
 def _clean_html(text: str) -> str:
     if not text:
@@ -15,10 +17,12 @@ def _clean_html(text: str) -> str:
     text = re.sub(r"<.*?>", "", text)
     return text.strip()
 
+
 def _short(text: str, max_len: int = MAX_DESCRIPTION) -> str:
     if len(text) <= max_len:
         return text
     return text[: max_len - 3].rstrip() + "..."
+
 
 def build_feed_url(lang: str) -> str:
     """Retorna a URL do RSS com base no idioma."""
@@ -37,15 +41,45 @@ def build_feed_url(lang: str) -> str:
         f"q={query}&hl={hl}&gl={gl}&ceid={ceid}"
      )
 
+
 def get_final_redirect_url(url: str) -> str:
-    """Obtém a URL final após seguir todos os redirecionamentos."""
+    """
+    Obtém a URL final de uma notícia do Google Notícias,
+    analisando a tag canonical ou redirecionamentos JavaScript.
+    """
     try:
-        # Usa requests.head para obter apenas os cabeçalhos e seguir redirecionamentos
-        # timeout para evitar que a requisição demore demais
-        response = requests.head(url, allow_redirects=True, timeout=10)
-        return response.url # Retorna a URL final após os redirecionamentos
+        # Faz uma requisição GET completa para obter o conteúdo HTML
+        response = requests.get(url, allow_redirects=True, timeout=10)
+        response.raise_for_status() # Levanta um erro para respostas HTTP ruins (4xx ou 5xx)
+
+        # Se a URL final após os redirecionamentos HTTP já não for do Google Notícias,
+        # significa que requests.get já resolveu.
+        if "news.google.com" not in response.url:
+            return response.url
+
+        # Caso contrário, precisamos analisar o HTML
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Tenta encontrar a tag <link rel="canonical">
+        canonical_link = soup.find('link', {'rel': 'canonical'})
+        if canonical_link and canonical_link.get('href'):
+            return canonical_link.get('href')
+
+        # Se não encontrar canonical, tenta encontrar redirecionamento JavaScript
+        # Isso é mais complexo e pode variar, mas um padrão comum é window.location.href
+        script_tags = soup.find_all('script')
+        for script in script_tags:
+            if script.string and 'window.location.href' in script.string:
+                match = re.search(r'window\.location\.href\s*=\s*["\'](.*?)["\']', script.string)
+                if match:
+                    return match.group(1)
+
+        # Se nada for encontrado, retorna a URL original do Google Notícias
+        print(f"Não foi possível encontrar a URL final para {url}. Retornando a URL original do Google Notícias.")
+        return url
+
     except requests.exceptions.RequestException as e:
-        print(f"Erro ao obter URL final para {url}: {e}")
+        print(f"Erro ao obter ou analisar URL final para {url}: {e}")
         return url # Em caso de erro, retorna a URL original do Google Notícias
 
 
@@ -58,12 +92,12 @@ def fetch_items(feed_url: str):
         title = item.findtext("title", default="")
         google_news_link = item.findtext("link", default="") # Link do Google Notícias
         
-        print(f"URL do Google Notícias (original): {google_news_link}") # Adicione esta linha
+        print(f"URL do Google Notícias (original): {google_news_link}")
         
         # Obter a URL final da notícia
         final_link = get_final_redirect_url(google_news_link)
         
-        print(f"URL final obtida por requests.head: {final_link}") # Adicione esta linha
+        print(f"URL final obtida: {final_link}")
 
         desc_raw = item.findtext("description", default="")
         description = _short(_clean_html(desc_raw))
@@ -82,10 +116,12 @@ def fetch_items(feed_url: str):
         })
     return items
 
+
 def filter_last_24_hours(items):
     now = datetime.datetime.now(datetime.timezone.utc)
     one_day = datetime.timedelta(days=1)
     return [item for item in items if now - item["pubDate"] <= one_day]
+
 
 def generate_combined_rss():
     languages = ["pt", "en"]
@@ -132,3 +168,4 @@ def generate_combined_rss():
 
 if __name__ == "__main__":
     generate_combined_rss()
+

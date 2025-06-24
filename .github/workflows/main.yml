@@ -22,7 +22,7 @@ jobs:
           python-version: '3.10' # Ou a versão que você preferir, '3.x' também funciona
 
       - name: Instalar dependências
-        run: pip install requests # Adicione esta linha para instalar a biblioteca requests
+        run: pip install requests beautifulsoup4 # Adicione beautifulsoup4 aqui
 
       - name: Executar script para gerar XML
         run: python generate_rss.py
