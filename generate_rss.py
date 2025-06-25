@@ -4,6 +4,8 @@ import datetime
 import html
 import re
 from email.utils import parsedate_to_datetime
+from urllib.parse import urlparse
+import time
 
 
 def _clean_html(text: str) -> str:
@@ -12,6 +14,61 @@ def _clean_html(text: str) -> str:
     text = html.unescape(text)
     text = re.sub(r"<.*?>", "", text)
     return text.strip()
+
+
+def _fetch_full_article(url: str) -> str:
+    """Busca o conteúdo completo do artigo a partir da URL."""
+    try:
+        # Adiciona timeout e user-agent para evitar bloqueios
+        req = urllib.request.Request(
+            url, 
+            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        )
+        with urllib.request.urlopen(req, timeout=10) as response:
+            html_content = response.read().decode('utf-8', errors='ignore')
+        
+        # Extrai o conteúdo principal usando heurísticas simples
+        # Remove scripts, styles e outros elementos desnecessários
+        html_content = re.sub(r'<script[^>]*>.*?</script>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<style[^>]*>.*?</style>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<nav[^>]*>.*?</nav>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<header[^>]*>.*?</header>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<footer[^>]*>.*?</footer>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        
+        # Busca por tags comuns de conteúdo de artigo
+        article_patterns = [
+            r'<article[^>]*>(.*?)</article>',
+            r'<div[^>]*class="[^"]*article[^"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^"]*content[^"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^"]*post[^"]*"[^>]*>(.*?)</div>',
+            r'<main[^>]*>(.*?)</main>',
+        ]
+        
+        content = ""
+        for pattern in article_patterns:
+            match = re.search(pattern, html_content, flags=re.DOTALL | re.IGNORECASE)
+            if match:
+                content = match.group(1)
+                break
+        
+        # Se não encontrou nenhum padrão específico, pega o body
+        if not content:
+            body_match = re.search(r'<body[^>]*>(.*?)</body>', html_content, flags=re.DOTALL | re.IGNORECASE)
+            if body_match:
+                content = body_match.group(1)
+        
+        # Limpa o HTML e retorna apenas o texto
+        clean_content = _clean_html(content)
+        
+        # Limita o tamanho para evitar RSS muito grande (máximo 2000 caracteres)
+        if len(clean_content) > 2000:
+            clean_content = clean_content[:1997] + "..."
+            
+        return clean_content if clean_content else "Conteúdo não disponível"
+        
+    except Exception as e:
+        print(f"Erro ao buscar artigo {url}: {e}")
+        return "Conteúdo não disponível"
 
 
 
@@ -52,7 +109,14 @@ def fetch_items(feed_url: str):
         title = item.findtext("title", default="")
         link = item.findtext("link", default="")
         desc_raw = item.findtext("description", default="")
-        description = _clean_html(desc_raw)
+        
+        # Busca o conteúdo completo do artigo
+        print(f"Buscando conteúdo de: {title[:50]}...")
+        full_content = _fetch_full_article(link)
+        
+        # Se não conseguiu buscar o conteúdo completo, usa a descrição original
+        description = full_content if full_content != "Conteúdo não disponível" else _clean_html(desc_raw)
+        
         pub_date_str = item.findtext("pubDate")
         try:
             pub_date = parsedate_to_datetime(pub_date_str).astimezone(
@@ -60,12 +124,17 @@ def fetch_items(feed_url: str):
             )
         except Exception:
             pub_date = datetime.datetime.now(datetime.timezone.utc)
+            
         items.append({
             "title": title,
             "link": link,
             "description": description,
             "pubDate": pub_date,
         })
+        
+        # Adiciona uma pequena pausa para não sobrecarregar os servidores
+        time.sleep(0.5)
+        
     return items
 
 
