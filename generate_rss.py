@@ -16,6 +16,21 @@ def _clean_html(text: str) -> str:
     return text.strip()
 
 
+def _get_original_url(google_news_url: str) -> str:
+    """Extrai a URL original do artigo a partir da URL do Google News."""
+    try:
+        # Faz uma requisição HEAD para seguir o redirecionamento
+        req = urllib.request.Request(
+            google_news_url,
+            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        )
+        with urllib.request.urlopen(req, timeout=10) as response:
+            return response.url
+    except Exception as e:
+        print(f"Erro ao obter URL original de {google_news_url}: {e}")
+        return google_news_url
+
+
 def _fetch_full_article(url: str) -> str:
     """Busca o conteúdo completo do corpo da matéria, sem título, URL ou nome do site."""
     try:
@@ -110,6 +125,10 @@ def _fetch_full_article(url: str) -> str:
         final_content = re.sub(r'\n{3,}', '\n\n', final_content)
         final_content = re.sub(r' {2,}', ' ', final_content)
         
+        # Limita a 2300 caracteres
+        if len(final_content) > 2300:
+            final_content = final_content[:2297] + "..."
+        
         return final_content.strip() if final_content.strip() else "Conteúdo não disponível"
         
     except Exception as e:
@@ -153,12 +172,16 @@ def fetch_items(feed_url: str):
     items = []
     for item in root.findall("./channel/item"):
         title = item.findtext("title", default="")
-        link = item.findtext("link", default="")
+        google_news_link = item.findtext("link", default="")
         desc_raw = item.findtext("description", default="")
         
-        # Busca o conteúdo completo do artigo
+        # Obtém a URL original do site oficial
+        print(f"Obtendo URL original para: {title[:50]}...")
+        original_url = _get_original_url(google_news_link)
+        
+        # Busca o conteúdo completo do artigo usando a URL original
         print(f"Buscando conteúdo de: {title[:50]}...")
-        full_content = _fetch_full_article(link)
+        full_content = _fetch_full_article(original_url)
         
         # Se não conseguiu buscar o conteúdo completo, usa a descrição original
         description = full_content if full_content != "Conteúdo não disponível" else _clean_html(desc_raw)
@@ -173,7 +196,8 @@ def fetch_items(feed_url: str):
             
         items.append({
             "title": title,
-            "link": link,
+            "link": google_news_link,  # Mantém o link do Google News para o link principal
+            "original_url": original_url,  # URL original para o GUID
             "description": description,
             "pubDate": pub_date,
         })
@@ -222,7 +246,7 @@ def generate_combined_rss():
             f"      <link>{_escape_xml(item['link'])}</link>",
             f"      <description>{_escape_xml(item['description'])}</description>",
             f"      <pubDate>{item['pubDate'].strftime('%a, %d %b %Y %H:%M:%S GMT')}</pubDate>",
-            f"      <guid>{_escape_xml(item['link'])}</guid>",
+            f"      <guid>{_escape_xml(item['original_url'])}</guid>",
             "    </item>",
         ])
     lines.extend(["  </channel>", "</rss>"])
