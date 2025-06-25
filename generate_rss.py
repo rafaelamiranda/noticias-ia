@@ -5,8 +5,6 @@ import html
 import re
 from email.utils import parsedate_to_datetime
 
-MAX_DESCRIPTION = 90
-
 
 def _clean_html(text: str) -> str:
     if not text:
@@ -16,10 +14,15 @@ def _clean_html(text: str) -> str:
     return text.strip()
 
 
-def _short(text: str, max_len: int = MAX_DESCRIPTION) -> str:
-    if len(text) <= max_len:
-        return text
-    return text[: max_len - 3].rstrip() + "..."
+
+
+
+def _escape_xml(text: str) -> str:
+    """Escapa caracteres especiais para XML, incluindo & em URLs."""
+    if not text:
+        return ""
+    # Usar html.escape com quote=True para escapar aspas também
+    return html.escape(text, quote=True)
 
 
 def build_feed_url(lang: str) -> str:
@@ -49,7 +52,7 @@ def fetch_items(feed_url: str):
         title = item.findtext("title", default="")
         link = item.findtext("link", default="")
         desc_raw = item.findtext("description", default="")
-        description = _short(_clean_html(desc_raw))
+        description = _clean_html(desc_raw)
         pub_date_str = item.findtext("pubDate")
         try:
             pub_date = parsedate_to_datetime(pub_date_str).astimezone(
@@ -89,7 +92,7 @@ def generate_combined_rss():
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
         "<rss version=\"2.0\">",
         "  <channel>",
-        "    <title>Notícias de Inteligência Artificial (PT & EN)</title>",
+        "    <title>Notícias de Inteligência Artificial (PT &amp; EN)</title>",
         "    <link>https://github.com/rafaelamiranda/noticias-ia</link>",
         "    <description>",
         "Principais notícias relacionadas a inteligência artificial",
@@ -100,11 +103,11 @@ def generate_combined_rss():
     for item in all_items:
         lines.extend([
             "    <item>",
-            f"      <title>{html.escape(item['title'])}</title>",
-            f"      <link>{html.escape(item['link'])}</link>",
-            f"      <description>{html.escape(item['description'])}</description>",
+            f"      <title>{_escape_xml(item['title'])}</title>",
+            f"      <link>{_escape_xml(item['link'])}</link>",
+            f"      <description>{_escape_xml(item['description'])}</description>",
             f"      <pubDate>{item['pubDate'].strftime('%a, %d %b %Y %H:%M:%S GMT')}</pubDate>",
-            f"      <guid>{html.escape(item['link'])}</guid>",
+            f"      <guid>{_escape_xml(item['link'])}</guid>",
             "    </item>",
         ])
     lines.extend(["  </channel>", "</rss>"])
