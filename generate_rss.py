@@ -1,3 +1,4 @@
+import requests
 import urllib.request
 import xml.etree.ElementTree as ET
 import datetime
@@ -16,19 +17,9 @@ def _clean_html(text: str) -> str:
     return text.strip()
 
 
-def _get_original_url(google_news_url: str) -> str:
-    """Extrai a URL original do artigo a partir da URL do Google News."""
-    try:
-        # Faz uma requisição HEAD para seguir o redirecionamento
-        req = urllib.request.Request(
-            google_news_url,
-            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        )
-        with urllib.request.urlopen(req, timeout=10) as response:
-            return response.url
-    except Exception as e:
-        print(f"Erro ao obter URL original de {google_news_url}: {e}")
-        return google_news_url
+def _get_original_url(url: str) -> str:
+    """Retorna a URL original, pois não estamos mais usando o Google News para redirecionamento."""
+    return url
 
 
 def _fetch_full_article(url: str) -> str:
@@ -37,7 +28,9 @@ def _fetch_full_article(url: str) -> str:
         # Adiciona timeout e user-agent para evitar bloqueios
         req = urllib.request.Request(
             url, 
-            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+            headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+            }
         )
         with urllib.request.urlopen(req, timeout=15) as response:
             html_content = response.read().decode('utf-8', errors='ignore')
@@ -49,20 +42,20 @@ def _fetch_full_article(url: str) -> str:
         html_content = re.sub(r'<header[^>]*>.*?</header>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
         html_content = re.sub(r'<footer[^>]*>.*?</footer>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
         html_content = re.sub(r'<aside[^>]*>.*?</aside>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
-        html_content = re.sub(r'<div[^>]*class="[^"]*sidebar[^"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
-        html_content = re.sub(r'<div[^>]*class="[^"]*menu[^"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
-        html_content = re.sub(r'<div[^>]*class="[^"]*ad[^"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<div[^>]*class="[^\"]*sidebar[^\"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<div[^>]*class="[^\"]*menu[^\"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<div[^>]*class="[^\"]*ad[^\"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
         
         # Busca por padrões mais específicos de conteúdo de artigo/matéria
         article_patterns = [
-            r'<div[^>]*class="[^"]*entry-content[^"]*"[^>]*>(.*?)</div>',
-            r'<div[^>]*class="[^"]*post-content[^"]*"[^>]*>(.*?)</div>',
-            r'<div[^>]*class="[^"]*article-body[^"]*"[^>]*>(.*?)</div>',
-            r'<div[^>]*class="[^"]*story-body[^"]*"[^>]*>(.*?)</div>',
-            r'<div[^>]*class="[^"]*content-body[^"]*"[^>]*>(.*?)</div>',
-            r'<section[^>]*class="[^"]*article-content[^"]*"[^>]*>(.*?)</section>',
+            r'<div[^>]*class="[^\"]*entry-content[^\"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^\"]*post-content[^\"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^\"]*article-body[^\"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^\"]*story-body[^\"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^\"]*content-body[^\"]*"[^>]*>(.*?)</div>',
+            r'<section[^>]*class="[^\"]*article-content[^\"]*"[^>]*>(.*?)</section>',
             r'<article[^>]*>(.*?)</article>',
-            r'<div[^>]*class="[^"]*text[^"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^\"]*text[^\"]*"[^>]*>(.*?)</div>',
             r'<main[^>]*>(.*?)</main>',
         ]
         
@@ -113,7 +106,7 @@ def _fetch_full_article(url: str) -> str:
                 continue
                 
             # Skip linhas que são principalmente URLs ou emails
-            if re.search(r'https?://|www\.|@.*\.com', line):
+            if re.search(r'https?://|www\\.|@.*\\.com', line):
                 continue
                 
             filtered_lines.append(line)
@@ -150,55 +143,57 @@ def _escape_xml(text: str) -> str:
 def build_feed_url(lang: str) -> str:
     """Retorna a URL do RSS com base no idioma."""
     if lang == "en":
-        query = "artificial+intelligence"
-        hl = "en-US"
-        gl = "US"
-        ceid = "US:en"
+        return "https://www.artificialintelligence-news.com/feed/"
+    elif lang == "pt":
+        return "https://www.redhat.com/pt-br/rss/blog/channel/artificial-intelligence"
     else:
-        query = "intelig%C3%AAncia+artificial"
-        hl = "pt-BR"
-        gl = "BR"
-        ceid = "BR:pt-419"
-    return (
-        f"https://news.google.com/rss/search?"
-        f"q={query}&hl={hl}&gl={gl}&ceid={ceid}"
-    )
+        raise ValueError("Idioma não suportado")
 
 
 def fetch_items(feed_url: str):
-    with urllib.request.urlopen(feed_url) as response:
-        data = response.read()
+    print(f"Buscando feed: {feed_url}")
+    try:
+        with urllib.request.urlopen(feed_url, timeout=15) as response:
+            data = response.read()
+    except Exception as e:
+        print(f"Erro ao abrir URL do feed {feed_url}: {e}")
+        return []
+
     root = ET.fromstring(data)
     items = []
-    for item in root.findall("./channel/item"):
-        title = item.findtext("title", default="")
-        google_news_link = item.findtext("link", default="")
-        desc_raw = item.findtext("description", default="")
+    for item_elem in root.findall(".//item"):
+        title = item_elem.findtext("title", default="")
+        link = item_elem.findtext("link", default="")
+        description = item_elem.findtext("description", default="")
+        pub_date_str = item_elem.findtext("pubDate")
+
+        # Tenta obter a data de publicação
+        pub_date = None
+        if pub_date_str:
+            try:
+                pub_date = parsedate_to_datetime(pub_date_str).astimezone(datetime.timezone.utc)
+            except Exception:
+                pass
         
-        # Obtém a URL original do site oficial
-        print(f"Obtendo URL original para: {title[:50]}...")
-        original_url = _get_original_url(google_news_link)
+        # Se a data de publicação não foi encontrada ou é inválida, usa a data atual
+        if not pub_date:
+            pub_date = datetime.datetime.now(datetime.timezone.utc)
+
+        # Para os novos feeds, o link já é a URL original
+        original_url = link
         
         # Busca o conteúdo completo do artigo usando a URL original
         print(f"Buscando conteúdo de: {title[:50]}...")
         full_content = _fetch_full_article(original_url)
         
-        # Se não conseguiu buscar o conteúdo completo, usa a descrição original
-        description = full_content if full_content != "Conteúdo não disponível" else _clean_html(desc_raw)
+        # Se não conseguiu buscar o conteúdo completo, usa a descrição original limpa
+        final_description = full_content if full_content != "Conteúdo não disponível" else _clean_html(description)
         
-        pub_date_str = item.findtext("pubDate")
-        try:
-            pub_date = parsedate_to_datetime(pub_date_str).astimezone(
-                datetime.timezone.utc
-            )
-        except Exception:
-            pub_date = datetime.datetime.now(datetime.timezone.utc)
-            
         items.append({
             "title": title,
-            "link": google_news_link,  # Mantém o link do Google News para o link principal
+            "link": link,  # O link do item é o link original agora
             "original_url": original_url,  # URL original para o GUID
-            "description": description,
+            "description": final_description,
             "pubDate": pub_date,
         })
         
@@ -258,3 +253,5 @@ def generate_combined_rss():
 
 if __name__ == "__main__":
     generate_combined_rss()
+
+
