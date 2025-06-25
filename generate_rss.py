@@ -17,54 +17,100 @@ def _clean_html(text: str) -> str:
 
 
 def _fetch_full_article(url: str) -> str:
-    """Busca o conteúdo completo do artigo a partir da URL."""
+    """Busca o conteúdo completo do corpo da matéria, sem título, URL ou nome do site."""
     try:
         # Adiciona timeout e user-agent para evitar bloqueios
         req = urllib.request.Request(
             url, 
             headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
         )
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=15) as response:
             html_content = response.read().decode('utf-8', errors='ignore')
         
-        # Extrai o conteúdo principal usando heurísticas simples
-        # Remove scripts, styles e outros elementos desnecessários
+        # Remove elementos desnecessários primeiro
         html_content = re.sub(r'<script[^>]*>.*?</script>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
         html_content = re.sub(r'<style[^>]*>.*?</style>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
         html_content = re.sub(r'<nav[^>]*>.*?</nav>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
         html_content = re.sub(r'<header[^>]*>.*?</header>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
         html_content = re.sub(r'<footer[^>]*>.*?</footer>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<aside[^>]*>.*?</aside>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<div[^>]*class="[^"]*sidebar[^"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<div[^>]*class="[^"]*menu[^"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        html_content = re.sub(r'<div[^>]*class="[^"]*ad[^"]*"[^>]*>.*?</div>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
         
-        # Busca por tags comuns de conteúdo de artigo
+        # Busca por padrões mais específicos de conteúdo de artigo/matéria
         article_patterns = [
+            r'<div[^>]*class="[^"]*entry-content[^"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^"]*post-content[^"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^"]*article-body[^"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^"]*story-body[^"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^"]*content-body[^"]*"[^>]*>(.*?)</div>',
+            r'<section[^>]*class="[^"]*article-content[^"]*"[^>]*>(.*?)</section>',
             r'<article[^>]*>(.*?)</article>',
-            r'<div[^>]*class="[^"]*article[^"]*"[^>]*>(.*?)</div>',
-            r'<div[^>]*class="[^"]*content[^"]*"[^>]*>(.*?)</div>',
-            r'<div[^>]*class="[^"]*post[^"]*"[^>]*>(.*?)</div>',
+            r'<div[^>]*class="[^"]*text[^"]*"[^>]*>(.*?)</div>',
             r'<main[^>]*>(.*?)</main>',
         ]
         
         content = ""
         for pattern in article_patterns:
-            match = re.search(pattern, html_content, flags=re.DOTALL | re.IGNORECASE)
-            if match:
-                content = match.group(1)
+            matches = re.findall(pattern, html_content, flags=re.DOTALL | re.IGNORECASE)
+            if matches:
+                # Pega o maior match (provavelmente o conteúdo principal)
+                content = max(matches, key=len)
                 break
         
-        # Se não encontrou nenhum padrão específico, pega o body
+        # Se não encontrou padrões específicos, busca por parágrafos na página
         if not content:
-            body_match = re.search(r'<body[^>]*>(.*?)</body>', html_content, flags=re.DOTALL | re.IGNORECASE)
-            if body_match:
-                content = body_match.group(1)
+            paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', html_content, flags=re.DOTALL | re.IGNORECASE)
+            if paragraphs:
+                # Filtra parágrafos muito curtos (provavelmente não são conteúdo principal)
+                main_paragraphs = [p for p in paragraphs if len(_clean_html(p)) > 50]
+                if main_paragraphs:
+                    content = ' '.join(main_paragraphs)
         
-        # Limpa o HTML e retorna apenas o texto
+        if not content:
+            return "Conteúdo não disponível"
+        
+        # Limpa o HTML e remove elementos indesejados do texto
         clean_content = _clean_html(content)
         
-        # Limita o tamanho para evitar RSS muito grande (máximo 2000 caracteres)
-        if len(clean_content) > 2000:
-            clean_content = clean_content[:1997] + "..."
-            
-        return clean_content if clean_content else "Conteúdo não disponível"
+        # Remove linhas que parecem ser título, URL, nome do site, etc.
+        lines = clean_content.split('\n')
+        filtered_lines = []
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+                
+            # Skip linhas muito curtas (provavelmente não são conteúdo)
+            if len(line) < 20:
+                continue
+                
+            # Skip linhas que parecem ser metadados
+            if any(keyword in line.lower() for keyword in [
+                'compartilh', 'share', 'twitter', 'facebook', 'instagram',
+                'por:', 'by:', 'fonte:', 'source:', 'publicado', 'published',
+                'atualizado', 'updated', 'tags:', 'categoria:', 'category:',
+                'leia mais', 'read more', 'clique aqui', 'click here',
+                'assine', 'subscribe', 'newsletter', 'comments', 'comentários'
+            ]):
+                continue
+                
+            # Skip linhas que são principalmente URLs ou emails
+            if re.search(r'https?://|www\.|@.*\.com', line):
+                continue
+                
+            filtered_lines.append(line)
+        
+        # Junta as linhas filtradas
+        final_content = '\n\n'.join(filtered_lines)
+        
+        # Remove excesso de espaços em branco
+        final_content = re.sub(r'\n{3,}', '\n\n', final_content)
+        final_content = re.sub(r' {2,}', ' ', final_content)
+        
+        return final_content.strip() if final_content.strip() else "Conteúdo não disponível"
         
     except Exception as e:
         print(f"Erro ao buscar artigo {url}: {e}")
@@ -133,7 +179,7 @@ def fetch_items(feed_url: str):
         })
         
         # Adiciona uma pequena pausa para não sobrecarregar os servidores
-        time.sleep(0.5)
+        time.sleep(1.0)
         
     return items
 
