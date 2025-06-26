@@ -7,13 +7,14 @@
 Principais notícias relacionadas a inteligência artificial
 das últimas 24 horas, em Português e Inglês.
     </description>
-    <lastBuildDate>Wed, 25 Jun 2025 09:04:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 09:03:48 GMT</lastBuildDate>
     <item>
-      <title>Salesforce Agentforce 3 brings visibility to AI agents</title>
-      <link>https://www.artificialintelligence-news.com/news/salesforce-agentforce-3-brings-visibility-ai-agents/</link>
-      <description>Salesforce Agentforce 3 aims to tackle what many businesses have been struggling with: actually seeing what their AI agents are up to.Since its debut back in October 2024, Agentforce has been racking up some wins across a variety of sectors. Engine managed to slash customer case handling times by 15 percent, while 1-800Accountant handed off 70 percent of administrative chat queries to AI during the madness of tax season.But what’s interesting about this upgrade isn’t just the numbers, it’s how Salesforce is addressing the elephant in the room that nobody likes to talk about: businesses are deploying AI agents at breakneck speed without really understanding what they’re doing or how to improve them.Keeping tabs on your agentsThe centrepiece of Agentforce 3 is what Salesforce calls the Command Center (essentially a mission control for your AI employees.) It lets managers peek under the bonnet to spot patterns in how agents are performing, track health metrics in real-time (latency, escalation rates, errors), and identify which bits are working versus which need a swift kick.For anyone who’s ever deployed AI tools and then wondered “now what?” this level of visibility could be game-changing. The system captures all agent activity using the OpenTelemetry standard, which means it plays nicely with tools like Datadog and Splunk that your IT team probably already has on their screens.AI adoption is absolutely skyrocketing. Forthcoming data from the Slack Workflow Index shows AI agent usage up 233 percent in just six months. During that time, about 8,000 organisations signed up to deploy Agentforce.Ryan Teeples, CTO at 1-800Accountant, said: “Agentforce autonomously resolved 70% of 1-800Accountant’s administrative chat engagements during the peak of this past tax season, an incredible lift during one of our busiest periods. But that early success was just the beginning.“We’ve established a strong deployment foundation and weekly are focused on launching new agentic experiences and AI automations through Agentforce’s newest capabilities. With a high level of observability, we can see what’s working, optimise in real time, and scale support with confidence.”Salesforce Agentforce 3 doesn’t just provide data, it actually suggests improvements. The AI effectively watche...</description>
-      <pubDate>Tue, 24 Jun 2025 17:10:37 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/salesforce-agentforce-3-brings-visibility-ai-agents/</guid>
+      <title>NO FAKES Act: AI deepfakes protection or internet freedom threat?</title>
+      <link>https://www.artificialintelligence-news.com/news/no-fakes-act-ai-deepfakes-protection-internet-freedom-threat/</link>
+      <description>Critics fear the revised NO FAKES Act has morphed from targeted AI deepfakes protection into sweeping censorship powers. What began as a seemingly reasonable attempt to tackle AI-generated deepfakes has snowballed into something far more troubling, according to digital rights advocates. The much-discussed Nurture Originals, Foster Art, and Keep Entertainment Safe (NO FAKES) Act – […]
+The post NO FAKES Act: AI deepfakes protection or internet freedom threat? appeared first on AI News.</description>
+      <pubDate>Wed, 25 Jun 2025 15:47:50 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/no-fakes-act-ai-deepfakes-protection-internet-freedom-threat/</guid>
     </item>
   </channel>
 </rss>
