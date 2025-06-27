@@ -6,8 +6,11 @@
         "rule": {
           "interval": [
             {
-              "triggerAtHour": 6,
-              "triggerAtMinute": 45
+              "field": "weeks",
+              "triggerAtDay": [
+                6
+              ],
+              "triggerAtHour": 7
             }
           ]
         }
@@ -64,32 +67,6 @@
       ],
       "id": "9622d1ca-de39-40cd-ba90-453413d634f6",
       "name": "Basic LLM Chain"
-    },
-    {
-      "parameters": {
-        "sendTo": "rafsbrug@gmail.com",
-        "subject": "=Newsletter da Rafa",
-        "message": "={{ $json.data }}",
-        "options": {
-          "appendAttribution": false,
-          "senderName": "Rafaela Miranda"
-        }
-      },
-      "type": "n8n-nodes-base.gmail",
-      "typeVersion": 2.1,
-      "position": [
-        1100,
-        -20
-      ],
-      "id": "2a1f933c-0a3a-4ff6-9ee9-46933c9e391d",
-      "name": "Gmail",
-      "webhookId": "3a04bba5-39ca-4dc1-a9c2-cd4e206cbb79",
-      "credentials": {
-        "gmailOAuth2": {
-          "id": "Z28sGwQhTa9MbF5Z",
-          "name": "rafsbrug@gmail.com"
-        }
-      }
     },
     {
       "parameters": {
@@ -154,6 +131,32 @@
       ],
       "id": "07f1899b-bc77-4993-b468-91ddb438e04b",
       "name": "Code"
+    },
+    {
+      "parameters": {
+        "fromEmail": "ola@rafaelamiranda.com.br",
+        "toEmail": "rafsbrug@gmail.com",
+        "subject": "=Newsletter da Rafa - {{ new Date($('Schedule Trigger').item.json.timestamp).toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' }) }}",
+        "html": "={{ $json.data }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        1120,
+        -20
+      ],
+      "id": "a27d01a4-c889-4165-a1d5-2f96af40c99a",
+      "name": "Send email",
+      "webhookId": "ed4054c6-c082-4afc-9c93-f887d8089078",
+      "credentials": {
+        "smtp": {
+          "id": "naOgUlgjJlzveQid",
+          "name": "SMTP account"
+        }
+      }
     }
   ],
   "pinData": {},
@@ -195,7 +198,7 @@
       "main": [
         [
           {
-            "node": "Gmail",
+            "node": "Send email",
             "type": "main",
             "index": 0
           }
@@ -231,7 +234,7 @@
     "timezone": "America/Sao_Paulo",
     "callerPolicy": "workflowsFromSameOwner"
   },
-  "versionId": "a6294339-769b-4b50-8dfd-7e541699f110",
+  "versionId": "16cffa40-9f85-4c71-9526-bb7c22964d76",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "77934daf3d760ac5a351dcb2ea058bd5dbf44ed7045dad076eb42059dce9b41f"

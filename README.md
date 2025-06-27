@@ -2,12 +2,12 @@
 
 ![](brave_screenshot_n8n.rafaelamiranda.com.br.png)  
 
-Este projeto coleta automaticamente as principais notícias sobre inteligência artificial publicadas nas últimas 24 horas e gera um feed RSS em `index.xml`.
+Este projeto coleta automaticamente as principais notícias sobre inteligência artificial publicadas nos últimos 7 dias e gera um feed RSS em `index.xml`.
 
 ## Como funciona
 
 1. O script `generate_rss.py` busca as notícias em feeds RSS de fontes de inteligência artificial em português e inglês (atualmente AI News e Red Hat).
-2. Apenas itens publicados nas últimas 24 horas são mantidos.
+2. Apenas itens publicados nos últimos 7 dias são mantidos.
 3. As descrições são extraídas do conteúdo completo do artigo (quando disponível) e resumidas para até 2300 caracteres.
 4. O resultado é salvo no arquivo `index.xml` no formato RSS 2.0.
 
@@ -30,8 +30,6 @@ Para utilizar este workflow:
 
 ## Atualizações automáticas
 
-Um fluxo de trabalho do GitHub Actions agendado executa o script `generate_rss.py` todos os dias às 06h (UTC-3), equivalente a 09h UTC, e publica o arquivo atualizado `index.xml` no Cloudflare Pages.
+Um fluxo de trabalho do GitHub Actions agendado executa o script `generate_rss.py` todos os sábados às 07h (UTC-3), equivalente a 10h UTC, e publica o arquivo atualizado `index.xml` no Cloudflare Pages.
 
 Para acionar manualmente o workflow ou alterar configurações de deploy, edite `.github/workflows/main.yml`.
-
-

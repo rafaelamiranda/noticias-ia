@@ -8,21 +8,18 @@ from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
 import time
 
-
-def _clean_html(text: str) -> str:
+def clean_html(text: str) -> str:
     if not text:
         return ""
     text = html.unescape(text)
     text = re.sub(r"<.*?>", "", text)
     return text.strip()
 
-
-def _get_original_url(url: str) -> str:
+def get_original_url(url: str) -> str:
     """Retorna a URL original, pois não estamos mais usando o Google News para redirecionamento."""
     return url
 
-
-def _fetch_full_article(url: str) -> str:
+def fetch_full_article(url: str) -> str:
     """Busca o conteúdo completo do corpo da matéria, sem título, URL ou nome do site."""
     try:
         # Adiciona timeout e user-agent para evitar bloqueios
@@ -72,7 +69,7 @@ def _fetch_full_article(url: str) -> str:
             paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', html_content, flags=re.DOTALL | re.IGNORECASE)
             if paragraphs:
                 # Filtra parágrafos muito curtos (provavelmente não são conteúdo principal)
-                main_paragraphs = [p for p in paragraphs if len(_clean_html(p)) > 50]
+                main_paragraphs = [p for p in paragraphs if len(clean_html(p)) > 50]
                 if main_paragraphs:
                     content = ' '.join(main_paragraphs)
         
@@ -80,7 +77,7 @@ def _fetch_full_article(url: str) -> str:
             return "Conteúdo não disponível"
         
         # Limpa o HTML e remove elementos indesejados do texto
-        clean_content = _clean_html(content)
+        clean_content = clean_html(content)
         
         # Remove linhas que parecem ser título, URL, nome do site, etc.
         lines = clean_content.split('\n')
@@ -106,7 +103,7 @@ def _fetch_full_article(url: str) -> str:
                 continue
                 
             # Skip linhas que são principalmente URLs ou emails
-            if re.search(r'https?://|www\\.|@.*\\.com', line):
+            if re.search(r'https?://|www\.|@.*\.com', line):
                 continue
                 
             filtered_lines.append(line)
@@ -128,17 +125,12 @@ def _fetch_full_article(url: str) -> str:
         print(f"Erro ao buscar artigo {url}: {e}")
         return "Conteúdo não disponível"
 
-
-
-
-
-def _escape_xml(text: str) -> str:
+def escape_xml(text: str) -> str:
     """Escapa caracteres especiais para XML, incluindo & em URLs."""
     if not text:
         return ""
     # Usar html.escape com quote=True para escapar aspas também
     return html.escape(text, quote=True)
-
 
 def build_feed_url(lang: str) -> str:
     """Retorna a URL do RSS com base no idioma."""
@@ -148,7 +140,6 @@ def build_feed_url(lang: str) -> str:
         return "https://www.redhat.com/pt-br/rss/blog/channel/artificial-intelligence"
     else:
         raise ValueError("Idioma não suportado")
-
 
 def fetch_items(feed_url: str):
     print(f"Buscando feed: {feed_url}")
@@ -161,12 +152,13 @@ def fetch_items(feed_url: str):
 
     root = ET.fromstring(data)
     items = []
+    
     for item_elem in root.findall(".//item"):
         title = item_elem.findtext("title", default="")
         link = item_elem.findtext("link", default="")
         description = item_elem.findtext("description", default="")
         pub_date_str = item_elem.findtext("pubDate")
-
+        
         # Tenta obter a data de publicação
         pub_date = None
         if pub_date_str:
@@ -178,21 +170,21 @@ def fetch_items(feed_url: str):
         # Se a data de publicação não foi encontrada ou é inválida, usa a data atual
         if not pub_date:
             pub_date = datetime.datetime.now(datetime.timezone.utc)
-
+        
         # Para os novos feeds, o link já é a URL original
         original_url = link
         
         # Busca o conteúdo completo do artigo usando a URL original
         print(f"Buscando conteúdo de: {title[:50]}...")
-        full_content = _fetch_full_article(original_url)
+        full_content = fetch_full_article(original_url)
         
         # Se não conseguiu buscar o conteúdo completo, usa a descrição original limpa
-        final_description = full_content if full_content != "Conteúdo não disponível" else _clean_html(description)
+        final_description = full_content if full_content != "Conteúdo não disponível" else clean_html(description)
         
         items.append({
             "title": title,
-            "link": link,  # O link do item é o link original agora
-            "original_url": original_url,  # URL original para o GUID
+            "link": link, 
+            "original_url": original_url, 
             "description": final_description,
             "pubDate": pub_date,
         })
@@ -202,25 +194,25 @@ def fetch_items(feed_url: str):
         
     return items
 
-
-def filter_last_24_hours(items):
+def filter_last_7_days(items):
+    """Filtra itens dos últimos 7 dias."""
     now = datetime.datetime.now(datetime.timezone.utc)
-    one_day = datetime.timedelta(days=1)
-    return [item for item in items if now - item["pubDate"] <= one_day]
-
+    seven_days = datetime.timedelta(days=7)
+    return [item for item in items if now - item["pubDate"] <= seven_days]
 
 def generate_combined_rss():
     languages = ["pt", "en"]
     all_items = []
+    
     for lang in languages:
         url = build_feed_url(lang)
         fetched = fetch_items(url)
-        filtered = filter_last_24_hours(fetched)
+        filtered = filter_last_7_days(fetched)  # Alterado aqui
         all_items.extend(filtered)
-
+    
     # Ordena por data de publicação (mais recente primeiro)
     all_items.sort(key=lambda x: x["pubDate"], reverse=True)
-
+    
     now = datetime.datetime.now(datetime.timezone.utc)
     lines = [
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
@@ -230,28 +222,29 @@ def generate_combined_rss():
         "    <link>https://github.com/rafaelamiranda/noticias-ia</link>",
         "    <description>",
         "Principais notícias relacionadas a inteligência artificial",
-        "das últimas 24 horas, em Português e Inglês.",
+        "dos últimos 7 dias, em Português e Inglês.",
         "    </description>",
         f"    <lastBuildDate>{now.strftime('%a, %d %b %Y %H:%M:%S GMT')}</lastBuildDate>",
     ]
+    
     for item in all_items:
         lines.extend([
             "    <item>",
-            f"      <title>{_escape_xml(item['title'])}</title>",
-            f"      <link>{_escape_xml(item['link'])}</link>",
-            f"      <description>{_escape_xml(item['description'])}</description>",
+            f"      <title>{escape_xml(item['title'])}</title>",
+            f"      <link>{escape_xml(item['link'])}</link>",
+            f"      <description>{escape_xml(item['description'])}</description>",
             f"      <pubDate>{item['pubDate'].strftime('%a, %d %b %Y %H:%M:%S GMT')}</pubDate>",
-            f"      <guid>{_escape_xml(item['original_url'])}</guid>",
+            f"      <guid>{escape_xml(item['original_url'])}</guid>",
             "    </item>",
         ])
+    
     lines.extend(["  </channel>", "</rss>"])
+    
     filename = "index.xml"
     with open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
+    
     print(f"RSS combinado gerado: {filename}")
-
 
 if __name__ == "__main__":
     generate_combined_rss()
-
-
