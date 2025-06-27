@@ -134,10 +134,10 @@ def escape_xml(text: str) -> str:
 
 def build_feed_url(lang: str) -> str:
     """Retorna a URL do RSS com base no idioma."""
-    if lang == "en":
+    if lang == "en-ai-news":
         return "https://www.artificialintelligence-news.com/feed/"
-    elif lang == "pt":
-        return "https://www.redhat.com/pt-br/rss/blog/channel/artificial-intelligence"
+    elif lang == "en-wired":
+        return "https://www.wired.com/feed/tag/ai/latest/rss"
     else:
         raise ValueError("Idioma não suportado")
 
@@ -201,13 +201,13 @@ def filter_last_7_days(items):
     return [item for item in items if now - item["pubDate"] <= seven_days]
 
 def generate_combined_rss():
-    languages = ["pt", "en"]
+    feeds = ["en-ai-news", "en-wired"]
     all_items = []
     
-    for lang in languages:
-        url = build_feed_url(lang)
+    for feed in feeds:
+        url = build_feed_url(feed)
         fetched = fetch_items(url)
-        filtered = filter_last_7_days(fetched)  # Alterado aqui
+        filtered = filter_last_7_days(fetched)
         all_items.extend(filtered)
     
     # Ordena por data de publicação (mais recente primeiro)
@@ -218,11 +218,11 @@ def generate_combined_rss():
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
         "<rss version=\"2.0\">",
         "  <channel>",
-        "    <title>Notícias de Inteligência Artificial (PT &amp; EN)</title>",
+        "    <title>Notícias de Inteligência Artificial (EN)</title>",
         "    <link>https://github.com/rafaelamiranda/noticias-ia</link>",
         "    <description>",
         "Principais notícias relacionadas a inteligência artificial",
-        "dos últimos 7 dias, em Português e Inglês.",
+        "dos últimos 7 dias, em Inglês.",
         "    </description>",
         f"    <lastBuildDate>{now.strftime('%a, %d %b %Y %H:%M:%S GMT')}</lastBuildDate>",
     ]
