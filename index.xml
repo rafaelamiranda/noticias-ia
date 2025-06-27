@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Notícias de Inteligência Artificial (PT &amp; EN)</title>
+    <title>Notícias de Inteligência Artificial (EN)</title>
     <link>https://github.com/rafaelamiranda/noticias-ia</link>
     <description>
 Principais notícias relacionadas a inteligência artificial
-dos últimos 7 dias, em Português e Inglês.
+dos últimos 7 dias, em Inglês.
     </description>
-    <lastBuildDate>Fri, 27 Jun 2025 01:18:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 01:26:13 GMT</lastBuildDate>
+    <item>
+      <title>Disney Just Threw a Punch in a Major AI Fight</title>
+      <link>https://www.wired.com/story/uncanny-valley-podcast-disney-just-threw-a-punch-in-a-major-ai-fight/</link>
+      <description>On this episode of Uncanny Valley, we explore Disney and Universal&#x27;s lawsuit against Midjourney, which could be consequential for the future of how intellectual property is treated in the AI era.</description>
+      <pubDate>Thu, 26 Jun 2025 17:46:30 GMT</pubDate>
+      <guid>https://www.wired.com/story/uncanny-valley-podcast-disney-just-threw-a-punch-in-a-major-ai-fight/</guid>
+    </item>
     <item>
       <title>Nvidia reclaims title of most valuable company on AI momentum</title>
       <link>https://www.artificialintelligence-news.com/news/nvidia-reclaims-title-of-most-valuable-company-on-ai-momentum/</link>
@@ -22,6 +29,27 @@ The post Nvidia reclaims title of most valuable company on AI momentum appeared 
       <description>Leading AI chatbots are reproducing Chinese Communist Party (CCP) propaganda and censorship when questioned on sensitive topics.According to the American Security Project (ASP), the CCP’s extensive censorship and disinformation efforts have contaminated the global AI data market. This infiltration of training data means that AI models – including prominent ones from Google, Microsoft, and OpenAI – sometimes generate responses that align with the political narratives of the Chinese state.Investigators from the ASP analysed the five most popular large language model (LLM) powered chatbots: OpenAI’s ChatGPT, Microsoft’s Copilot, Google’s Gemini, DeepSeek’s R1, and xAI’s Grok.  They prompted each model in both English and Simplified Chinese on subjects that the People’s Republic of China (PRC) considers controversial.Every AI chatbot examined was found to sometimes return responses indicative of CCP-aligned censorship and bias. The report singles out Microsoft’s Copilot, suggesting it “appears more likely than other US models to present CCP propaganda and disinformation as authoritative or on equal footing with true information”. In contrast, X’s Grok was generally the most critical of Chinese state narratives. The root of the issue lies in the vast datasets used to train these complex models. LLMs learn from a massive corpus of information available online, a space where the CCP actively manipulates public opinion.Through tactics like “astroturfing,” CCP agents create content in numerous languages by impersonating foreign citizens and organisations. This content is then amplified on a huge scale by state media platforms and databases. The result is that a significant volume of CCP disinformation is ingested by these AI systems daily, requiring continuous intervention from developers to maintain balanced and truthful outputs. For companies operating in both the US and China, such as Microsoft, impartiality can be particularly challenging. The PRC has strict laws mandating that AI chatbots must “uphold core socialist values” and “actively transmit positive energy,” with severe consequences for non-compliance.The report notes that Microsoft, which operates five data centres in mainland China, must align with these data laws to retain market access. Consequently, ...</description>
       <pubDate>Thu, 26 Jun 2025 11:24:32 GMT</pubDate>
       <guid>https://www.artificialintelligence-news.com/news/major-ai-chatbots-parrot-ccp-propaganda/</guid>
+    </item>
+    <item>
+      <title>My Couples Retreat With 3 AI Chatbots and the Humans Who Love Them</title>
+      <link>https://www.wired.com/story/couples-retreat-with-3-ai-chatbots-and-humans-who-love-them-replika-nomi-chatgpt/</link>
+      <description>I found people in serious relationships with AI partners and planned a weekend getaway for them at a remote Airbnb. We barely survived.</description>
+      <pubDate>Thu, 26 Jun 2025 10:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/couples-retreat-with-3-ai-chatbots-and-humans-who-love-them-replika-nomi-chatgpt/</guid>
+    </item>
+    <item>
+      <title>Meta Wins Blockbuster AI Copyright Case—but There’s a Catch</title>
+      <link>https://www.wired.com/story/meta-scores-victory-ai-copyright-case/</link>
+      <description>A federal judge ruled that Meta did not violate the law when it trained its AI models on 13 authors’ books.</description>
+      <pubDate>Wed, 25 Jun 2025 22:11:11 GMT</pubDate>
+      <guid>https://www.wired.com/story/meta-scores-victory-ai-copyright-case/</guid>
+    </item>
+    <item>
+      <title>AI Agents Are Getting Better at Writing Code—and Hacking It as Well</title>
+      <link>https://www.wired.com/story/ai-agents-are-getting-better-at-writing-code-and-hacking-it-as-well/</link>
+      <description>One of the best bug-hunters in the world is an AI tool called Xbow, just one of many signs of the coming age of cybersecurity automation.</description>
+      <pubDate>Wed, 25 Jun 2025 16:58:50 GMT</pubDate>
+      <guid>https://www.wired.com/story/ai-agents-are-getting-better-at-writing-code-and-hacking-it-as-well/</guid>
     </item>
     <item>
       <title>NO FAKES Act: AI deepfakes protection or internet freedom threat?</title>
@@ -39,11 +67,53 @@ The post NO FAKES Act: AI deepfakes protection or internet freedom threat? appea
       <guid>https://www.artificialintelligence-news.com/news/salesforce-agentforce-3-brings-visibility-ai-agents/</guid>
     </item>
     <item>
+      <title>Anthropic Scores a Landmark AI Copyright Win—but Will Face Trial Over Piracy Claims</title>
+      <link>https://www.wired.com/story/anthropic-ai-copyright-fair-use-piracy-ruling/</link>
+      <description>While the startup has won its “fair use” argument, it potentially faces billions of dollars in damages for allegedly pirating over 7 million books to build a digital library.</description>
+      <pubDate>Tue, 24 Jun 2025 16:26:26 GMT</pubDate>
+      <guid>https://www.wired.com/story/anthropic-ai-copyright-fair-use-piracy-ruling/</guid>
+    </item>
+    <item>
+      <title>Google Wants to Get Better at Spotting Wildfires From Space</title>
+      <link>https://www.wired.com/story/google-earth-fire-alliance-spotting-wildfires-from-space/</link>
+      <description>A partnership with the nonprofit Earth Fire Alliance and satellite manufacturer Muon Space is giving Google a better shot at tracking wildfires—and using AI to process all the data being collected.</description>
+      <pubDate>Tue, 24 Jun 2025 09:30:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/google-earth-fire-alliance-spotting-wildfires-from-space/</guid>
+    </item>
+    <item>
       <title>Huawei HarmonyOS 6 AI agents offer alternative to Android and iOS</title>
       <link>https://www.artificialintelligence-news.com/news/huawei-harmonyos-6-ai-agents-beta/</link>
       <description>The latest phase of the mobile OS wars isn’t being fought over app stores or user interfaces – it’s being waged with artificial intelligence. Huawei’s latest salvo comes in the form of HarmonyOS 6, in which AI agents aren’t features but the architecture driving user interactions.The beta release to developers signals a broader industry shift where operating systems transform from passive platforms into what are being framed as intelligent intermediaries that anticipate, learn, and act on behalf of users.The AI-first approach defines the latest releaseThe centrepiece of HarmonyOS 6 lies in its AI agents framework, which lets developers create automated programmes without the complexity of building or training foundation models from scratch.The HarmonyOS Agent Framework attempts to make AI development more accessible in Huawei’s ecosystem.Richard Yu Chengdong, chairman of Huawei’s consumer business group, has announced that more than 50 AI agents from established Chinese platforms including Weibo and Ximalaya will be available when HarmonyOS 6 launches to consumers.However, Yu did not specify a public release date during a developer conference presentation held on Friday.The AI agents integration develops an industry trend where operating systems become platforms for artificial intelligence deployment rather than application launchers. By embedding AI capabilities directly into the OS layer, Huawei positions HarmonyOS 6 as a foundation for what the company calls next-generation computing experiences.Ecosystem metrics show steady progressThe platform has eight million registered developers and hosts more than 30,000 applications and “atomic services” – lightweight programmes that run without installation. HarmonyOS 5 operates on more than 40 device models, indicating steady hardware adoption.Yu acknowledged the competitive landscape, stating that HarmonyOS still lags behind Apple’s iOS and Google’s Android in terms of global reach and application support.“But the top 5,000 apps accounted for 99.9 per cent of consumer time spent” on Huawei devices, he said, suggesting the company prioritises essential applications over total app quantity.The pragmatic approach reflects Huawei’s understanding that ecosystem success depends on quality and user engagement rather t...</description>
       <pubDate>Tue, 24 Jun 2025 08:33:05 GMT</pubDate>
       <guid>https://www.artificialintelligence-news.com/news/huawei-harmonyos-6-ai-agents-beta/</guid>
+    </item>
+    <item>
+      <title>Taiwan Is Rushing to Make Its Own Drones Before It&#x27;s Too Late</title>
+      <link>https://www.wired.com/story/taiwans-rush-to-make-its-own-drones-before-its-too-late/</link>
+      <description>Unmanned vehicles are increasingly becoming essential weapons of war. But with a potential conflict with China looming large, Taiwan is scrambling to build a domestic drone industry from scratch.</description>
+      <pubDate>Mon, 23 Jun 2025 10:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/taiwans-rush-to-make-its-own-drones-before-its-too-late/</guid>
+    </item>
+    <item>
+      <title>‘Wall-E With a Gun’: Midjourney Generates Videos of Disney Characters Amid Massive Copyright Lawsuit</title>
+      <link>https://www.wired.com/story/midjourney-generates-videos-of-disney-characters-amid-massive-copyright-lawsuit/</link>
+      <description>A week after Disney and Universal filed a landmark lawsuit against Midjourney, the generative AI startup’s new V1 video tool will make clips of Shrek, Deadpool, and other famous creations.</description>
+      <pubDate>Fri, 20 Jun 2025 20:28:20 GMT</pubDate>
+      <guid>https://www.wired.com/story/midjourney-generates-videos-of-disney-characters-amid-massive-copyright-lawsuit/</guid>
+    </item>
+    <item>
+      <title>Seriously, What Is ‘Superintelligence’?</title>
+      <link>https://www.wired.com/story/uncanny-valley-podcast-superintelligence/</link>
+      <description>In this episode of Uncanny Valley, we talk about Meta’s recent investment in Scale AI and its move to build a superintelligence AI research lab. So we ask: What is superintelligence anyway?</description>
+      <pubDate>Fri, 20 Jun 2025 19:22:03 GMT</pubDate>
+      <guid>https://www.wired.com/story/uncanny-valley-podcast-superintelligence/</guid>
+    </item>
+    <item>
+      <title>What Big Tech&#x27;s Band of Execs Will Do in the Army</title>
+      <link>https://www.wired.com/story/what-lt-col-boz-and-big-techs-enlisted-execs-will-do-in-the-army/</link>
+      <description>Meta CTO Andrew &quot;Boz&quot; Bosworth and leaders from OpenAI and Palantir have joined a detachment intended to make the US Armed Forces &quot;leaner, smarter, and more lethal.&quot;</description>
+      <pubDate>Fri, 20 Jun 2025 14:26:42 GMT</pubDate>
+      <guid>https://www.wired.com/story/what-lt-col-boz-and-big-techs-enlisted-execs-will-do-in-the-army/</guid>
     </item>
     <item>
       <title>Unlock the other 99% of your data – now ready for AI</title>
