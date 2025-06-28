@@ -7,11 +7,26 @@
 Principais notícias relacionadas a inteligência artificial
 dos últimos 7 dias, em Inglês.
     </description>
-    <lastBuildDate>Fri, 27 Jun 2025 01:26:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jun 2025 09:04:32 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI’s Unreleased AGI Paper Could Complicate Microsoft Negotiations</title>
+      <link>https://www.wired.com/story/openai-five-levels-agi-paper-microsoft-negotiations/</link>
+      <description>The partnership between OpenAI and Microsoft in many ways hinges on the definition of artificial general intelligence, creating a tension that has spilled over into OpenAI research that has not been made public.</description>
+      <pubDate>Fri, 27 Jun 2025 19:35:29 GMT</pubDate>
+      <guid>https://www.wired.com/story/openai-five-levels-agi-paper-microsoft-negotiations/</guid>
+    </item>
+    <item>
+      <title>Anthropic tests AI running a real business with bizarre results</title>
+      <link>https://www.artificialintelligence-news.com/news/anthropic-tests-ai-running-a-real-business-with-bizarre-results/</link>
+      <description>Anthropic tasked its Claude AI model with running a small business to test its real-world economic capabilities. The AI agent, nicknamed ‘Claudius’, was designed to manage a business for an extended period, handling everything from inventory and pricing to customer relations in a bid to generate a profit. While the experiment proved unprofitable, it offered […]
+The post Anthropic tests AI running a real business with bizarre results appeared first on AI News.</description>
+      <pubDate>Fri, 27 Jun 2025 16:54:16 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/anthropic-tests-ai-running-a-real-business-with-bizarre-results/</guid>
+    </item>
     <item>
       <title>Disney Just Threw a Punch in a Major AI Fight</title>
       <link>https://www.wired.com/story/uncanny-valley-podcast-disney-just-threw-a-punch-in-a-major-ai-fight/</link>
-      <description>On this episode of Uncanny Valley, we explore Disney and Universal&#x27;s lawsuit against Midjourney, which could be consequential for the future of how intellectual property is treated in the AI era.</description>
+      <description>On this episode of Uncanny Valley, we explore Disney and Universal’s lawsuit against Midjourney, which could be consequential for the future of how intellectual property is treated in the AI era.</description>
       <pubDate>Thu, 26 Jun 2025 17:46:30 GMT</pubDate>
       <guid>https://www.wired.com/story/uncanny-valley-podcast-disney-just-threw-a-punch-in-a-major-ai-fight/</guid>
     </item>
@@ -93,34 +108,6 @@ The post NO FAKES Act: AI deepfakes protection or internet freedom threat? appea
       <description>Unmanned vehicles are increasingly becoming essential weapons of war. But with a potential conflict with China looming large, Taiwan is scrambling to build a domestic drone industry from scratch.</description>
       <pubDate>Mon, 23 Jun 2025 10:00:00 GMT</pubDate>
       <guid>https://www.wired.com/story/taiwans-rush-to-make-its-own-drones-before-its-too-late/</guid>
-    </item>
-    <item>
-      <title>‘Wall-E With a Gun’: Midjourney Generates Videos of Disney Characters Amid Massive Copyright Lawsuit</title>
-      <link>https://www.wired.com/story/midjourney-generates-videos-of-disney-characters-amid-massive-copyright-lawsuit/</link>
-      <description>A week after Disney and Universal filed a landmark lawsuit against Midjourney, the generative AI startup’s new V1 video tool will make clips of Shrek, Deadpool, and other famous creations.</description>
-      <pubDate>Fri, 20 Jun 2025 20:28:20 GMT</pubDate>
-      <guid>https://www.wired.com/story/midjourney-generates-videos-of-disney-characters-amid-massive-copyright-lawsuit/</guid>
-    </item>
-    <item>
-      <title>Seriously, What Is ‘Superintelligence’?</title>
-      <link>https://www.wired.com/story/uncanny-valley-podcast-superintelligence/</link>
-      <description>In this episode of Uncanny Valley, we talk about Meta’s recent investment in Scale AI and its move to build a superintelligence AI research lab. So we ask: What is superintelligence anyway?</description>
-      <pubDate>Fri, 20 Jun 2025 19:22:03 GMT</pubDate>
-      <guid>https://www.wired.com/story/uncanny-valley-podcast-superintelligence/</guid>
-    </item>
-    <item>
-      <title>What Big Tech&#x27;s Band of Execs Will Do in the Army</title>
-      <link>https://www.wired.com/story/what-lt-col-boz-and-big-techs-enlisted-execs-will-do-in-the-army/</link>
-      <description>Meta CTO Andrew &quot;Boz&quot; Bosworth and leaders from OpenAI and Palantir have joined a detachment intended to make the US Armed Forces &quot;leaner, smarter, and more lethal.&quot;</description>
-      <pubDate>Fri, 20 Jun 2025 14:26:42 GMT</pubDate>
-      <guid>https://www.wired.com/story/what-lt-col-boz-and-big-techs-enlisted-execs-will-do-in-the-army/</guid>
-    </item>
-    <item>
-      <title>Unlock the other 99% of your data – now ready for AI</title>
-      <link>https://www.artificialintelligence-news.com/news/unlock-the-other-99-of-your-data-now-ready-for-ai/</link>
-      <description>For decades, companies of all sizes have recognized that the data available to them holds significant value, for improving user and customer experiences and for developing strategic plans based on empirical evidence.As AI becomes increasingly accessible and practical for real-world business applications, the potential value of available data has grown exponentially. Successfully adopting AI requires significant effort in data collection, curation, and preprocessing. Moreover, important aspects such as data governance, privacy, anonymization, regulatory compliance, and security must be addressed carefully from the outset.In a conversation with Henrique Lemes, Americas Data Platform Leader at IBM, we explored the challenges enterprises face in implementing practical AI in a range of use cases. We began by examining the nature of data itself, its various types, and its role in enabling effective AI-powered applications.Henrique highlighted that referring to all enterprise information simply as ‘data’ understates its complexity. The modern enterprise navigates a fragmented landscape of diverse data types and inconsistent quality, particularly between structured and unstructured sources.In simple terms, structured data refers to information that is organized in a standardized and easily searchable format, one that enables efficient processing and analysis by software systems.Unstructured data is information that does not follow a predefined format nor organizational model, making it more complex to process and analyze. Unlike structured data, it includes diverse formats like emails, social media posts, videos, images, documents, and audio files. While it lacks the clear organization of structured data, unstructured data holds valuable insights that, when effectively managed through advanced analytics and AI, can drive innovation and inform strategic business decisions.Henrique stated, “Currently, less than 1% of enterprise data is utilized by generative AI, and over 90% of that data is unstructured, which directly affects trust and quality”.The element of trust in terms of data is an important one. Decision-makers in an organization need firm belief (trust) that the information at their fingertips is complete, reliable, and properly obtained. But there is eviden...</description>
-      <pubDate>Fri, 20 Jun 2025 09:34:00 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/unlock-the-other-99-of-your-data-now-ready-for-ai/</guid>
     </item>
   </channel>
 </rss>
