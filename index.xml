@@ -7,127 +7,137 @@
 Principais notícias relacionadas a inteligência artificial
 dos últimos 7 dias, em Inglês.
     </description>
-    <lastBuildDate>Sat, 19 Jul 2025 09:04:37 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Jul 2025 09:04:36 GMT</lastBuildDate>
     <item>
-      <title>Can speed and safety truly coexist in the AI race?</title>
-      <link>https://www.artificialintelligence-news.com/news/can-speed-and-safety-truly-coexist-ai-race/</link>
-      <description>A criticism about AI safety from an OpenAI researcher aimed at a rival opened a window into the industry’s struggle: a battle against itself. It started with a warning from Boaz Barak, a Harvard professor currently on leave and working on safety at OpenAI. He called the launch of xAI’s Grok model “completely irresponsible,” not […]
-The post Can speed and safety truly coexist in the AI race? appeared first on AI News.</description>
-      <pubDate>Fri, 18 Jul 2025 14:40:34 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/can-speed-and-safety-truly-coexist-ai-race/</guid>
+      <title>Trump’s Anti-Bias AI Order Is Just More Bias</title>
+      <link>https://www.wired.com/story/trump-ai-order-bias-openai-google/</link>
+      <description>The Trump administration says it wants AI models free from ideological bias, as it pressures their developers to reflect the president’s worldview.</description>
+      <pubDate>Fri, 25 Jul 2025 15:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/trump-ai-order-bias-openai-google/</guid>
     </item>
     <item>
-      <title>This AI Warps Live Video in Real Time</title>
-      <link>https://www.wired.com/story/decart-artificial-intelligence-model-live-stream/</link>
+      <title>Anthropic deploys AI agents to audit models for safety</title>
+      <link>https://www.artificialintelligence-news.com/news/anthropic-deploys-ai-agents-audit-models-for-safety/</link>
+      <description>Anthropic has built an army of autonomous AI agents with a singular mission: to audit powerful models like Claude to improve safety. As these complex systems rapidly advance, the job of making sure they are safe and don’t harbour hidden dangers has become a herculean task. Anthropic believes it has found a solution, and it’s […]
+The post Anthropic deploys AI agents to audit models for safety appeared first on AI News.</description>
+      <pubDate>Fri, 25 Jul 2025 13:40:34 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/anthropic-deploys-ai-agents-audit-models-for-safety/</guid>
+    </item>
+    <item>
+      <title>Alibaba’s new Qwen reasoning AI model sets open-source records</title>
+      <link>https://www.artificialintelligence-news.com/news/alibaba-new-qwen-reasoning-ai-model-open-source-records/</link>
+      <description>The Qwen team from Alibaba have just released a new version of their open-source reasoning AI model with some impressive benchmarks. Meet Qwen3-235B-A22B-Thinking-2507. Over the past three months, the Qwen team has been hard at work scaling up what they call the “thinking capability” of their AI, aiming to improve both the quality and depth […]
+The post Alibaba’s new Qwen reasoning AI model sets open-source records appeared first on AI News.</description>
+      <pubDate>Fri, 25 Jul 2025 12:43:07 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/alibaba-new-qwen-reasoning-ai-model-open-source-records/</guid>
+    </item>
+    <item>
+      <title>Cursor’s New Bugbot Is Designed to Save Vibe Coders From Themselves</title>
+      <link>https://www.wired.com/story/cursor-releases-new-ai-tool-for-debugging-code/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 17 Jul 2025 19:49:12 GMT</pubDate>
-      <guid>https://www.wired.com/story/decart-artificial-intelligence-model-live-stream/</guid>
+      <pubDate>Thu, 24 Jul 2025 15:00:10 GMT</pubDate>
+      <guid>https://www.wired.com/story/cursor-releases-new-ai-tool-for-debugging-code/</guid>
     </item>
     <item>
-      <title>Roblox’s New Age Verification Feature Uses AI to Scan Teens’ Video Selfies</title>
-      <link>https://www.wired.com/story/robloxs-new-age-verification-feature-uses-ai-to-scan-teens-video-selfies/</link>
-      <description>Roblox will scan video selfies of teens to assess their ages as part of a new Trusted Connections feature that gives users access to unfiltered chatting with people they know.</description>
-      <pubDate>Thu, 17 Jul 2025 19:37:49 GMT</pubDate>
-      <guid>https://www.wired.com/story/robloxs-new-age-verification-feature-uses-ai-to-scan-teens-video-selfies/</guid>
-    </item>
-    <item>
-      <title>Mistral AI gives Le Chat voice recognition and deep research tools</title>
-      <link>https://www.artificialintelligence-news.com/news/mistral-ai-le-chat-voice-recognition-deep-research-tools/</link>
-      <description>Mistral AI has updated Le Chat with voice recognition, deep research tools, and other features to make the chatbot a more helpful assistant. The company believes that the best AI assistants should help you dive deeper into your thoughts and maintain the flow of conversation. As Mistral AI put it, chatbots are at their best […]
-The post Mistral AI gives Le Chat voice recognition and deep research tools appeared first on AI News.</description>
-      <pubDate>Thu, 17 Jul 2025 15:50:40 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/mistral-ai-le-chat-voice-recognition-deep-research-tools/</guid>
-    </item>
-    <item>
-      <title>Zuckerberg’s $15B bet: How Meta’s ‘Superintelligence Labs’ became Silicon Valley’s most expensive AI talent war</title>
-      <link>https://www.artificialintelligence-news.com/news/meta-superintelligence-ai-lab-zuckerberg-talent-war/</link>
-      <description>Mark Zuckerberg has a history of making audacious bets that reshape entire industries – and losing spectacularly when they don’t pan out. After burning through US$46 billion on the metaverse with little to show for it, the Meta CEO is now doubling down with an even more ambitious wager: superintelligence AI.This time, however, the stakes are higher, the competition more fierce, and the potential rewards more transformative than anything Meta has attempted before.With nine-figure compensation packages and infrastructure investments that dwarf even the metaverse spending spree, Zuckerberg’s superintelligence AI gamble represents Silicon Valley’s most expensive talent war – one that could either cement Meta’s position as a tech giant or become another cautionary tale of visionary ambition meeting harsh reality.The birth of Meta Superintelligence LabsThe formation of Meta Superintelligence Labs marks a shift for the social media giant. In an exclusive interview with The Information‘s TITV live-streaming programme, Zuckerberg told founder Jessica Lessin that “the most exciting thing this year is that we’re starting to see early glimpses of self-improvement with the models, which means that developing super intelligence is now in sight.”The vision has driven the company to restructure its entire AI division, with the ambitious goal of delivering what Zuckerberg calls “personal super intelligence to everyone in the world.” The lab’s creation follows a period of internal struggles in Meta’s AI division, including management struggles, employee churn, and product releases that fell flat.Rather than incrementally improving existing systems, Zuckerberg has opted for a complete overhaul, bringing in external leadership and re-imagining the company’s approach to AI development.Are we witnessing the most expensive talent war in tech history?Mark Zuckerberg, Founder, Chairman and Chief Executive Officer/Meta media galleryCentral to Meta’s superintelligence AI ambitions is a talent acquisition strategy that has sent shockwaves through the industry. Zuckerberg has embarked on a spending spree to create the new lab, offering as much as nine-figure pay packages to hire top researchers from companies like OpenAI, Google, Apple and Anthropic.When The Information’s Lessin questi...</description>
-      <pubDate>Thu, 17 Jul 2025 15:43:07 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/meta-superintelligence-ai-lab-zuckerberg-talent-war/</guid>
-    </item>
-    <item>
-      <title>Hackers Are Finding New Ways to Hide Malware in DNS Records</title>
-      <link>https://www.wired.com/story/dns-records-hidden-malicious-code/</link>
+      <title>Trump Says He’s ‘Getting Rid of Woke’ and Dismisses Copyright Concerns in AI Policy Speech</title>
+      <link>https://www.wired.com/story/president-trump-ai-action-plan-speech/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 17 Jul 2025 11:30:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/dns-records-hidden-malicious-code/</guid>
+      <pubDate>Wed, 23 Jul 2025 22:11:07 GMT</pubDate>
+      <guid>https://www.wired.com/story/president-trump-ai-action-plan-speech/</guid>
     </item>
     <item>
-      <title>Where Are All the AI Drugs?</title>
-      <link>https://www.wired.com/story/artificial-intelligence-drug-discovery/</link>
+      <title>AI Action Plan: US leadership must be ‘unchallenged’</title>
+      <link>https://www.artificialintelligence-news.com/news/ai-action-plan-us-leadership-must-be-unchallenged/</link>
+      <description>The White House has released its ‘AI Action Plan’, which frames the coming decade as a technological race the US cannot afford to lose. Laced with the urgent rhetoric of a new cold war, the action plan argues that securing victory in AI is nothing short of a national imperative. Trump’s foreword sets the tone, […]
+The post AI Action Plan: US leadership must be ‘unchallenged’ appeared first on AI News.</description>
+      <pubDate>Wed, 23 Jul 2025 16:20:24 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/ai-action-plan-us-leadership-must-be-unchallenged/</guid>
+    </item>
+    <item>
+      <title>Trump’s AI Action Plan Is a Crusade Against ‘Bias’—and Regulation</title>
+      <link>https://www.wired.com/story/trumps-ai-action-plan-crusade-against-bias-regulation/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 17 Jul 2025 10:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/artificial-intelligence-drug-discovery/</guid>
+      <pubDate>Wed, 23 Jul 2025 14:52:43 GMT</pubDate>
+      <guid>https://www.wired.com/story/trumps-ai-action-plan-crusade-against-bias-regulation/</guid>
     </item>
     <item>
-      <title>Watch Our Livestream Replay: Inside the AI Copyright Battles</title>
-      <link>https://www.wired.com/story/livestream-ai-copyright-battles/</link>
-      <description>Curious about generative AI and copyright? On July 16, our writers answered your questions about this critical topic.</description>
-      <pubDate>Wed, 16 Jul 2025 18:32:11 GMT</pubDate>
-      <guid>https://www.wired.com/story/livestream-ai-copyright-battles/</guid>
-    </item>
-    <item>
-      <title>Trump and the Energy Industry Are Eager to Power AI With Fossil Fuels</title>
-      <link>https://www.wired.com/story/trump-energy-industry-ai-fossil-fuels-pittsburgh-summit/</link>
+      <title>A New Era for WIRED—That Starts With You</title>
+      <link>https://www.wired.com/story/a-new-era-for-wired-that-starts-with-you/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Wed, 16 Jul 2025 16:16:45 GMT</pubDate>
-      <guid>https://www.wired.com/story/trump-energy-industry-ai-fossil-fuels-pittsburgh-summit/</guid>
+      <pubDate>Wed, 23 Jul 2025 11:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/a-new-era-for-wired-that-starts-with-you/</guid>
     </item>
     <item>
-      <title>Former Top Google Researchers Have Made a New Kind of AI Agent</title>
-      <link>https://www.wired.com/story/former-top-google-researchers-have-made-a-new-kind-of-ai-agent/</link>
-      <description>The mission? Teaching models to better understand how to build code will lead to superintelligent AI.</description>
-      <pubDate>Wed, 16 Jul 2025 13:02:47 GMT</pubDate>
-      <guid>https://www.wired.com/story/former-top-google-researchers-have-made-a-new-kind-of-ai-agent/</guid>
+      <title>Sam Altman: AI will cause job losses and national security threats</title>
+      <link>https://www.artificialintelligence-news.com/news/sam-altman-ai-cause-job-losses-national-security-threats/</link>
+      <description>In the halls of power in Washington, OpenAI’s chief, Sam Altman, warned of total job losses from AI and how national security is being rewritten. Altman positions OpenAI as not just a participant, but as the essential architect of our destiny. Holding court at the Federal Reserve’s conference for large banks, Altman clearly stated how […]
+The post Sam Altman: AI will cause job losses and national security threats appeared first on AI News.</description>
+      <pubDate>Wed, 23 Jul 2025 10:57:29 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/sam-altman-ai-cause-job-losses-national-security-threats/</guid>
     </item>
     <item>
-      <title>Another High-Profile OpenAI Researcher Departs for Meta</title>
-      <link>https://www.wired.com/story/jason-wei-open-ai-meta/</link>
+      <title>OpenAI Seeks Additional Capital From Investors as Part of Its $40 Billion Round</title>
+      <link>https://www.wired.com/story/openai-fundraising-round-softbank-sam-altman/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Wed, 16 Jul 2025 02:56:15 GMT</pubDate>
-      <guid>https://www.wired.com/story/jason-wei-open-ai-meta/</guid>
+      <pubDate>Tue, 22 Jul 2025 18:23:30 GMT</pubDate>
+      <guid>https://www.wired.com/story/openai-fundraising-round-softbank-sam-altman/</guid>
     </item>
     <item>
-      <title>I Tried Grok’s Built-In Anime Companion and It Called Me a Twat</title>
-      <link>https://www.wired.com/story/elon-musk-xai-ai-companion-ani/</link>
+      <title>Google’s newest Gemini 2.5 model aims for ‘intelligence per dollar’</title>
+      <link>https://www.artificialintelligence-news.com/news/googles-newest-gemini-2-5-model-aims-intelligence-per-dollar/</link>
+      <description>Google just dropped the stable version of Gemini 2.5 Flash-Lite and they’ve essentially created a model that’s designed to be the workhorse for developers who need to build things at scale without breaking the bank.Building cool things with AI can often feel like a frustrating balancing act. You want a model that’s smart and powerful, but you also don’t want to remortgage your house to pay for the API calls. And if your app needs to be fast for users, a slow, churning model is a non-starter.Google says Gemini 2.5 Flash-Lite is quicker than their previous speedy models, which is a big claim. For anyone building a real-time translator, a customer service chatbot, or anything where a lag would feel awkward, this is huge.And then there’s the price. At $0.10 to process a million words of input and $0.40 for the output, it’s ridiculously cheap. This is the kind of pricing that changes how you think about development. You can finally stop worrying about every single API call and just let your application do its thing. It opens the door for small teams and solo developers to build things that were previously only viable for big companies.Now, you might be thinking, “Okay, it’s cheap and fast, so it must be a bit dim-witted, right?” Apparently not. Google insists the Gemini 2.5 Flash-Lite model is smarter than its predecessors across the board: reasoning, coding, and even understanding images and audio.Of course, it still has that massive one million token context window—that means you can throw huge documents, codebases, or long transcripts at it and it won’t break a sweat.And this isn’t just marketing fluff, companies are already building things with it.Space tech company Satlyt is using it on satellites to diagnose problems in orbit, cutting down on delays and saving power. Another one, HeyGen, is using it to translate videos into over 180 languages.A personal favourite example is DocsHound. They use it to watch product demo videos and automatically create technical documentation from them. Imagine how much time that saves! It shows that Flash-Lite is more than capable of handling complex, real-world tasks.If you want to try out the Gemini 2.5 Flash-Lite model, you can start using it now in Google AI Studio or Vertex AI. All you have to do is specify “gemini-2.5-...</description>
+      <pubDate>Tue, 22 Jul 2025 17:02:58 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/googles-newest-gemini-2-5-model-aims-intelligence-per-dollar/</guid>
+    </item>
+    <item>
+      <title>OpenAI and Oracle announce Stargate AI data centre deal</title>
+      <link>https://www.artificialintelligence-news.com/news/openai-and-oracle-announce-stargate-ai-data-centre-deal/</link>
+      <description>OpenAI has shaken hands with Oracle on a colossal deal to advance the former’s colossal Stargate AI data centre initiative.It’s one thing to talk about the AI revolution in abstract terms, but it’s another thing entirely to grasp the sheer physical scale of what’s being built to make it happen. The foundations of our AI future are being laid in concrete, steel, and miles of fibre-optic cable, and those foundations are getting colossally bigger.Together, OpenAI and Oracle are going to build new data centres in the US packed with enough hardware to consume 4.5 gigawatts of power. It’s hard to overstate what a staggering amount of energy that is—it’s the kind of power that could light up a major city. And all of it will be dedicated to one thing: powering the next generation of AI.This isn’t just a random expansion; it’s a huge piece of OpenAI’s grand Stargate plan. The goal is simple: to build enough computing power to bring advanced AI to everyone.When you add this new project to the work already underway in Abilene, Texas, OpenAI is now developing over 5 gigawatts of data centre capacity. That’s enough space to run more than two million of the most powerful computer chips available.This move shows they are dead serious about a pledge they made at the White House earlier this year to plough half a trillion dollars into US AI infrastructure. In fact, with the momentum they’re getting from partners like Oracle and Japan’s SoftBank, they now expect to blow past that initial goal.But this story isn’t just about silicon chips and corporate deals; it’s about people. OpenAI believes that building and running these new Stargate AI data centres will create over 100,000 jobs.That job creation presents real opportunities for families across the country from construction crews pouring the concrete, to specialised electricians wiring up racks of servers, and the full-time technicians who will keep these digital brains running day and night.In Abilene, the first phase of OpenAI’s development of Stargate data centres is already humming with activity. The first truckloads of Nvidia’s brand-new GB200 chips have arrived, and OpenAI’s researchers are already using them to see what their next AI models are capable of.Of course, a project this huge is never a two-player game. Wh...</description>
+      <pubDate>Tue, 22 Jul 2025 13:08:26 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/openai-and-oracle-announce-stargate-ai-data-centre-deal/</guid>
+    </item>
+    <item>
+      <title>X Data Center Fire in Oregon Started Inside Power Cabinet, Authorities Say</title>
+      <link>https://www.wired.com/story/x-data-center-fire-in-oregon-started-inside-power-cabinet-authorities-say/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Tue, 15 Jul 2025 23:05:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/elon-musk-xai-ai-companion-ani/</guid>
+      <pubDate>Tue, 22 Jul 2025 11:01:20 GMT</pubDate>
+      <guid>https://www.wired.com/story/x-data-center-fire-in-oregon-started-inside-power-cabinet-authorities-say/</guid>
     </item>
     <item>
-      <title>Thinking Machines Lab Raises a Record $2 Billion, Announces Cofounders</title>
-      <link>https://www.wired.com/story/thinking-machines-lab-mira-murati-funding/</link>
+      <title>OpenAI’s ChatGPT Agent Is Haunting My Browser</title>
+      <link>https://www.wired.com/story/browser-haunted-by-ai-agents/</link>
+      <description>New tools from OpenAI and Perplexity can browse the web for you. If the idea takes off, these generative AI agents could turn the internet into a ghost town where only bots roam.</description>
+      <pubDate>Tue, 22 Jul 2025 10:30:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/browser-haunted-by-ai-agents/</guid>
+    </item>
+    <item>
+      <title>Leaked Memo: Anthropic CEO Says the Company Will Pursue Gulf State Investments After All</title>
+      <link>https://www.wired.com/story/anthropic-dario-amodei-gulf-state-leaked-memo/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Tue, 15 Jul 2025 22:02:19 GMT</pubDate>
-      <guid>https://www.wired.com/story/thinking-machines-lab-mira-murati-funding/</guid>
+      <pubDate>Tue, 22 Jul 2025 00:46:32 GMT</pubDate>
+      <guid>https://www.wired.com/story/anthropic-dario-amodei-gulf-state-leaked-memo/</guid>
     </item>
     <item>
-      <title>Military AI contracts awarded to Anthropic, OpenAI, Google, and xAI</title>
-      <link>https://www.artificialintelligence-news.com/news/military-ai-contracts-awarded-to-anthropic-openai-google-and-xai/</link>
-      <description>The Pentagon has opened the military AI floodgates and handed out contracts worth up to $800 million to four of the biggest names: Google, OpenAI, Anthropic, and Elon Musk’s xAI. Each company gets a shot at $200 million worth of work.Dr Doug Matty, Chief Digital and AI Officer, said: “The adoption of AI is transforming the Department’s ability to support our warfighters and maintain strategic advantage over our adversaries.“Leveraging commercially available solutions into an integrated capabilities approach will accelerate the use of advanced AI as part of our joint mission essential tasks in our warfighting domain as well as intelligence, business, and enterprise information systems.” The Pentagon is playing it smart by not putting all their eggs in one basket. Instead of picking a single winner, they’re creating competition among the top players in the hope of ensuring the best AI solutions available for the military and broader government.Just as this announcement dropped, Musk’s xAI rolled out ‘Grok For Government,’ a special version of their AI designed specifically for use by public agencies. This follows similar government initiatives from OpenAI and Anthropic.The new government suite from xAI promises everything from their latest Grok 4 model to ‘Deep Search’ and ‘Tool Use.’ They’re even planning to get security clearances for their engineers and make their AI work in classified environments.The company is clearly trying to position itself as the patriotic choice, talking about “maintaining American leadership in technological innovation” and “turning shovels into tokens”—whatever that means.However, remember when Grok went completely off the rails and started talking about “Mechahitler”? That’s exactly the kind of thing that makes people nervous about using AI for serious government work and even military purposes.When you’re dealing with national security, you can’t have your AI assistant suddenly spouting bizarre alternate histories or making stuff up. The stakes are just too high. It’s like hiring someone to help with important decisions, but sometimes they just start talking nonsense.This whole deal shows just how seriously the government is taking AI—they see it as essential for staying competitive. The partnership with the General Services Ad...</description>
-      <pubDate>Tue, 15 Jul 2025 15:24:13 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/military-ai-contracts-awarded-to-anthropic-openai-google-and-xai/</guid>
+      <title>OpenAI&#x27;s New CEO of Applications Strikes Hyper-Optimistic Tone in First Memo to Staff</title>
+      <link>https://www.wired.com/story/openai-fidji-simo-note-employees/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Mon, 21 Jul 2025 17:05:42 GMT</pubDate>
+      <guid>https://www.wired.com/story/openai-fidji-simo-note-employees/</guid>
     </item>
     <item>
-      <title>How to use AI to start an online business</title>
-      <link>https://www.artificialintelligence-news.com/news/how-to-use-ai-to-start-an-online-business/</link>
-      <description>Nearly every online business now touches artificial intelligence at some point. Research from 2025 shows 78% of companies worldwide use AI for at least one business area. Smaller businesses report higher usage, with 89% saying they use AI each day. Over 280 million businesses worldwide now run at least one AI tool, and many use them for three different functions on average. In the United States, private investment in artificial intelligence reached $109.1 billion for 2025.AI platforms can manage many repetitive or time-consuming parts of building and running a business. Here is how new founders use them:Automating tasks such as billing, emails, and order fulfillmentGenerating product descriptions, marketing content, and blogsProviding support through chatbots and helpdesk systemsHandling customer and sales data, so owners see where to improveTuning online store content for better search engine ranking</description>
-      <pubDate>Tue, 15 Jul 2025 14:13:56 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/how-to-use-ai-to-start-an-online-business/</guid>
+      <title>Why Apple is playing it slow with AI</title>
+      <link>https://www.artificialintelligence-news.com/news/why-apple-is-playing-it-slow-with-ai/</link>
+      <description>Apple is taking its time with AI. While most tech companies are racing to push out AI features as fast as they can, Apple is doing the opposite. Its big announcement – Apple Intelligence – won’t arrive for most users until 2026. That’s a long delay in a market where speed seems to matter more than quality. But maybe that’s the whole point.At this year’s WWDC, Apple showed off new AI features tied to Siri, writing tools, and app suggestions. It called the bundle “Apple Intelligence,” but those tools won’t be widely available any time soon. For now, they’re limited to beta users on select devices in the US. The rest of the world will have to wait. According to Macworld, even early access to Apple Intelligence is expected to be restricted, and many users may not see the features until iOS 18.4 (at the earliest) in 2025. A wider release could slip into 2026.Not falling behind – just not rushing inTo some, the delay looks like Apple falling behind. OpenAI has already rolled out GPT-4o, Google is squeezing Gemini into Android, and Microsoft has pushed Copilot into Office, Windows, and pretty much everything else. Compared to that, Apple seems slow.Apple tends not to ship bad software. It delays when things aren’t working. The company has a long history of waiting until something is polished before pushing it out. That kind of caution can be frustrating, but it also avoids something worse: giving people tools that don’t work properly.Meanwhile, competitors ship bugsPlenty of companies don’t seem to care about quality. Microsoft’s Copilot, for example, often gives wrong answers, makes up citations, or produces junk text. ChatGPT has its own set of problems, from hallucinating facts to giving inconsistent results. Even tools like Claude or Gemini, which show promise in short bursts, tend to fall short on long-term tasks or anything that needs precision.Ask developers what it’s like using AI to write production code, and you’ll often hear the same message: it works fine for code snippets or boilerplate, but it’s more work than help when it comes to complex projects. Fixing AI-written code often takes longer than writing it from scratch.Apple’s delay might be the smarter playAn opinion piece from TechRadar captured the consumer viewpoint. The author said they were gla...</description>
+      <pubDate>Mon, 21 Jul 2025 07:54:57 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/why-apple-is-playing-it-slow-with-ai/</guid>
     </item>
     <item>
-      <title>Best four sales PoC tools in 2025</title>
-      <link>https://www.artificialintelligence-news.com/news/best-four-sales-poc-tools-in-2025/</link>
-      <description>The modern sales landscape is evolving rapidly. Complex buying cycles, high customer expectations, and sophisticated products have made traditional “pitch and close” tactics obsolete. Today, sales professionals must demonstrate tangible value to prospects before closing a deal. This is where proof of concept (PoC) tools take centre stage.A sales PoC is an important bridge between “promise” and “proof.” It allows potential customers to evaluate solutions directly, ensuring they see the value in real-world scenarios. By using advanced PoC tools, sales teams can create immersive experiences, build trust, and accelerate conversion rates.</description>
-      <pubDate>Tue, 15 Jul 2025 09:06:32 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/best-four-sales-poc-tools-in-2025/</guid>
-    </item>
-    <item>
-      <title>FDA’s draft guidance on AI/ML has startups on high alert</title>
-      <link>https://www.artificialintelligence-news.com/news/fdas-draft-guidance-on-ai-ml-has-startups-on-high-alert/</link>
-      <description>Author, Eric Elsen, Forte Group.On January 7, 2025, the US Food and Drug Administration (FDA) released draft guidance titled “Artificial Intelligence and Machine Learning in Software as a Medical Device”. The document outlines expectations for pre-market applications and lifecycle management of AI-enabled medical software. While the document may have flown under many readers’ radar, the implications for AI-driven diagnostics and early-stage medtech startups are substantial and urgent.</description>
-      <pubDate>Mon, 14 Jul 2025 11:01:44 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/fdas-draft-guidance-on-ai-ml-has-startups-on-high-alert/</guid>
+      <title>Tech giants split on EU AI code as compliance deadline looms</title>
+      <link>https://www.artificialintelligence-news.com/news/eu-ai-code-tech-giants-microsoft-meta-split-compliance/</link>
+      <description>The implementation of the EU’s AI General-Purpose Code of Practice has exposed deep divisions among major technology companies. Microsoft has signalled its intention to sign the European Union’s voluntary AI compliance framework while Meta flatly refuses participation, calling the guidelines regulatory overreach that will stifle innovation. Microsoft President Brad Smith told Reuters on Friday, “I […]
+The post Tech giants split on EU AI code as compliance deadline looms appeared first on AI News.</description>
+      <pubDate>Mon, 21 Jul 2025 07:44:52 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/eu-ai-code-tech-giants-microsoft-meta-split-compliance/</guid>
     </item>
   </channel>
 </rss>
