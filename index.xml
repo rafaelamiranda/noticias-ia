@@ -7,137 +7,147 @@
 Principais notícias relacionadas a inteligência artificial
 dos últimos 7 dias, em Inglês.
     </description>
-    <lastBuildDate>Sat, 26 Jul 2025 09:04:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 Aug 2025 09:05:38 GMT</lastBuildDate>
     <item>
-      <title>Trump’s Anti-Bias AI Order Is Just More Bias</title>
-      <link>https://www.wired.com/story/trump-ai-order-bias-openai-google/</link>
-      <description>The Trump administration says it wants AI models free from ideological bias, as it pressures their developers to reflect the president’s worldview.</description>
-      <pubDate>Fri, 25 Jul 2025 15:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/trump-ai-order-bias-openai-google/</guid>
-    </item>
-    <item>
-      <title>Anthropic deploys AI agents to audit models for safety</title>
-      <link>https://www.artificialintelligence-news.com/news/anthropic-deploys-ai-agents-audit-models-for-safety/</link>
-      <description>Anthropic has built an army of autonomous AI agents with a singular mission: to audit powerful models like Claude to improve safety. As these complex systems rapidly advance, the job of making sure they are safe and don’t harbour hidden dangers has become a herculean task. Anthropic believes it has found a solution, and it’s […]
-The post Anthropic deploys AI agents to audit models for safety appeared first on AI News.</description>
-      <pubDate>Fri, 25 Jul 2025 13:40:34 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/anthropic-deploys-ai-agents-audit-models-for-safety/</guid>
-    </item>
-    <item>
-      <title>Alibaba’s new Qwen reasoning AI model sets open-source records</title>
-      <link>https://www.artificialintelligence-news.com/news/alibaba-new-qwen-reasoning-ai-model-open-source-records/</link>
-      <description>The Qwen team from Alibaba have just released a new version of their open-source reasoning AI model with some impressive benchmarks. Meet Qwen3-235B-A22B-Thinking-2507. Over the past three months, the Qwen team has been hard at work scaling up what they call the “thinking capability” of their AI, aiming to improve both the quality and depth […]
-The post Alibaba’s new Qwen reasoning AI model sets open-source records appeared first on AI News.</description>
-      <pubDate>Fri, 25 Jul 2025 12:43:07 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/alibaba-new-qwen-reasoning-ai-model-open-source-records/</guid>
-    </item>
-    <item>
-      <title>Cursor’s New Bugbot Is Designed to Save Vibe Coders From Themselves</title>
-      <link>https://www.wired.com/story/cursor-releases-new-ai-tool-for-debugging-code/</link>
+      <title>Anthropic Revokes OpenAI&#x27;s Access to Claude</title>
+      <link>https://www.wired.com/story/anthropic-revokes-openais-access-to-claude/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 24 Jul 2025 15:00:10 GMT</pubDate>
-      <guid>https://www.wired.com/story/cursor-releases-new-ai-tool-for-debugging-code/</guid>
+      <pubDate>Fri, 01 Aug 2025 21:41:53 GMT</pubDate>
+      <guid>https://www.wired.com/story/anthropic-revokes-openais-access-to-claude/</guid>
     </item>
     <item>
-      <title>Trump Says He’s ‘Getting Rid of Woke’ and Dismisses Copyright Concerns in AI Policy Speech</title>
-      <link>https://www.wired.com/story/president-trump-ai-action-plan-speech/</link>
+      <title>WIRED Roundup: ChatGPT Goes Full Demon Mode</title>
+      <link>https://www.wired.com/story/uncanny-valley-podcast-chatgpt-goes-full-demon-mode/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Wed, 23 Jul 2025 22:11:07 GMT</pubDate>
-      <guid>https://www.wired.com/story/president-trump-ai-action-plan-speech/</guid>
+      <pubDate>Fri, 01 Aug 2025 17:02:05 GMT</pubDate>
+      <guid>https://www.wired.com/story/uncanny-valley-podcast-chatgpt-goes-full-demon-mode/</guid>
     </item>
     <item>
-      <title>AI Action Plan: US leadership must be ‘unchallenged’</title>
-      <link>https://www.artificialintelligence-news.com/news/ai-action-plan-us-leadership-must-be-unchallenged/</link>
-      <description>The White House has released its ‘AI Action Plan’, which frames the coming decade as a technological race the US cannot afford to lose. Laced with the urgent rhetoric of a new cold war, the action plan argues that securing victory in AI is nothing short of a national imperative. Trump’s foreword sets the tone, […]
-The post AI Action Plan: US leadership must be ‘unchallenged’ appeared first on AI News.</description>
-      <pubDate>Wed, 23 Jul 2025 16:20:24 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/ai-action-plan-us-leadership-must-be-unchallenged/</guid>
+      <title>Inside Jeffrey Epstein’s Forgotten AI Summit</title>
+      <link>https://www.wired.com/story/epstein-files-science-tech-funding/</link>
+      <description>Long before ChatGPT, a group of AI luminaries gathered on an island to discuss the future of artificial intelligence. Their funder ultimately cast a shadow on all who attended.</description>
+      <pubDate>Fri, 01 Aug 2025 15:30:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/epstein-files-science-tech-funding/</guid>
     </item>
     <item>
-      <title>Trump’s AI Action Plan Is a Crusade Against ‘Bias’—and Regulation</title>
-      <link>https://www.wired.com/story/trumps-ai-action-plan-crusade-against-bias-regulation/</link>
+      <title>Deep Cogito v2: Open-source AI that hones its reasoning skills</title>
+      <link>https://www.artificialintelligence-news.com/news/deep-cogito-v2-open-source-ai-hones-its-reasoning-skills/</link>
+      <description>Deep Cogito has released Cogito v2, a new family of open-source AI models that sharpen their own reasoning skills. Released under an open-source licence, the new Cogito v2 lineup includes four hybrid reasoning AI models: two mid-sized at 70B and 109B parameters, and two large-scale versions at 405B and 671B.  The largest, a 671B Mixture-of-Experts […]
+The post Deep Cogito v2: Open-source AI that hones its reasoning skills appeared first on AI News.</description>
+      <pubDate>Fri, 01 Aug 2025 14:11:47 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/deep-cogito-v2-open-source-ai-hones-its-reasoning-skills/</guid>
+    </item>
+    <item>
+      <title>Leak suggests OpenAI’s open-source AI model release is imminent</title>
+      <link>https://www.artificialintelligence-news.com/news/leak-openai-open-source-ai-model-release-imminent/</link>
+      <description>A leak suggests that OpenAI is about to launch a powerful new open-source AI model, potentially within hours.The evidence comes from a trail of digital breadcrumbs, eagerly pored over by developers. At the centre of it all are screenshots showing a series of model repositories with names like yofo-deepcurrent/gpt-oss-120b and yofo-wildflower/gpt-oss-20b. The repos have since been deleted, but the accounts feature OpenAI team members.That gpt-oss tag is the real smoking gun, seemingly a clear signpost for ‘GPT Open Source Software’. For a company that has increasingly guarded its top-tier models, this would be somewhat of a return to its roots. The fact that we are seeing multiple versions, with different codenames and sizes, suggests a well-planned family of models are about to make their debut.Thanks to a leaked configuration file, we can even peek under the bonnet of the suspected 120 billion parameter version.The model appears to be built on a Mixture of Experts, or MoE, architecture. Think of it less like a single, monolithic brain trying to know everything, and more like a board of 128 specialist advisors. When a query comes in, the system intelligently selects the four best experts for the job. This gives the model the vast knowledge of its huge parameter count, but the speed and agility of a much smaller system, as only a fraction of it is working at any one time.This design puts OpenAI’s open-source AI model squarely in competition with the darlings of the scene, like Mistral AI’s Mixtral and Meta’s Llama family.And the specs don’t stop there. OpenAI’s open-source AI model appears to boast a huge vocabulary, which should make it more efficient with a wider range of languages, and uses Sliding Window Attention to handle long streams of text without breaking a sweat. In practice, this all points to a model that is both powerful and practical to run.So, why would OpenAI make such a move now? For years, the company has faced gentle jabs and outright criticism for straying from its more open beginnings. Launching a powerful gpt-oss would be a massive charm offensive aimed directly at the developers and researchers who felt left behind.Of course, it’s also a shrewd competitive play. Meta and Mistral have shown how a thriving open-source ecosystem can driv...</description>
+      <pubDate>Fri, 01 Aug 2025 12:03:44 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/leak-openai-open-source-ai-model-release-imminent/</guid>
+    </item>
+    <item>
+      <title>Confessions of a Recovering AI Porn Addict</title>
+      <link>https://www.wired.com/story/confessions-of-a-recovering-ai-porn-addict/</link>
+      <description>A “gooner” tells WIRED he became hooked on the cartoonish nature of AI porn. Several addiction experts say the genre could pose a problem for people prone to compulsive sexual behavior.</description>
+      <pubDate>Fri, 01 Aug 2025 11:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/confessions-of-a-recovering-ai-porn-addict/</guid>
+    </item>
+    <item>
+      <title>Shah Muhammad, Sweco: How AI is building the future of our cities</title>
+      <link>https://www.artificialintelligence-news.com/news/shah-muhammad-sweco-how-ai-is-building-future-of-our-cities/</link>
+      <description>Shah Muhammad, who leads AI Innovation at the design and engineering firm Sweco, offers his insights into how AI is building the cities of the future.Ever been stuck in traffic and thought, “Surely, there’s a better way to design this city?” Or walked past a giant new building and wondered if it would be an energy-guzzling monster?For decades, building our towns and cities has been a slow, complicated process, often relying on educated guesswork. But what if we could give city planners superpowers? What if they could test-drive a dozen different futures before a single shovel hits the ground?That’s exactly what’s starting to happen. And the secret ingredient is AI.“AI is revolutionising urban design and infrastructure planning at Sweco by optimising processes, enhancing decision-making, and improving sustainability outcomes,” Shah explains. “It allows us to analyse vast amounts of data, simulate various scenarios, and create more efficient and resilient urban environments.”Shah is saying that AI gives his team the ability to ask the big questions that will impact people’s lives when designing the cities of the future: “What’s the smartest way to build this neighbourhood to cut down on traffic jams and pollution? How can we design a building that stays cool in a heatwave without huge electricity bills?” The AI can run the numbers on thousands of possibilities to find the best path forward.Of course, the real world is messy. It’s not a neat and tidy computer simulation. It’s full of unpredictable weather, unexpected delays, and the beautiful chaos of human life. This is the number one headache.“The biggest challenge in applying data-driven models to physical environments is the complexity and variability of real-world conditions,” Shah says. “Ensuring that models accurately represent these conditions and can adapt to changing conditions is crucial.”So, how do they deal with that? They start with the basics. They get their house in order. Before they even think about AI, they make sure the information it learns from is rock-solid and trustworthy.“To ensure data quality and interoperability across projects, we implement rigorous data governance practices, standardise data formats, and use interoperable software tools,” he says.That might sound a bit technical, ...</description>
+      <pubDate>Thu, 31 Jul 2025 16:44:13 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/shah-muhammad-sweco-how-ai-is-building-future-of-our-cities/</guid>
+    </item>
+    <item>
+      <title>Inside the Summit Where China Pitched Its AI Agenda to the World</title>
+      <link>https://www.wired.com/story/china-artificial-intelligence-policy-laws-race/</link>
+      <description>Behind closed doors, Chinese researchers are laying the groundwork for a new global AI agenda—without input from the US.</description>
+      <pubDate>Thu, 31 Jul 2025 15:04:47 GMT</pubDate>
+      <guid>https://www.wired.com/story/china-artificial-intelligence-policy-laws-race/</guid>
+    </item>
+    <item>
+      <title>Join Us for WIRED’s AI Power Summit</title>
+      <link>https://www.wired.com/story/wired-ai-power-summit/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Wed, 23 Jul 2025 14:52:43 GMT</pubDate>
-      <guid>https://www.wired.com/story/trumps-ai-action-plan-crusade-against-bias-regulation/</guid>
+      <pubDate>Thu, 31 Jul 2025 13:16:34 GMT</pubDate>
+      <guid>https://www.wired.com/story/wired-ai-power-summit/</guid>
     </item>
     <item>
-      <title>A New Era for WIRED—That Starts With You</title>
-      <link>https://www.wired.com/story/a-new-era-for-wired-that-starts-with-you/</link>
+      <title>24/7 compliance monitoring: The AI advantage in data protection</title>
+      <link>https://www.artificialintelligence-news.com/news/24-7-compliance-monitoring-the-ai-advantage-in-data-protection/</link>
+      <description>Data protection compliance has evolved from a periodic checklist exercise to a continuous responsibility. With cyber threats emerging and regulatory requirements becoming increasingly stringent, organisations can’t afford to rely on manual compliance monitoring approaches. The advent of artificial intelligence has transformed the challenge, offering capabilities for continuous oversight and real-time protection of sensitive data.</description>
+      <pubDate>Thu, 31 Jul 2025 12:16:03 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/24-7-compliance-monitoring-the-ai-advantage-in-data-protection/</guid>
+    </item>
+    <item>
+      <title>Mark Zuckerberg Details Meta’s Plan for Self-Improving, Superintelligent AI</title>
+      <link>https://www.wired.com/story/meta-earnings-superintelligence-q2-2025/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Wed, 23 Jul 2025 11:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/a-new-era-for-wired-that-starts-with-you/</guid>
+      <pubDate>Wed, 30 Jul 2025 23:41:40 GMT</pubDate>
+      <guid>https://www.wired.com/story/meta-earnings-superintelligence-q2-2025/</guid>
     </item>
     <item>
-      <title>Sam Altman: AI will cause job losses and national security threats</title>
-      <link>https://www.artificialintelligence-news.com/news/sam-altman-ai-cause-job-losses-national-security-threats/</link>
-      <description>In the halls of power in Washington, OpenAI’s chief, Sam Altman, warned of total job losses from AI and how national security is being rewritten. Altman positions OpenAI as not just a participant, but as the essential architect of our destiny. Holding court at the Federal Reserve’s conference for large banks, Altman clearly stated how […]
-The post Sam Altman: AI will cause job losses and national security threats appeared first on AI News.</description>
-      <pubDate>Wed, 23 Jul 2025 10:57:29 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/sam-altman-ai-cause-job-losses-national-security-threats/</guid>
+      <title>Google’s Newest AI Model Acts Like a Satellite to Track Climate Change</title>
+      <link>https://www.wired.com/story/googles-newest-ai-model-acts-like-a-satellite-to-track-climate-change/</link>
+      <description>AlphaEarth Foundations is a chip off the Google DeepMind block—and it’s here to help save the world.</description>
+      <pubDate>Wed, 30 Jul 2025 18:57:44 GMT</pubDate>
+      <guid>https://www.wired.com/story/googles-newest-ai-model-acts-like-a-satellite-to-track-climate-change/</guid>
     </item>
     <item>
-      <title>OpenAI Seeks Additional Capital From Investors as Part of Its $40 Billion Round</title>
-      <link>https://www.wired.com/story/openai-fundraising-round-softbank-sam-altman/</link>
-      <description>Save StorySave this story</description>
-      <pubDate>Tue, 22 Jul 2025 18:23:30 GMT</pubDate>
-      <guid>https://www.wired.com/story/openai-fundraising-round-softbank-sam-altman/</guid>
+      <title>I Watched AI Agents Try to Hack My Vibe-Coded Website</title>
+      <link>https://www.wired.com/story/i-watched-ai-agents-try-to-hack-my-vibe-coded-websit/</link>
+      <description>RunSybil, a startup founded by OpenAI’s first security researcher, deploys agents that probe websites for vulnerabilities—part of a new AI era for cybersecurity.</description>
+      <pubDate>Wed, 30 Jul 2025 18:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/i-watched-ai-agents-try-to-hack-my-vibe-coded-websit/</guid>
     </item>
     <item>
-      <title>Google’s newest Gemini 2.5 model aims for ‘intelligence per dollar’</title>
-      <link>https://www.artificialintelligence-news.com/news/googles-newest-gemini-2-5-model-aims-intelligence-per-dollar/</link>
-      <description>Google just dropped the stable version of Gemini 2.5 Flash-Lite and they’ve essentially created a model that’s designed to be the workhorse for developers who need to build things at scale without breaking the bank.Building cool things with AI can often feel like a frustrating balancing act. You want a model that’s smart and powerful, but you also don’t want to remortgage your house to pay for the API calls. And if your app needs to be fast for users, a slow, churning model is a non-starter.Google says Gemini 2.5 Flash-Lite is quicker than their previous speedy models, which is a big claim. For anyone building a real-time translator, a customer service chatbot, or anything where a lag would feel awkward, this is huge.And then there’s the price. At $0.10 to process a million words of input and $0.40 for the output, it’s ridiculously cheap. This is the kind of pricing that changes how you think about development. You can finally stop worrying about every single API call and just let your application do its thing. It opens the door for small teams and solo developers to build things that were previously only viable for big companies.Now, you might be thinking, “Okay, it’s cheap and fast, so it must be a bit dim-witted, right?” Apparently not. Google insists the Gemini 2.5 Flash-Lite model is smarter than its predecessors across the board: reasoning, coding, and even understanding images and audio.Of course, it still has that massive one million token context window—that means you can throw huge documents, codebases, or long transcripts at it and it won’t break a sweat.And this isn’t just marketing fluff, companies are already building things with it.Space tech company Satlyt is using it on satellites to diagnose problems in orbit, cutting down on delays and saving power. Another one, HeyGen, is using it to translate videos into over 180 languages.A personal favourite example is DocsHound. They use it to watch product demo videos and automatically create technical documentation from them. Imagine how much time that saves! It shows that Flash-Lite is more than capable of handling complex, real-world tasks.If you want to try out the Gemini 2.5 Flash-Lite model, you can start using it now in Google AI Studio or Vertex AI. All you have to do is specify “gemini-2.5-...</description>
-      <pubDate>Tue, 22 Jul 2025 17:02:58 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/googles-newest-gemini-2-5-model-aims-intelligence-per-dollar/</guid>
+      <title>Zuckerberg outlines Meta’s AI vision for ‘personal superintelligence’</title>
+      <link>https://www.artificialintelligence-news.com/news/zuckerberg-outlines-meta-ai-vision-personal-superintelligence/</link>
+      <description>Meta CEO Mark Zuckerberg has laid out his blueprint for the future of AI, and it’s about giving you “personal superintelligence”.In a letter, the Meta chief painted a picture of what’s coming next, and he believes it’s closer than we think. He says his teams are already seeing early signs of progress.“Over the last few months we have begun to see glimpses of our AI systems improving themselves,” Zuckerberg wrote. “The improvement is slow for now, but undeniable. Developing superintelligence is now in sight.”So, what does he want to do with it? Forget AI that just automates boring office work, Zuckerberg and Meta’s vision for personal superintelligence is far more intimate. He imagines a future where technology serves our individual growth, not just our productivity.In his words, the real revolution will be “everyone having a personal superintelligence that helps you achieve your goals, create what you want to see in the world, experience any adventure, be a better friend to those you care about, and grow to become the person you aspire to be.”But here’s where it gets interesting. He drew a clear line in the sand, contrasting his vision against a very different, almost dystopian alternative that he believes others are pursuing.“This is distinct from others in the industry who believe superintelligence should be directed centrally towards automating all valuable work, and then humanity will live on a dole of its output,” he stated.Meta, Zuckerberg says, is betting on the individual when it comes to AI superintelligence. The company believes that progress has always come from people chasing their own dreams, not from living off the scraps of a hyper-efficient machine.If he’s right, we’ll spend less time wrestling with software and more time creating and connecting. This personal AI would live in devices like smart glasses, understanding our world because they can “see what we see, hear what we hear.”Of course, he knows this is powerful, even dangerous, stuff. Zuckerberg admits that superintelligence will bring new safety concerns and that Meta will have to be careful about what they release to the world. Still, he argues that the goal must be to empower people as much as possible.Zuckerberg believes we’re at a crossroads right now. The choices we make in the n...</description>
+      <pubDate>Wed, 30 Jul 2025 14:05:42 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/zuckerberg-outlines-meta-ai-vision-personal-superintelligence/</guid>
     </item>
     <item>
-      <title>OpenAI and Oracle announce Stargate AI data centre deal</title>
-      <link>https://www.artificialintelligence-news.com/news/openai-and-oracle-announce-stargate-ai-data-centre-deal/</link>
-      <description>OpenAI has shaken hands with Oracle on a colossal deal to advance the former’s colossal Stargate AI data centre initiative.It’s one thing to talk about the AI revolution in abstract terms, but it’s another thing entirely to grasp the sheer physical scale of what’s being built to make it happen. The foundations of our AI future are being laid in concrete, steel, and miles of fibre-optic cable, and those foundations are getting colossally bigger.Together, OpenAI and Oracle are going to build new data centres in the US packed with enough hardware to consume 4.5 gigawatts of power. It’s hard to overstate what a staggering amount of energy that is—it’s the kind of power that could light up a major city. And all of it will be dedicated to one thing: powering the next generation of AI.This isn’t just a random expansion; it’s a huge piece of OpenAI’s grand Stargate plan. The goal is simple: to build enough computing power to bring advanced AI to everyone.When you add this new project to the work already underway in Abilene, Texas, OpenAI is now developing over 5 gigawatts of data centre capacity. That’s enough space to run more than two million of the most powerful computer chips available.This move shows they are dead serious about a pledge they made at the White House earlier this year to plough half a trillion dollars into US AI infrastructure. In fact, with the momentum they’re getting from partners like Oracle and Japan’s SoftBank, they now expect to blow past that initial goal.But this story isn’t just about silicon chips and corporate deals; it’s about people. OpenAI believes that building and running these new Stargate AI data centres will create over 100,000 jobs.That job creation presents real opportunities for families across the country from construction crews pouring the concrete, to specialised electricians wiring up racks of servers, and the full-time technicians who will keep these digital brains running day and night.In Abilene, the first phase of OpenAI’s development of Stargate data centres is already humming with activity. The first truckloads of Nvidia’s brand-new GB200 chips have arrived, and OpenAI’s researchers are already using them to see what their next AI models are capable of.Of course, a project this huge is never a two-player game. Wh...</description>
-      <pubDate>Tue, 22 Jul 2025 13:08:26 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/openai-and-oracle-announce-stargate-ai-data-centre-deal/</guid>
+      <title>Alibaba’s AI coding tool raises security concerns in the West</title>
+      <link>https://www.artificialintelligence-news.com/news/alibaba-ai-coding-tool-raises-security-concerns-in-the-west/</link>
+      <description>Alibaba has released a new AI coding model called Qwen3-Coder, built to handle complex software tasks using a large open-source model. The tool is part of Alibaba’s Qwen3 family and is being promoted as the company’s most advanced coding agent to date.The model uses a Mixture of Experts (MoE) approach, activating 35 billion parameters out of a total 480 billion and supporting up to 256,000 tokens of context. That number can reportedly be stretched to 1 million using special extrapolation techniques. The company claims Qwen3-Coder has outperformed other open models in agentic tasks, including versions from Moonshot AI and DeepSeek.But not everyone sees this as good news. Jurgita Lapienyė, Chief Editor at Cybernews, warns that Qwen3-Coder may be more than just a helpful coding assistant—it could pose a real risk to global tech systems if adopted widely by Western developers.A trojan horse in open source clothing?Alibaba’s messaging around Qwen3-Coder has focused on its technical strength, comparing it to top-tier tools from OpenAI and Anthropic. But while benchmark scores and features draw attention, Lapienyė suggests they may also distract from the real issue: security.It’s not that China is catching up in AI—that’s already known. The deeper concern is about the hidden risks of using software generated by AI systems that are difficult to inspect or fully understand.As Lapienyė put it, developers could be “sleepwalking into a future” where core systems are unknowingly built with vulnerable code. Tools like Qwen3-Coder may make life easier, but they could also introduce subtle weaknesses that go unnoticed.This risk isn’t hypothetical. Cybernews researchers recently reviewed AI use across major US firms and found that 327 of the S&amp;P 500 now publicly report using AI tools. In those companies alone, researchers identified nearly 1,000 AI-related vulnerabilities.Adding another AI model—especially one developed under China’s strict national security laws—could add another layer of risk, one that’s harder to control.When code becomes a backdoorToday’s developers lean heavily on AI tools to write code, fix bugs, and shape how applications are built. These systems are fast, helpful, and getting better every day.But what if those same systems were trained to inject fla...</description>
+      <pubDate>Wed, 30 Jul 2025 10:00:00 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/alibaba-ai-coding-tool-raises-security-concerns-in-the-west/</guid>
     </item>
     <item>
-      <title>X Data Center Fire in Oregon Started Inside Power Cabinet, Authorities Say</title>
-      <link>https://www.wired.com/story/x-data-center-fire-in-oregon-started-inside-power-cabinet-authorities-say/</link>
-      <description>Save StorySave this story</description>
-      <pubDate>Tue, 22 Jul 2025 11:01:20 GMT</pubDate>
-      <guid>https://www.wired.com/story/x-data-center-fire-in-oregon-started-inside-power-cabinet-authorities-say/</guid>
+      <title>ChatGPT’s Study Mode Is Here. It Won’t Fix Education’s AI Problems</title>
+      <link>https://www.wired.com/story/chatgpt-study-mode/</link>
+      <description>OpenAI’s new study mode for ChatGPT throws questions back at students, but the learning feature doesn’t address generative AI’s underlying disruption of education.</description>
+      <pubDate>Tue, 29 Jul 2025 17:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/chatgpt-study-mode/</guid>
     </item>
     <item>
-      <title>OpenAI’s ChatGPT Agent Is Haunting My Browser</title>
-      <link>https://www.wired.com/story/browser-haunted-by-ai-agents/</link>
-      <description>New tools from OpenAI and Perplexity can browse the web for you. If the idea takes off, these generative AI agents could turn the internet into a ghost town where only bots roam.</description>
-      <pubDate>Tue, 22 Jul 2025 10:30:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/browser-haunted-by-ai-agents/</guid>
+      <title>Google’s Veo 3 AI video creation tools are now widely available</title>
+      <link>https://www.artificialintelligence-news.com/news/google-veo-3-ai-video-creation-tools-now-widely-available/</link>
+      <description>Google has made its most powerful AI video creator, Veo 3, available for everyone to use on its Vertex AI platform. And for those who need to work quickly, a speedier version called Veo 3 Fast is also ready-to-go for quick creative work.Ever had a brilliant idea for a video but found yourself held back by the cost, time, or technical skills needed to create it? This tool aims to offer a faster way to turn your text ideas into everything from short films to product demos.70 million videos have been created since May, showing a huge global appetite for these AI video creation tools. Businesses are diving in as well, generating over 6 million videos since they got early access in June.The real-world applications for Veo 3So, what does this look like in the real world? From global design platforms to major advertising agencies, companies are already putting Veo 3 to work. Take design platform Canva, they are building Veo directly into their software to make video creation simple for their users.Cameron Adams, Co-Founder and Chief Product Officer at Canva, said: “Enabling anyone to bring their ideas to life – especially their most creative ones – has been core to Canva’s mission ever since we set out to empower the world to design.“By democratising access to a powerful technology like Google’s Veo 3 inside Canva AI, your big ideas can now be brought to life in the highest quality video and sound, all from within your existing Canva subscription. In true Canva fashion, we’ve built this with an intuitive interface and simple editing tools in place, all backed by Canva Shield.”For creative agencies like BarkleyOKRP, the big wins are speed and quality. They claim to have been so impressed with the latest version that they went back and remade videos.Julie Ray Barr, Senior Vice President Client Experience at BarkleyOKRP, commented: “The rapid advancements from Veo 2 to Veo 3 within such a short time frame on this project have been nothing short of remarkable.“Our team undertook the task of re-creating numerous music videos initially produced with Veo 2 once Veo 3 was released, primarily due to the significantly improved synchronization between voice and mouth movements. The continuous daily progress we are witnessing is truly extraordinary.”It’s even changing how glo...</description>
+      <pubDate>Tue, 29 Jul 2025 16:01:39 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/google-veo-3-ai-video-creation-tools-now-widely-available/</guid>
     </item>
     <item>
-      <title>Leaked Memo: Anthropic CEO Says the Company Will Pursue Gulf State Investments After All</title>
-      <link>https://www.wired.com/story/anthropic-dario-amodei-gulf-state-leaked-memo/</link>
-      <description>Save StorySave this story</description>
-      <pubDate>Tue, 22 Jul 2025 00:46:32 GMT</pubDate>
-      <guid>https://www.wired.com/story/anthropic-dario-amodei-gulf-state-leaked-memo/</guid>
+      <title>China doubles chooses AI self-reliance amid intense US competition</title>
+      <link>https://www.artificialintelligence-news.com/news/china-ai-competition-shanghai-subsidy-us-rivalry/</link>
+      <description>The artificial intelligence sector in China has entered a new phase intensifying AI competition with the United States, as Chinese megacities launch massive subsidy programmes. At the same time, domestic firms are hoping to reduce their dependence on US technology. The stakes extend far beyond technological supremacy, with both nations viewing AI dominance as critical to future economic and strategic power.Shanghai’s US$139 million AI investment gambitShanghai has unveiled an ambitious one billion yuan (US$139 million) subsidy programme for its artificial intelligence industry, marking the latest in the technological race as major cities in China engage in fierce AI competition for dominance.The comprehensive package allocates resources in three key areas: 600 million yuan for computing power subsidies, 300 million yuan for third-party AI model discounts, and 100 million yuan to support companies in procuring training datasets.The programme offers subsidy rates ranging from 10% to 100% of contract values for computing facilities, AI models, and datasets, according to documents released by the Shanghai Municipal Commission of Economy and Informatisation. The city plans to offer up to 500 million yuan to new AI research institutions, with funding guaranteed for three to five years.“One of Shanghai’s key advantages in AI development is its strong funding,” said Pan Helin, a member of an expert committee under China’s Ministry of Industry and Information Technology. However, Pan noted that Shanghai’s high operating costs often push AI start-ups toward cheaper alternatives like nearby Hangzhou.Nationwide competition heats upShanghai’s initiative reflects a broader pattern in China, where cities are competing aggressively to establish AI dominance in what has become an intense inter-city competition. Hangzhou has emerged as a particular rival, having announced plans last year to distribute 250 million yuan in computing power subsidies while nurturing its “six little dragons” – a collection of well-known Chinese start-ups, including AI player DeepSeek.The inter-city rivalry extends beyond Shanghai and Hangzhou, with Shenzhen, Chengdu, and Beijing also introducing similar support measures. This situation demonstrates how artificial intelligence has become a strateg...</description>
+      <pubDate>Tue, 29 Jul 2025 10:01:13 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/china-ai-competition-shanghai-subsidy-us-rivalry/</guid>
     </item>
     <item>
-      <title>OpenAI&#x27;s New CEO of Applications Strikes Hyper-Optimistic Tone in First Memo to Staff</title>
-      <link>https://www.wired.com/story/openai-fidji-simo-note-employees/</link>
-      <description>Save StorySave this story</description>
-      <pubDate>Mon, 21 Jul 2025 17:05:42 GMT</pubDate>
-      <guid>https://www.wired.com/story/openai-fidji-simo-note-employees/</guid>
+      <title>Google’s AI overviews and SEO in high-stakes industries</title>
+      <link>https://www.artificialintelligence-news.com/news/googles-ai-overviews-and-seo-in-high-stakes-industries/</link>
+      <description>If you’ve searched anything on Google lately, chances are you’ve seen an AI overview (AIO). Formerly known as SGE, AI overviews are the succinct AI-generated summaries of information that appear right at the top of Google for a majority of search queries.While it can serve as a convenient way to get a question answered quickly without having to sift through so many options of links to click on, it certainly has some issues. There have been plenty of instances of false information being presented.Accuracy and trust are particularly important in high-stakes industries like health, law, and finance. What happens when someone asks Google a medical or legal question and receives a wrong answer?The AIO also poses new challenges for SEO professionals, as it reshapes how users search online and how businesses need to shift their SEO strategy.iLawyer Marketing, a law firm SEO agency, offers perspective on how businesses in high-stakes industries can stay visible and trusted in an AI-driven search landscape.</description>
+      <pubDate>Tue, 29 Jul 2025 08:45:00 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/googles-ai-overviews-and-seo-in-high-stakes-industries/</guid>
     </item>
     <item>
-      <title>Why Apple is playing it slow with AI</title>
-      <link>https://www.artificialintelligence-news.com/news/why-apple-is-playing-it-slow-with-ai/</link>
-      <description>Apple is taking its time with AI. While most tech companies are racing to push out AI features as fast as they can, Apple is doing the opposite. Its big announcement – Apple Intelligence – won’t arrive for most users until 2026. That’s a long delay in a market where speed seems to matter more than quality. But maybe that’s the whole point.At this year’s WWDC, Apple showed off new AI features tied to Siri, writing tools, and app suggestions. It called the bundle “Apple Intelligence,” but those tools won’t be widely available any time soon. For now, they’re limited to beta users on select devices in the US. The rest of the world will have to wait. According to Macworld, even early access to Apple Intelligence is expected to be restricted, and many users may not see the features until iOS 18.4 (at the earliest) in 2025. A wider release could slip into 2026.Not falling behind – just not rushing inTo some, the delay looks like Apple falling behind. OpenAI has already rolled out GPT-4o, Google is squeezing Gemini into Android, and Microsoft has pushed Copilot into Office, Windows, and pretty much everything else. Compared to that, Apple seems slow.Apple tends not to ship bad software. It delays when things aren’t working. The company has a long history of waiting until something is polished before pushing it out. That kind of caution can be frustrating, but it also avoids something worse: giving people tools that don’t work properly.Meanwhile, competitors ship bugsPlenty of companies don’t seem to care about quality. Microsoft’s Copilot, for example, often gives wrong answers, makes up citations, or produces junk text. ChatGPT has its own set of problems, from hallucinating facts to giving inconsistent results. Even tools like Claude or Gemini, which show promise in short bursts, tend to fall short on long-term tasks or anything that needs precision.Ask developers what it’s like using AI to write production code, and you’ll often hear the same message: it works fine for code snippets or boilerplate, but it’s more work than help when it comes to complex projects. Fixing AI-written code often takes longer than writing it from scratch.Apple’s delay might be the smarter playAn opinion piece from TechRadar captured the consumer viewpoint. The author said they were gla...</description>
-      <pubDate>Mon, 21 Jul 2025 07:54:57 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/why-apple-is-playing-it-slow-with-ai/</guid>
-    </item>
-    <item>
-      <title>Tech giants split on EU AI code as compliance deadline looms</title>
-      <link>https://www.artificialintelligence-news.com/news/eu-ai-code-tech-giants-microsoft-meta-split-compliance/</link>
-      <description>The implementation of the EU’s AI General-Purpose Code of Practice has exposed deep divisions among major technology companies. Microsoft has signalled its intention to sign the European Union’s voluntary AI compliance framework while Meta flatly refuses participation, calling the guidelines regulatory overreach that will stifle innovation. Microsoft President Brad Smith told Reuters on Friday, “I […]
-The post Tech giants split on EU AI code as compliance deadline looms appeared first on AI News.</description>
-      <pubDate>Mon, 21 Jul 2025 07:44:52 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/eu-ai-code-tech-giants-microsoft-meta-split-compliance/</guid>
+      <title>Forget the Turing Test, AI’s real challenge is communication</title>
+      <link>https://www.artificialintelligence-news.com/news/forget-turing-test-ai-real-challenge-is-communication/</link>
+      <description>While the development of increasingly powerful AI models grabs headlines, the big challenge is getting intelligent agents to communicate.Right now, we have all these capable systems, but they’re all speaking different languages. It’s a digital Tower of Babel, and it’s holding back the true potential of what AI can achieve.To move forward, we need a common tongue; a universal translator that will allow these different systems to connect and collaborate. Several contenders have stepped up to the plate, each with their own ideas about how to solve this communication puzzle.Anthropic’s Model Context Protocol, or MCP, is one of the big names in the ring. It attempts to create a secure and organised way for AI models to use external tools and data. MCP has become popular because it’s relatively simple and has the backing of a major AI player. However, it’s really designed for a single AI to use different tools, not for a team of AIs to work together.And that’s where other protocols like the Agent Communication Protocol (ACP) and the Agent-to-Agent Protocol (A2A) come in.ACP, an open-source project from IBM, is all about enabling AI agents to communicate as peers. It’s built on familiar web technologies that developers are already comfortable with, which makes it easy to adopt. It’s a flexible and powerful solution that allows for a more decentralised and collaborative approach to AI.Google’s A2A protocol, meanwhile, takes a slightly different tack. It’s designed to work alongside MCP, rather than replace it. A2A is focused on how a team of AIs can work together on complex tasks, passing information and responsibilities back and forth. It uses a system of ‘Agent Cards,’ like digital business cards, to help AIs find and understand each other.The real difference between these protocols is their vision for the future of how AI agents communicate. MCP is for a world where a single, powerful AI is at the centre, using a variety of tools to get things done. ACP and A2A are designed for distributed intelligence, where teams of specialised AIs work together to solve problems.A universal language for AI would open the door to a whole new world of possibilities. Imagine a team of AIs working together to design a new product, with one agent handling the market research, anot...</description>
+      <pubDate>Mon, 28 Jul 2025 16:00:59 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/forget-turing-test-ai-real-challenge-is-communication/</guid>
     </item>
   </channel>
 </rss>
