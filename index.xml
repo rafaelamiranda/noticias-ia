@@ -7,121 +7,133 @@
 Principais notícias relacionadas a inteligência artificial
 dos últimos 7 dias, em Inglês.
     </description>
-    <lastBuildDate>Sat, 09 Aug 2025 09:04:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 Aug 2025 09:04:44 GMT</lastBuildDate>
     <item>
-      <title>Truth Social’s New AI Chatbot Is Donald Trump’s Media Diet Incarnate</title>
-      <link>https://www.wired.com/story/i-fear-truth-search-ai-might-be-biased-but-it-says-it-isnt/</link>
+      <title>Decoding Palantir, the Most Mysterious Company in Silicon Valley</title>
+      <link>https://www.wired.com/story/uncanny-valley-podcast-palantir-most-mysterious-company-silicon-valley/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Fri, 08 Aug 2025 22:20:48 GMT</pubDate>
-      <guid>https://www.wired.com/story/i-fear-truth-search-ai-might-be-biased-but-it-says-it-isnt/</guid>
+      <pubDate>Fri, 15 Aug 2025 18:46:13 GMT</pubDate>
+      <guid>https://www.wired.com/story/uncanny-valley-podcast-palantir-most-mysterious-company-silicon-valley/</guid>
     </item>
     <item>
-      <title>The Vibes-Based Pricing of ‘Pro’ AI Software</title>
-      <link>https://www.wired.com/story/uncanny-valley-podcast-vibes-based-pricing-pro-ai-software/</link>
-      <description>In this episode of Uncanny Valley, we&#x27;re talking about why some chatbot subscriptions are so expensive and how these premium prices were determined on vibes more than anything substantial.</description>
-      <pubDate>Fri, 08 Aug 2025 19:46:11 GMT</pubDate>
-      <guid>https://www.wired.com/story/uncanny-valley-podcast-vibes-based-pricing-pro-ai-software/</guid>
+      <title>Developers Say GPT-5 Is a Mixed Bag</title>
+      <link>https://www.wired.com/story/gpt-5-coding-review-software-engineering/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Fri, 15 Aug 2025 17:47:49 GMT</pubDate>
+      <guid>https://www.wired.com/story/gpt-5-coding-review-software-engineering/</guid>
     </item>
     <item>
-      <title>Join Our Next Livestream: What GPT-5 Means for ChatGPT Users</title>
+      <title>Sam Altman Says ChatGPT Is on Track to Out-Talk Humanity</title>
+      <link>https://www.wired.com/story/sam-altman-says-chatgpt-is-on-track-to-out-talk-humanity/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Fri, 15 Aug 2025 16:17:30 GMT</pubDate>
+      <guid>https://www.wired.com/story/sam-altman-says-chatgpt-is-on-track-to-out-talk-humanity/</guid>
+    </item>
+    <item>
+      <title>‘Cheapfake’ AI Celeb Videos Are Rage-Baiting People on YouTube</title>
+      <link>https://www.wired.com/story/cheapfake-ai-celeb-videos-are-rage-baiting-people-on-youtube/</link>
+      <description>WIRED found over 100 YouTube channels using AI to create lazy fan-fiction-style videos. Despite being obviously fake, there’s a psychological reason people are falling for them.</description>
+      <pubDate>Fri, 15 Aug 2025 11:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/cheapfake-ai-celeb-videos-are-rage-baiting-people-on-youtube/</guid>
+    </item>
+    <item>
+      <title>NVIDIA aims to solve AI’s issues with many languages</title>
+      <link>https://www.artificialintelligence-news.com/news/nvidia-aims-solve-ai-issues-with-many-languages/</link>
+      <description>While AI might feel ubiquitous, it primarily operates in a tiny fraction of the world’s 7,000 languages, leaving a huge portion of the global population behind. NVIDIA aims to fix this glaring blind spot, particularly within Europe.The company has just released a powerful new set of open-source tools aimed at giving developers the power to build high-quality speech AI for 25 different European languages. This includes major languages, but more importantly, it offers a lifeline to those often overlooked by big tech, such as Croatian, Estonian, and Maltese.The goal is to let developers create the kind of voice-powered tools many of us take for granted, from multilingual chatbots that actually understand you to customer service bots and translation services that work in the blink of an eye.The centrepiece of this initiative is Granary, an enormous library of human speech. It contains around a million hours of audio, all curated to help teach AI the nuances of speech recognition and translation.To make use of this speech data, NVIDIA is also providing two new AI models designed for language tasks:Canary-1b-v2, a large model built for high accuracy on complex transcription and translation jobs.Parakeet-tdt-0.6b-v3, which is designed for real-time applications where speed is everything.If you’re keen to dive into the science behind it, the paper on Granary will be presented at the Interspeech conference in the Netherlands this month. For the developers eager to get their hands dirty, the dataset and both models are already available on Hugging Face.The real magic, however, lies in how this data was created. We all know that training AI requires vast amounts of data, but getting it is usually a slow, expensive, and frankly tedious process of human annotation.To get around this, NVIDIA’s speech AI team – working with researchers from Carnegie Mellon University and Fondazione Bruno Kessler – built an automated pipeline. Using their own NeMo toolkit, they were able to take raw, unlabelled audio and whip it into high-quality, structured data that an AI can learn from.This isn’t just a technical achievement; it’s a huge leap for digital inclusivity. It means a developer in Riga or Zagreb can finally build voice-powered AI tools that properly understand their local lang...</description>
+      <pubDate>Fri, 15 Aug 2025 10:11:14 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/nvidia-aims-solve-ai-issues-with-many-languages/</guid>
+    </item>
+    <item>
+      <title>DeepSeek: The Chinese startup challenging Silicon Valley</title>
+      <link>https://www.artificialintelligence-news.com/news/deepseek-the-chinese-startup-challenging-silicon-valley/</link>
+      <description>Market disruption and shockwaves through Silicon Valley marked Chinese startup DeepSeek’s launch, challenging some of the fundamental assumptions of how artificial intelligence companies had operated and scaled.In less than a couple of years, the Beijing-based newcomer has accomplished what many thought impossible: creating AI models that compete with industry giants while spending only a fraction of their competitors’ budgets teaching models and inferring responses.The impact at the time of the public launch was immediate and measurable. According to the South China Morning Post, major tech stocks, including Nvidia, Microsoft, and Meta, experienced significant declines as investors grappled with the implications of DeepSeek’s existence.The startup’s free AI assistant application for iOS and Android, launched on January 10, quickly climbed to the top spot on Apple’s US App Store, displacing OpenAI’s ChatGPT and marking a historic first for a Chinese AI product in the American market.What makes this particularly significant is DeepSeek’s technological approach. The Algorithmic Bridge reports the company has implemented several innovative solutions, including Multi-head Latent Attention (MLA) to reduce memory bottlenecks and Group Relative Policy Optimisation (GRPO) to streamline reinforcement learning.The advances allow DeepSeek to achieve comparable or superior results to US competitors while using significantly fewer resources. The company’s resource efficiency is striking: DeepSeek operates with less than 100,000 H100 GPUs, while Meta will deploy 1.3 million GPUs by late 2025.The efficiency extends beyond hardware. The Algorithmic Bridge suggests that DeepSeek’s approach represents a tenfold improvement in resource utilisation when considering factors like development time and infrastructure costs.However, the rapid rise into Western users’ consciousness wasn’t without challenges. The South China Morning Post reported that DeepSeek’s sudden popularity led to significant infrastructure stress, resulting in server crashes and cybersecurity concerns that forced temporary registration limits. The growing pains highlight the real-world challenges of scaling AI services, regardless of architectural efficiency.The company’s commitment to open-source development ...</description>
+      <pubDate>Fri, 15 Aug 2025 09:33:55 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/deepseek-the-chinese-startup-challenging-silicon-valley/</guid>
+    </item>
+    <item>
+      <title>Human-in-the-loop work drives AI powering Alibaba’s smart glasses</title>
+      <link>https://www.artificialintelligence-news.com/news/human-in-the-loop-work-drives-ai-powering-alibabas-smart-glasses/</link>
+      <description>Alibaba is moving into the smart glasses market with a device powered by its own AI models, part of a wider $52.4 billion furthering of AI and cloud computing. The Quark AI Glasses marks the company’s first step into the wearables category and is due to launch in China by the end of 2025.The glasses will run on Alibaba’s Qwen large language model and its AI assistant, Quark. Quark is already available as an app in China, but this will be the first time the company is pairing it with hardware to reach more users.The Hangzhou-based firm has been one of China’s more active AI developers, rolling out models designed to compete with systems from companies like OpenAI. By moving into smart glasses, it joins a growing group of tech players betting on wearables as the next major computing platform alongside smartphones.Pushing into hardwareThe Quark AI Glasses will enter a market that already includes Meta’s smart glasses made with Ray-Ban and a model launched this year by Xiaomi. Alibaba’s version will offer hands-free calling, music streaming, real-time translation, meeting transcription, and a built-in camera.Alibaba operates a broad set of services in China and the glasses will connect to that ecosystem. Users will be able to access navigation, make payments through Alipay, compare prices on Taobao, and tap into other Alibaba-owned platforms like mapping and travel booking.While the company has outlined some features, it has not revealed the price or detailed specifications.The data behind the devicesSmart glasses like Alibaba’s depend on AI systems that can recognise images, interpret context, and respond in natural language. The abilities rely on huge amounts of labelled data – information that has been reviewed and tagged by humans so the AI can learn from it.That process often involves “human-in-the-loop” (HITL) systems, where people provide input at key stages of training and testing. To understand how this works in practice, AI News spoke with Henry Chen, co-founder of Sapien, a company that manages large, distributed workforces for data labelling. Chen discussed common misunderstandings, the demand for skilled contributors, and how China’s AI growth is influencing the industry.Misconceptions about HITLOne common belief is that HITL is simply data labelli...</description>
+      <pubDate>Fri, 15 Aug 2025 08:38:04 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/human-in-the-loop-work-drives-ai-powering-alibabas-smart-glasses/</guid>
+    </item>
+    <item>
+      <title>AI Slop Is Ripping Off One of Summer’s Best Games. Copycats Are Proving Hard to Kill</title>
+      <link>https://www.wired.com/story/ai-slop-is-ripping-off-one-of-summers-best-games-fighting-back-is-harder-than-you-think/</link>
+      <description>Peak has sold millions of copies and is Aggro Crab’s biggest hit to date. That makes it a prime target for cloning.</description>
+      <pubDate>Thu, 14 Aug 2025 21:23:50 GMT</pubDate>
+      <guid>https://www.wired.com/story/ai-slop-is-ripping-off-one-of-summers-best-games-fighting-back-is-harder-than-you-think/</guid>
+    </item>
+    <item>
+      <title>Why Trump Flip-Flopped on Nvidia Selling H20 Chips to China</title>
+      <link>https://www.wired.com/story/nvidia-chips-export-controls-trump-h20-security/</link>
+      <description>Nvidia struck a surprising deal after convincing the president that H20 chips aren’t a national security risk. But whether the reversal is good or bad depends on who you ask.</description>
+      <pubDate>Thu, 14 Aug 2025 19:56:42 GMT</pubDate>
+      <guid>https://www.wired.com/story/nvidia-chips-export-controls-trump-h20-security/</guid>
+    </item>
+    <item>
+      <title>Inside the Biden Administration&#x27;s Gamble to Freeze China’s AI Future</title>
+      <link>https://www.wired.com/story/chips-china-artificial-intelligence-controls/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Thu, 14 Aug 2025 19:13:18 GMT</pubDate>
+      <guid>https://www.wired.com/story/chips-china-artificial-intelligence-controls/</guid>
+    </item>
+    <item>
+      <title>A DOGE AI Tool Called SweetREX Is Coming to Slash US Government Regulation</title>
+      <link>https://www.wired.com/story/sweetrex-deregulation-ai-us-government-regulation-doge/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Thu, 14 Aug 2025 19:00:15 GMT</pubDate>
+      <guid>https://www.wired.com/story/sweetrex-deregulation-ai-us-government-regulation-doge/</guid>
+    </item>
+    <item>
+      <title>Watch Our Livestream Replay: What GPT-5 Means for ChatGPT Users</title>
       <link>https://www.wired.com/story/what-gpt-5-means-for-chatgpt-users/</link>
-      <description>On August 14, bring your questions about OpenAI&#x27;s latest model, GPT-5, and what it means for the future of chatbots.</description>
-      <pubDate>Fri, 08 Aug 2025 18:25:10 GMT</pubDate>
+      <description>We answered your questions about OpenAI’s latest model, GPT-5, and what it means for the future of chatbots.</description>
+      <pubDate>Thu, 14 Aug 2025 18:56:14 GMT</pubDate>
       <guid>https://www.wired.com/story/what-gpt-5-means-for-chatgpt-users/</guid>
     </item>
     <item>
-      <title>Suvianna Grecu, AI for Change: Without rules, AI risks ‘trust crisis’</title>
-      <link>https://www.artificialintelligence-news.com/news/suvianna-grecu-ai-for-change-without-rules-ai-risks-trust-crisis/</link>
-      <description>The world is in a race to deploy AI, but a leading voice in technology ethics warns prioritising speed over safety risks a “trust crisis.”Suvianna Grecu, Founder of the AI for Change Foundation, argues that without immediate and strong governance, we are on a path to “automating harm at scale.”Speaking on the integration of AI into critical sectors, Grecu believes that the most pressing ethical danger isn’t the technology itself, but the lack of structure surrounding its rollout.Powerful systems are increasingly making life-altering decisions about everything from job applications and credit scores to healthcare and criminal justice, often without sufficient testing for bias or consideration of their long-term societal impact.For many organisations, AI ethics remains a document of lofty principles rather than a daily operational reality. Grecu insists that genuine accountability only begins when someone is made truly responsible for the outcomes. The gap between intention and implementation is where the real risk lies.Grecu’s foundation champions a shift from abstract ideas to concrete action. This involves embedding ethical considerations directly into development workflows through practical tools like design checklists, mandatory pre-deployment risk assessments, and cross-functional review boards that bring legal, technical, and policy teams together.According to Grecu, the key is establishing clear ownership at every stage, building transparent and repeatable processes just as you would for any other core business function. This practical approach seeks to advance ethical AI, transforming it from a philosophical debate into a set of manageable, everyday tasks.Partnering to build AI trust and mitigate risksWhen it comes to enforcement, Grecu is clear that the responsibility can’t fall solely on government or industry. “It’s not either-or, it has to be both,” she states, advocating for a collaborative model.In this partnership, governments must set the legal boundaries and minimum standards, particularly where fundamental human rights are at stake. Regulation provides the essential floor. However, industry possesses the agility and technical talent to innovate beyond mere compliance.Companies are best positioned to create advanced auditing tools, pioneer n...</description>
-      <pubDate>Fri, 08 Aug 2025 16:04:09 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/suvianna-grecu-ai-for-change-without-rules-ai-risks-trust-crisis/</guid>
-    </item>
-    <item>
-      <title>OpenAI Finally Launched GPT-5. Here&#x27;s Everything You Need to Know</title>
-      <link>https://www.wired.com/story/openais-gpt-5-is-here/</link>
+      <title>xAI Was About to Land a Major Government Contract. Then Grok Praised Hitler</title>
+      <link>https://www.wired.com/story/xai-grok-government-contract-hitler/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 07 Aug 2025 17:00:33 GMT</pubDate>
-      <guid>https://www.wired.com/story/openais-gpt-5-is-here/</guid>
+      <pubDate>Thu, 14 Aug 2025 17:34:53 GMT</pubDate>
+      <guid>https://www.wired.com/story/xai-grok-government-contract-hitler/</guid>
     </item>
     <item>
-      <title>Age Verification Is Sweeping Gaming. Is It Ready for the Age of AI Fakes?</title>
-      <link>https://www.wired.com/story/age-verification-is-sweeping-gaming-is-it-ready-for-the-age-of-ai-fakes/</link>
-      <description>Discord users are already using video game characters to bypass the UK’s age-check laws. AI deepfakes could make things even more complicated.</description>
-      <pubDate>Thu, 07 Aug 2025 16:30:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/age-verification-is-sweeping-gaming-is-it-ready-for-the-age-of-ai-fakes/</guid>
+      <title>DeepSeek reverts to Nvidia for R2 model after Huawei AI chip fails</title>
+      <link>https://www.artificialintelligence-news.com/news/deepseek-reverts-nvidia-r2-model-huawei-ai-chip-fails/</link>
+      <description>DeepSeek’s plan to train its new AI model, R2, on Huawei’s Ascend chips has failed and forced a retreat to Nvidia while delaying launch.For months, the narrative pushed by Beijing has been one of unstoppable technological progress and a march towards self-sufficiency. However, reality has a habit of biting back. The recent troubles of Chinese AI darling DeepSeek is a textbook example of where ambition meets the hard wall of technical limitations.After the successful launch of its R1 model in January, DeepSeek found itself under pressure from China to champion the national cause. According to three people speaking to the Financial Times, the message was clear: use Huawei’s chips, not Nvidia’s.When it came to actually training their new R2 model, the sources say DeepSeek ran into “persistent technical issues” with Huawei’s AI chips. The problems were so fundamental that the project ground to a halt. A person with knowledge of the situation said this was the main reason the model’s planned launch in May was scrapped, putting the company on the back foot in a market that waits for no-one.To understand why this is such a big deal, you have to know the difference between AI training and inference. Training is the hard part, like sending a student to university for years of intense learning. It requires colossal amounts of power and stability. Inference is the relatively ‘easy’ part, like asking the graduate a question.DeepSeek discovered that while Huawei’s chips might be ready for the final exam, they weren’t yet up to the gruelling university course. The company had no choice but to switch back to Nvidia’s powerful systems to do the training. The sources say DeepSeek’s team is still trying to get the R2 model to work with Huawei chips for the less demanding inference stage.Two people confirmed that Huawei even sent its own team of engineers to DeepSeek’s offices to help them get the R2 model up and running on their chips. But even with the experts in the room, they couldn’t get a successful training run.Talk to anyone in the industry, and they’ll tell you this isn’t a huge surprise. Huawei CEO Ren Zhengfei even said earlier this year that the US “has exaggerated Huawei’s achievements” and the company “is not that great yet,” noting its best chips are still a ge...</description>
+      <pubDate>Thu, 14 Aug 2025 16:04:50 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/deepseek-reverts-nvidia-r2-model-huawei-ai-chip-fails/</guid>
     </item>
     <item>
-      <title>Alan Turing Institute: Humanities are key to the future of AI</title>
-      <link>https://www.artificialintelligence-news.com/news/alan-turing-institute-humanities-are-key-future-of-ai/</link>
-      <description>A powerhouse team has launched a new initiative called ‘Doing AI Differently,’ which calls for a human-centred approach to future development.For years, we’ve treated AI’s outputs like they’re the results of a giant math problem. But the researchers – from The Alan Turing Institute, the University of Edinburgh, AHRC-UKRI, and the Lloyd’s Register Foundation – behind this project say that’s the wrong way to look at it.What AI is creating are basically cultural artifacts. They’re more like a novel or a painting than a spreadsheet. The problem is, AI is creating this “culture” without understanding any of it. It’s like someone who has memorised a dictionary but has no idea how to hold a real conversation.This is why AI often fails when “nuance and context matter most,” says Professor Drew Hemment, Theme Lead for Interpretive Technologies for Sustainability at The Alan Turing Institute. The system just doesn’t have the “interpretive depth” to get what it’s really saying.However, most of the AI in the world is built on just a handful of similar designs. The report calls this the “homogenisation problem” and future AI development must overcome this.Imagine if every baker in the world used the exact same recipe. You’d get a lot of identical, and frankly, boring cakes. With AI, this means the same blind spots, the same biases, and the same limitations get copied and pasted into thousands of tools we use every day.We saw this happen with social media. It was rolled out with simple goals, and we’re now living with the unintended societal consequences. The ‘Doing AI Differently’ team is sounding the alarm to make sure we don’t make that same mistake with AI.The team has a plan to build a new kind of AI, one they call Interpretive AI. It’s about designing systems from the very beginning to work the way people do; with ambiguity, multiple viewpoints, and a deep understanding of context.The vision is to create interpretive technologies that can offer multiple valid perspectives instead of just one rigid answer. It also means exploring alternative AI architectures to break the mould of current designs. Most importantly, the future isn’t about AI replacing us; it’s about creating human-AI ensembles where we work together, combining our creativity with AI’s processing power...</description>
-      <pubDate>Thu, 07 Aug 2025 15:18:27 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/alan-turing-institute-humanities-are-key-future-of-ai/</guid>
+      <title>Anthropic details its AI safety strategy</title>
+      <link>https://www.artificialintelligence-news.com/news/anthropic-details-ai-safety-strategy/</link>
+      <description>Anthropic has detailed its safety strategy to try and keep its popular AI model, Claude, helpful while avoiding perpetuating harms.Central to this effort is Anthropic’s Safeguards team; who aren’t your average tech support group, they’re a mix of policy experts, data scientists, engineers, and threat analysts who know how bad actors think.However, Anthropic’s approach to safety isn’t a single wall but more like a castle with multiple layers of defence. It all starts with creating the right rules and ends with hunting down new threats in the wild.First up is the Usage Policy, which is basically the rulebook for how Claude should and shouldn’t be used. It gives clear guidance on big issues like election integrity and child safety, and also on using Claude responsibly in sensitive fields like finance or healthcare.To shape these rules, the team uses a Unified Harm Framework. This helps them think through any potential negative impacts, from physical and psychological to economic and societal harm. It’s less of a formal grading system and more of a structured way to weigh the risks when making decisions. They also bring in outside experts for Policy Vulnerability Tests. These specialists in areas like terrorism and child safety try to “break” Claude with tough questions to see where the weaknesses are.We saw this in action during the 2024 US elections. After working with the Institute for Strategic Dialogue, Anthropic realised Claude might give out old voting information. So, they added a banner that pointed users to TurboVote, a reliable source for up-to-date, non-partisan election info.Teaching Claude right from wrongThe Anthropic Safeguards team works closely with the developers who train Claude to build safety from the start. This means deciding what kinds of things Claude should and shouldn’t do, and embedding those values into the model itself.They also team up with specialists to get this right. For example, by partnering with ThroughLine, a crisis support leader, they’ve taught Claude how to handle sensitive conversations about mental health and self-harm with care, rather than just refusing to talk. This careful training is why Claude will turn down requests to help with illegal activities, write malicious code, or create scams.Before any new version o...</description>
+      <pubDate>Wed, 13 Aug 2025 09:55:27 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/anthropic-details-ai-safety-strategy/</guid>
     </item>
     <item>
-      <title>A Single Poisoned Document Could Leak ‘Secret’ Data Via ChatGPT</title>
-      <link>https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/</link>
-      <description>Save StorySave this story</description>
-      <pubDate>Wed, 06 Aug 2025 23:30:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/</guid>
+      <title>Can Huawei’s open-sourced CANN toolkit break the CUDA monopoly?</title>
+      <link>https://www.artificialintelligence-news.com/news/huawei-nvidia-cann-cuda-open-source-challenge/</link>
+      <description>A week after Huawei announced its decision to open-source the CANN (Compute Architecture for Neural Networks) software toolkit, the tech industry is still processing what this move means for the future of AI development.By making its Huawei CANN open source alternative to CUDA freely available to developers worldwide, the Chinese tech giant has fired what many consider a significant shot in the battle against NVIDIA’s two-decade and continuing dominance over AI computing.While it’s a notable challenge to the status quo, the real question is whether Huawei can overcome the substantial technical and systemic barriers that have kept CUDA virtually unchallenged for nearly twenty years.What is CANN and why does it matter?CANN is Huawei’s heterogeneous computing architecture that offers multi-level programming interfaces to help developers build AI applications optimised for Huawei’s Ascend AI GPUs. First introduced in 2018 as part of Huawei’s AI strategy, CANN serves as the company’s equivalent to NVIDIA’s CUDA platform.CANN provides APIs for AI applications on Ascend, giving developers several options for building high-level and performance-intensive applications. The architecture represents years of development aimed at creating a comprehensive software ecosystem around Huawei’s AI hardware.The strategic timing behind the open-source decisionHuawei’s decision to make CANN open-source comes at a particularly tense moment in US-China technology relations. Huawei’s rotating chairman Eric Xu Zhijun said the move would help “speed up innovation from developers” and “make Ascend easier to use” during the company’s developer conference in Beijing.The announcement follows closely after the Cyberspace Administration of China (CAC) launched an inquiry into NVIDIA, based on what it called “serious security issues” involving Nvidia’s processors and demands from US lawmakers to add tracking features to chips’ hardware.The regulatory scrutiny adds another layer of complexity to an already strained relationship between the two superpowers.CUDA’s monopolistic grip on AI developmentTo understand the significance of Huawei’s move, it’s important to examine NVIDIA’s CUDA dominance. CUDA, often described as a closed-off “moat” or, on occasion, “swamp,” has been viewed by some as ...</description>
+      <pubDate>Wed, 13 Aug 2025 08:46:36 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/huawei-nvidia-cann-cuda-open-source-challenge/</guid>
     </item>
     <item>
-      <title>Inside the US Government&#x27;s Unpublished Report on AI Safety</title>
-      <link>https://www.wired.com/story/inside-the-biden-administrations-unpublished-report-on-ai-safety/</link>
-      <description>The National Institute of Standards and Technology conducted a groundbreaking study on frontier models just before Donald Trump&#x27;s second term as president—and never published the results.</description>
-      <pubDate>Wed, 06 Aug 2025 18:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/inside-the-biden-administrations-unpublished-report-on-ai-safety/</guid>
+      <title>SoundHound is giving its AI the power of sight</title>
+      <link>https://www.artificialintelligence-news.com/news/soundhound-is-giving-its-ai-the-power-of-sight/</link>
+      <description>SoundHound AI, already a major player in voice assistants, is now giving its technology a pair of eyes.Imagine driving past a landmark and, without pulling out your phone, asking your car, “What’s that building over there?” and getting an instant answer. That’s what SoundHound AI is building. With the launch of Vision AI, SoundHound’s new system combines sight with sound to create a much smarter and more natural way to interact with technology. The idea is to mimic how we as humans operate; we don’t just listen to someone, we also see their gestures and what they’re looking at.By bringing this same contextual understanding to AI, SoundHound hopes to smooth over the clunky and often frustrating experience we have with many of today’s smart devices. The company is targeting real-world applications where this combined sense could make a huge difference, whether that’s in your next car, at the restaurant drive-thru, or a factory floor.Keyvan Mohajer, CEO of SoundHound AI, said: “At SoundHound, we believe the future of AI isn’t just multimodal—it’s deeply integrated, responsive, and built for real-world impact.“With Vision AI, we’re extending our leadership in voice and conversational AI to redefine how humans interact with products and services offered and used by businesses.”So, how does it work? Vision AI takes a live feed from a camera and fuses it with the company’s voice technology, which already excels at understanding natural speech. By processing what it sees and what it hears at the exact same time, the system can grasp the user’s true intent in a way a simple voice assistant never could.Think of a mechanic wearing smart glasses who can simply look at an engine part and ask for instructions, receiving instant visual and audio guidance without ever putting down their tools. In a shop, a staff member could scan shelves just by looking at them to get a real-time inventory count. For the rest of us, it might mean a drive-thru kiosk that visually confirms our order on screen the moment we say it.One of the biggest technical problems in creating such a system is ensuring the audio and visual elements are perfectly synchronised. Any lag would shatter the illusion of a natural conversation.Pranav Singh, VP of Engineering at SoundHound AI, commented: “With Visi...</description>
+      <pubDate>Tue, 12 Aug 2025 10:06:54 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/soundhound-is-giving-its-ai-the-power-of-sight/</guid>
     </item>
     <item>
-      <title>OpenAI Announces Massive US Government Partnership</title>
-      <link>https://www.wired.com/story/openai-is-giving-chatgpt-federal-workers/</link>
-      <description>Save StorySave this story</description>
-      <pubDate>Wed, 06 Aug 2025 16:48:11 GMT</pubDate>
-      <guid>https://www.wired.com/story/openai-is-giving-chatgpt-federal-workers/</guid>
-    </item>
-    <item>
-      <title>AI obsession is costing us our human skills</title>
-      <link>https://www.artificialintelligence-news.com/news/ai-obsession-costing-us-our-human-skills/</link>
-      <description>A growing body of evidence suggests that over-reliance on AI could be eroding the human skills needed to use it effectively. Research warns this emerging human skills deficit threatens the successful adoption of AI and, with it, an opportunity for economic growth. It feels like not a day goes by without another proclamation about how […]
-The post AI obsession is costing us our human skills appeared first on AI News.</description>
-      <pubDate>Wed, 06 Aug 2025 15:48:14 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/ai-obsession-costing-us-our-human-skills/</guid>
-    </item>
-    <item>
-      <title>Generative AI trends 2025: LLMs, data scaling &amp; enterprise adoption</title>
-      <link>https://www.artificialintelligence-news.com/news/generative-ai-trends-2025-llms-data-scaling-enterprise-adoption/</link>
-      <description>Generative AI is entering a more mature phase in 2025. Models are being refined for accuracy and efficiency, and enterprises are embedding them into everyday workflows.The focus is shifting from what these systems could do to how they can be applied reliably and at scale. What’s emerging is a clearer picture of what it takes to build generative AI that is not just powerful, but dependable.The new generation of LLMsLarge language models are shedding their reputation as resource-hungry giants. The cost of generating a response from a model has dropped by a factor of 1,000 over the past two years, bringing it in line with the cost of a basic web search. That shift is making real-time AI far more viable for routine business tasks.Scale with control is also this year’s priority. The leading models (Claude Sonnet 4, Gemini Flash 2.5, Grok 4, DeepSeek V3) are still large, but they’re built to respond faster, reason more clearly, and run more efficiently. Size alone is no longer the differentiator. What matters is whether a model can handle complex input, support integration, and deliver reliable outputs, even when complexity increases. Last year saw a lot of criticism of AI’s tendency to hallucinate. In one high-profile case, a New York lawyer faced sanctions for citing ChatGPT-invented legal cases. Similar failures across sensitive sectors pushed the issue into the spotlight.This is something LLM companies have been combating this year. Retrieval-augmented generation (RAG), which combines search with generation to ground outputs in real data, has become a common approach. It helps reduce hallucinations but not eliminate them. Models can still contradict the retrieved content. New benchmarks such as RGB and RAGTruth are being used to track and quantify these failures, marking a shift toward treating hallucination as a measurable engineering problem rather than an acceptable flaw.Navigating rapid innovationOne of the defining trends of 2025 is the speed of change. Model releases are accelerating, capabilities are shifting monthly, and what counts as state-of-the-art is constantly being redefined. For enterprise leaders, this creates a knowledge gap that can quickly turn into a competitive one.Staying ahead means staying informed. Events like the AI and Big Data Exp...</description>
-      <pubDate>Wed, 06 Aug 2025 15:02:37 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/generative-ai-trends-2025-llms-data-scaling-enterprise-adoption/</guid>
-    </item>
-    <item>
-      <title>These Democrats Think the Party Needs AI to Win Elections</title>
-      <link>https://www.wired.com/story/democrats-midterm-elections-ai/</link>
-      <description>Save StorySave this story</description>
-      <pubDate>Wed, 06 Aug 2025 14:52:56 GMT</pubDate>
-      <guid>https://www.wired.com/story/democrats-midterm-elections-ai/</guid>
-    </item>
-    <item>
-      <title>Hackers Hijacked Google’s Gemini AI With a Poisoned Calendar Invite to Take Over a Smart Home</title>
-      <link>https://www.wired.com/story/google-gemini-calendar-invite-hijack-smart-home/</link>
-      <description>Save StorySave this story</description>
-      <pubDate>Wed, 06 Aug 2025 13:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/google-gemini-calendar-invite-hijack-smart-home/</guid>
-    </item>
-    <item>
-      <title>Inside Tim Cook’s push to get Apple back in the AI race</title>
-      <link>https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/</link>
-      <description>While other tech companies push out AI tools at full speed, Apple is taking its time. Its Apple Intelligence features – shown off at WWDC – won’t reach most users until at least 2025 or even 2026. Some see this as Apple falling behind, but the company’s track record suggests it prefers to launch only […]
-The post Inside Tim Cook’s push to get Apple back in the AI race appeared first on AI News.</description>
-      <pubDate>Wed, 06 Aug 2025 09:21:51 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/</guid>
-    </item>
-    <item>
-      <title>Tencent releases versatile open-source Hunyuan AI models</title>
-      <link>https://www.artificialintelligence-news.com/news/tencent-releases-versatile-open-source-hunyuan-ai-models/</link>
-      <description>Tencent has expanded its family of open-source Hunyuan AI models that are versatile enough for broad use. This new family of models is engineered to deliver powerful performance across computational environments, from small edge devices to demanding, high-concurrency production systems. The release includes a comprehensive set of pre-trained and instruction-tuned models available on the developer […]
-The post Tencent releases versatile open-source Hunyuan AI models appeared first on AI News.</description>
-      <pubDate>Mon, 04 Aug 2025 14:58:20 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/tencent-releases-versatile-open-source-hunyuan-ai-models/</guid>
+      <title>NVIDIA latest: Blackwell GPU and software updates</title>
+      <link>https://www.artificialintelligence-news.com/news/nvidia-expands-blackwell-powered-servers-with-new-ai-and-robotics-capabilities/</link>
+      <description>NVIDIA’s latest RTX PRO 6000 Blackwell Server Edition GPU will soon be available in enterprise servers. Systems from Cisco, Dell Technologies, HPE, Lenovo, and Supermicro will ship various configurations in 2U servers. Nvidia says they will offer higher performance and efficiency for AI, graphics, simulation, analytics, and industrial applications, and support tasks like AI model […]
+The post NVIDIA latest: Blackwell GPU and software updates appeared first on AI News.</description>
+      <pubDate>Tue, 12 Aug 2025 09:16:33 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/nvidia-expands-blackwell-powered-servers-with-new-ai-and-robotics-capabilities/</guid>
     </item>
   </channel>
 </rss>
