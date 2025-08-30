@@ -7,164 +7,166 @@
 Principais notícias relacionadas a inteligência artificial
 dos últimos 7 dias, em Inglês.
     </description>
-    <lastBuildDate>Sat, 23 Aug 2025 09:04:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 Aug 2025 09:04:25 GMT</lastBuildDate>
     <item>
-      <title>The Trump-Intel Deal Is Official</title>
-      <link>https://www.wired.com/story/trump-announce-intel-deal-equity-stake/</link>
+      <title>The White House Apparently Ordered Federal Workers to Roll Out Grok ‘ASAP’</title>
+      <link>https://www.wired.com/story/white-house-elon-musk-xai-grok/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Fri, 22 Aug 2025 21:54:53 GMT</pubDate>
-      <guid>https://www.wired.com/story/trump-announce-intel-deal-equity-stake/</guid>
+      <pubDate>Fri, 29 Aug 2025 13:22:26 GMT</pubDate>
+      <guid>https://www.wired.com/story/white-house-elon-musk-xai-grok/</guid>
     </item>
     <item>
-      <title>Join Our Next Livestream: Back to School in the Age of AI</title>
+      <title>Marketing AI boom faces crisis of consumer trust</title>
+      <link>https://www.artificialintelligence-news.com/news/marketing-ai-boom-faces-crisis-of-consumer-trust/</link>
+      <description>The vast majority (92%) of marketing professionals are using AI in their day-to-day operations, turning it from a buzzword into a workhorse. According to SAP Emarsys – which took the pulse of over 10,000 consumers and 1,250 marketers – while businesses are seeing real benefits from AI, shoppers are becoming increasingly distrustful, especially when it […]
+The post Marketing AI boom faces crisis of consumer trust appeared first on AI News.</description>
+      <pubDate>Fri, 29 Aug 2025 12:19:12 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/marketing-ai-boom-faces-crisis-of-consumer-trust/</guid>
+    </item>
+    <item>
+      <title>Watch Our Livestream Replay: Back to School in the Age of AI</title>
       <link>https://www.wired.com/story/livestream-back-to-school-in-the-age-of-ai/</link>
-      <description>Bring your stories and questions on August 28 as we explore our latest investigations into how tech is shaping education today.</description>
-      <pubDate>Fri, 22 Aug 2025 16:53:22 GMT</pubDate>
+      <description>We explored our latest investigations into how tech is shaping education today.</description>
+      <pubDate>Thu, 28 Aug 2025 21:28:46 GMT</pubDate>
       <guid>https://www.wired.com/story/livestream-back-to-school-in-the-age-of-ai/</guid>
     </item>
     <item>
-      <title>Rachel James, AbbVie: Harnessing AI for corporate cybersecurity</title>
-      <link>https://www.artificialintelligence-news.com/news/rachel-james-abbvie-harnessing-ai-for-corporate-cybersecurity/</link>
-      <description>Cybersecurity is in the midst of a fresh arms race, and the powerful weapon of choice in this new era is AI.AI offers a classic double-edged sword: a powerful shield for defenders and a potent new tool for those with malicious intent. Navigating this complex battleground requires a steady hand and a deep understanding of both the technology and the people who would abuse it.To get a view from the front lines, AI News caught up with Rachel James, Principal AI ML Threat Intelligence Engineer at global biopharmaceutical company AbbVie.“In addition to the built in AI augmentation that has been vendor-provided in our current tools, we also use LLM analysis on our detections, observations, correlations and associated rules,” James explains.James and her team are using large language models to sift through a mountain of security alerts, looking for patterns, spotting duplicates, and finding dangerous gaps in their defences before an attacker can.“We use this to determine similarity, duplication and provide gap analysis,” she adds, noting that the next step is to weave in even more external threat data. “We are looking to enhance this with the integration of threat intelligence in our next phase.”Central to this operation is a specialised threat intelligence platform called OpenCTI, which helps them build a unified picture of threats from a sea of digital noise.AI is the engine that makes this cybersecurity effort possible, taking vast quantities of jumbled, unstructured text and neatly organising it into a standard format known as STIX. The grand vision, James says, is to use language models to connect this core intelligence with all other areas of their security operation, from vulnerability management to third-party risk.Taking advantage of this power, however, comes with a healthy dose of caution. As a key contributor to a major industry initiative, James is acutely aware of the pitfalls.“I would be remiss if I didn’t mention the work of a wonderful group of folks I am a part of – the ’OWASP Top 10 for GenAI’ as a foundational way of understanding vulnerabilities that GenAI can introduce,” she says.Beyond specific vulnerabilities, James points at three fundamental trade-offs that business leaders must confront:Accepting the risk that comes with the creative but...</description>
-      <pubDate>Fri, 22 Aug 2025 14:48:49 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/rachel-james-abbvie-harnessing-ai-for-corporate-cybersecurity/</guid>
+      <title>AI security wars: Can Google Cloud defend against tomorrow’s threats?</title>
+      <link>https://www.artificialintelligence-news.com/news/ai-security-wars-google-cloud-cybersecurity-threats/</link>
+      <description>In Google’s sleek Singapore office at Block 80, Level 3, Mark Johnston stood before a room of technology journalists at 1:30 PM with a startling admission: after five decades of cybersecurity evolution, defenders are still losing the war. “In 69% of incidents in Japan and Asia Pacific, organisations were notified of their own breaches by […]
+The post AI security wars: Can Google Cloud defend against tomorrow’s threats? appeared first on AI News.</description>
+      <pubDate>Thu, 28 Aug 2025 11:02:56 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/ai-security-wars-google-cloud-cybersecurity-threats/</guid>
     </item>
     <item>
-      <title>Huawei Cloud’s broad, open approach wins it Gartner honours</title>
-      <link>https://www.artificialintelligence-news.com/news/huawei-clouds-open-approach-wins-it-gartner-honours-magic-quadrant-2025-for-container-management/</link>
-      <description>The big three cloud providers tend to snap up the majority of hosting honours for containerised workflows. Google, AWS, and Microsoft are the de facto hosting providers, as you might expect, with Red Hat, Alibaba, and SUSE comprising the other household names in the microservices space.But the latest Gartner Magic Quadrant for Container Management 2025 positions Huawei in the Leaders quadrant for the first time. Huawei Cloud is a company that’s quietly making inroads into enterprise mindsets all over the world, and innovating – especially with AI-related workloads – despite the best efforts of the current US government to stymie global competition in the space.Huawei Cloud scored the highest global customer recognition score (4.7) of the companies in Gartner’s paper, beating fellow Chinese behemoths Tencent and Alibaba, plus the ‘big three’ of AWS, Google GCP and Microsoft Azure.According to Gartner, Huawei Cloud offers the most complete container product matrix in the cloud industry, where its platforms can be found in public, distributed, and hybrid clouds, and edge environments.The company’s big wins in terms of clients and users get little coverage in the US and Europe, but it’s proving an effective provider for companies like media service Starzplay (which streamed the 2024 Cricket World Cup across the Middle East and Central Asia) and logistics giant Ninja Van in Singapore.South America and Africa, too, have been the scene of several successes for the Chinese company, notably Nigeria’s e-commerce platform Konga, which uses a cloud native architecture based on Huawei Cloud’s CCT Turbo, and major power utility Chilquina Energia in Chile. The latter organisation speaks of a 90% average performance improvement across its stack.The Linux Foundation’s CNCF (cloud-native computing foundation) steers an open and interoperable approach to all elements of cloud computing, and Huawei is the only Chinese cloud provider with a vice-chair position on the organisation’s Technical Oversight Committee. The company also maintains more than 20 project maintainer seats at the CNCF. It’s also an active donor to projects under the CNCF’s oversight, including KubeEdge, Karmada, and Kuasar.Huawei’s offerings include container products like CCE Turbo, CCE Autopilot, the distr...</description>
-      <pubDate>Fri, 22 Aug 2025 14:21:33 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/huawei-clouds-open-approach-wins-it-gartner-honours-magic-quadrant-2025-for-container-management/</guid>
+      <title>Agentic AI: Promise, scepticism, and its meaning for Southeast Asia</title>
+      <link>https://www.artificialintelligence-news.com/news/agentic-ai-promise-scepticism-and-its-meaning-for-southeast-asia/</link>
+      <description>Agentic AI is being talked about as the next major wave of artificial intelligence, but its meaning for enterprises remains to be settled. Capgemini Research Institute estimates agentic AI could unlock as much as US$450 billion in economic value by 2028. Yet adoption is still limited: only 2% of organisations have scaled its use, and […]
+The post Agentic AI: Promise, scepticism, and its meaning for Southeast Asia appeared first on AI News.</description>
+      <pubDate>Thu, 28 Aug 2025 10:55:00 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/agentic-ai-promise-scepticism-and-its-meaning-for-southeast-asia/</guid>
     </item>
     <item>
-      <title>Proton’s privacy-first Lumo AI assistant gets a major upgrade</title>
-      <link>https://www.artificialintelligence-news.com/news/proton-privacy-lumo-ai-assistant-major-upgrade/</link>
-      <description>The privacy defenders at Proton have deployed an upgrade to their AI assistant, Lumo, that promises faster and more intelligent responses.AI assistants can be incredibly useful for drafting emails, planning a trip, or just satisfying a random curiosity, but there’s always that nagging feeling that every question you ask, every idea you explore, is being logged, analysed, and fed back into a massive corporate machine. You’re constantly trading a bit of your privacy for a bit of convenience.Lumo is now a whole lot smarter. Proton is calling it version 1.1, and the main takeaway is the AI assistant is better at pretty much everything. It’s faster, it gives more detailed answers, and it’s much more up-to-date on what’s happening in the world.For specific metrics, Proton is claiming a 200% improvement in Lumo’s ability to ‘reason’ through complex problems—you know, the tricky multi-step stuff where other AIs tend to get lost. On top of that, Proton says their AI assistant is now 170% better at actually understanding the context of what you’re asking, and for the coders out there, it’s seen a 40% boost in generating correct code.But here’s the part that really matters: it does all of this without snooping on you.Unlike the big players, Proton’s entire approach to AI is built around privacy. When you chat with most AIs, you’re essentially having a conversation in a room full of people taking notes. With Lumo, you’re in a locked room, and only you have the key. Your conversations are encrypted in such a way that nobody at Proton can ever read them. They don’t save your chats, and they don’t use your personal conversations to train their AI.To prove their privacy claims, Proton has made the code for their AI assistant’s mobile apps open-source. That means Proton is letting anyone look under the bonnet to check that Lumo’s engine is running the way they claim it is. It’s about building trust, not just demanding it.So, what’s the catch? Well, to get the absolute best performance and unlimited use, you’re encouraged to sign up for Lumo Plus. And that, right there, is the point. Proton is betting that some of us would rather pay a few quid for a service that respects our privacy than get a “free” service where our data is the real price of admission.This latest update t...</description>
-      <pubDate>Thu, 21 Aug 2025 16:48:30 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/proton-privacy-lumo-ai-assistant-major-upgrade/</guid>
+      <title>Tencent Hunyuan Video-Foley brings lifelike audio to AI video</title>
+      <link>https://www.artificialintelligence-news.com/news/tencent-hunyuan-video-foley-lifelike-audio-to-ai-video/</link>
+      <description>A team at Tencent’s Hunyuan lab has created a new AI, ‘Hunyuan Video-Foley,’ that finally brings lifelike audio to generated video. It’s designed to listen to videos and generate a high-quality soundtrack that’s perfectly in sync with the action on screen. Ever watched an AI-generated video and felt like something was missing? The visuals might […]
+The post Tencent Hunyuan Video-Foley brings lifelike audio to AI video appeared first on AI News.</description>
+      <pubDate>Thu, 28 Aug 2025 08:43:21 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/tencent-hunyuan-video-foley-lifelike-audio-to-ai-video/</guid>
     </item>
     <item>
-      <title>How AI servers are transforming Taiwan’s electronics manufacturing giants</title>
-      <link>https://www.artificialintelligence-news.com/news/ai-servers-transform-taiwan-manufacturing-giants/</link>
-      <description>The revenue charts tell a story that would have seemed impossible just three years ago: AI servers are now generating more money than iPhones for Taiwan’s manufacturing giants. For the first time in decades, Taiwan’s manufacturing titans are watching their bread-and-butter consumer electronics businesses get overtaken by artificial intelligence infrastructure – a shift that’s rewriting […]
-The post How AI servers are transforming Taiwan’s electronics manufacturing giants appeared first on AI News.</description>
-      <pubDate>Thu, 21 Aug 2025 15:40:45 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/ai-servers-transform-taiwan-manufacturing-giants/</guid>
+      <title>What Rollup News says about battling disinformation</title>
+      <link>https://www.artificialintelligence-news.com/news/what-rollup-news-says-about-battling-disinformation/</link>
+      <description>Swarm Network, a platform developing decentralised protocols for AI agents, recently announced the successful results of its first Swarm, a tool (perhaps “organism” is the better term) built to tackle disinformation. Called Rollup News, the swarm is not an app, a software platform, nor a centralised algorithm. It is a decentralised collection of AI agents that collaborate to solve a bigger problem. The problem is that platforms like X allow any type of viral claims, some by incredibly influential people. How can we know what is true?Currently, we try to solve this problem through equally loud opposing voices who offer facts or expert opinions. But if those sources are from a political side you oppose, why should you trust them? After all, these are people with their own motivations, and two additional issues are created: facts presented by a single person can easily get caught up in the “fake news” accusations; and misinformation presented as “facts” can be used to attack the ground truth.Unfortunately, this isn’t just a current trend that will eventually lose its popularity and fade out. The more technology and access to varied news sources we have, the harder it becomes to not treat these sources equally. Some might be a traditional outlet that is legally liable if they falsify claims. Others might be a popular podcaster with an audience of millions, and whose fear-mongering ties nicely in with the products in their merch store. If it stopped at this, we could probably tell the truth from fiction. But it isn’t that simple. Official news channels have a history of spinning the news in their own bias, or ignoring other stories that are important to the public. On the other side, there are genuinely powerful influencers who seem to be hell bent on finding the truth and reporting it, no matter what side of the political spectrum it hits.The world has become both confusing and dangerous, and the old “sticks and stones” saying has been proven false. After all, we have seen global elections swayed by disinformation, major policy shifts driven by false claims, lives damaged and lost as the result of powerful people lying, but lying loudly enough and often enough to sway large groups of people into believing them; and convincing these same groups that any facts to...</description>
+      <pubDate>Thu, 28 Aug 2025 07:41:34 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/what-rollup-news-says-about-battling-disinformation/</guid>
     </item>
     <item>
-      <title>Meet Wukong, the AI Chatbot China Has Installed on Its Space Station</title>
-      <link>https://www.wired.com/story/meet-wukong-chinas-first-ai-chatbot-on-a-space-station/</link>
+      <title>Google Vids gets AI avatars and image-to-video tools</title>
+      <link>https://www.artificialintelligence-news.com/news/google-vids-gets-ai-avatars-and-image-to-video-tools/</link>
+      <description>Google is rolling out a raft of powerful new generative AI features for Vids designed to take the pain out of video creation.Between wrestling with complicated software, finding someone willing to be on camera, and then spending hours editing out all the “ums” and “ahs,” video production often feels more trouble than it’s worth. Google is aiming to change that narrative with Vids.So far, it seems to be finding its audience. Google announced that Vids has already rocketed past one million monthly active users, a clear sign that teams are crying out for simpler ways to bring their ideas to life with video.Your photos now move, and avatars do the talkingAmong the latest additions is the ability to turn static images into motion pictures. Imagine you’ve got a great photo of a new product but need something more engaging for a social media post or presentation. You can now upload that picture to Vids, type a quick prompt describing what you want to happen, and Google’s Veo AI will turn it into an eight-second animated clip, complete with sound. It’s a simple way to create eye-catching, brand-aligned content in minutes.</description>
+      <pubDate>Wed, 27 Aug 2025 14:48:34 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/google-vids-gets-ai-avatars-and-image-to-video-tools/</guid>
+    </item>
+    <item>
+      <title>The Era of AI-Generated Ransomware Has Arrived</title>
+      <link>https://www.wired.com/story/the-era-of-ai-generated-ransomware-has-arrived/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 21 Aug 2025 11:33:10 GMT</pubDate>
-      <guid>https://www.wired.com/story/meet-wukong-chinas-first-ai-chatbot-on-a-space-station/</guid>
+      <pubDate>Wed, 27 Aug 2025 12:36:43 GMT</pubDate>
+      <guid>https://www.wired.com/story/the-era-of-ai-generated-ransomware-has-arrived/</guid>
     </item>
     <item>
-      <title>Why Did a $10 Billion Startup Let Me Vibe-Code for Them—and Why Did I Love It?</title>
-      <link>https://www.wired.com/story/why-did-a-10-billion-dollar-startup-let-me-vibe-code-for-them-and-why-did-i-love-it/</link>
+      <title>Zopa: AI to automate banking, threaten finance jobs</title>
+      <link>https://www.artificialintelligence-news.com/news/zopa-ai-automate-banking-threaten-finance-jobs/</link>
+      <description>AI is transforming the banking industry, but the expected benefits and savings come at great human cost with the impact on finance jobs. The report, a collaboration between digital bank Zopa and Juniper Research, forecasts that generative AI will deliver £1.8 billion in cost savings by 2030, driven by an equivalent level of investment. However, […]
+The post Zopa: AI to automate banking, threaten finance jobs appeared first on AI News.</description>
+      <pubDate>Wed, 27 Aug 2025 11:49:58 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/zopa-ai-automate-banking-threaten-finance-jobs/</guid>
+    </item>
+    <item>
+      <title>Decentralised AI: Full of promise, but not without challenges</title>
+      <link>https://www.artificialintelligence-news.com/news/decentralised-ai-full-of-promise-but-not-without-challenges/</link>
+      <description>Decentralised artificial intelligence has been hailed as one of the most profound innovations of our time, promising to give users control of the most transformative technologies. Yet the industry faces some daunting challenges if the vision is to be fulfilled.Proponents of decentralisation imagine a world where AI is not controlled by a select few big tech corporations, but rather by a global community that invites everyone to participate and have their say. It’s an audacious goal, but as it slowly comes into view, a question arises – are we really on the cusp of democratising access to intelligent automation, or are we creating a recipe for disaster?</description>
+      <pubDate>Wed, 27 Aug 2025 10:24:34 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/decentralised-ai-full-of-promise-but-not-without-challenges/</guid>
+    </item>
+    <item>
+      <title>Anthropic Settles High-Profile AI Copyright Lawsuit Brought by Book Authors</title>
+      <link>https://www.wired.com/story/anthropic-settles-copyright-lawsuit-authors/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 21 Aug 2025 10:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/why-did-a-10-billion-dollar-startup-let-me-vibe-code-for-them-and-why-did-i-love-it/</guid>
+      <pubDate>Tue, 26 Aug 2025 19:31:59 GMT</pubDate>
+      <guid>https://www.wired.com/story/anthropic-settles-copyright-lawsuit-authors/</guid>
     </item>
     <item>
-      <title>Gen AI makes no financial difference in 95% of cases</title>
-      <link>https://www.artificialintelligence-news.com/news/gen-ai-makes-no-financial-difference-in-95-of-cases/</link>
-      <description>Stocks in US AI technology companies fell in value at the close of trading yesterday, with the NASDAQ Composite index down 1.4%. Among those losing value were Palantir, down 9.4% and Arm Holdings down 5%. According to the Financial Times [paywall], Tuesday saw the biggest one-day fall in the market since the beginning of August. […]
-The post Gen AI makes no financial difference in 95% of cases appeared first on AI News.</description>
-      <pubDate>Wed, 20 Aug 2025 18:57:06 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/gen-ai-makes-no-financial-difference-in-95-of-cases/</guid>
-    </item>
-    <item>
-      <title>Do Large Language Models Dream of AI Agents?</title>
-      <link>https://www.wired.com/story/sleeptime-compute-chatbots-memory/</link>
-      <description>For AI models, knowing what to remember might be as important as knowing what to forget. Welcome to the era of “sleeptime compute.”</description>
-      <pubDate>Wed, 20 Aug 2025 18:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/sleeptime-compute-chatbots-memory/</guid>
-    </item>
-    <item>
-      <title>The Fitbit App Is Turning Into an AI-Powered Personal Health Coach</title>
-      <link>https://www.wired.com/story/fitbit-app-ai-personal-health-coach/</link>
-      <description>Built with Gemini, Google’s AI health coach will be everything but a doctor.</description>
-      <pubDate>Wed, 20 Aug 2025 16:42:56 GMT</pubDate>
-      <guid>https://www.wired.com/story/fitbit-app-ai-personal-health-coach/</guid>
-    </item>
-    <item>
-      <title>Google Pixel 10 Series, Pixel Watch 4, Pixel Buds 2a: Specs, Features, Release Date</title>
-      <link>https://www.wired.com/story/google-pixel-10-series-pixel-watch-4-pixel-buds-2a/</link>
-      <description>The Pixel 10 series is here. These are the first official flagship Android phones with magnetic Qi2 wireless charging. Also in tow are the Pixel Watch 4 and Pixel Buds 2a earbuds.</description>
-      <pubDate>Wed, 20 Aug 2025 16:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/google-pixel-10-series-pixel-watch-4-pixel-buds-2a/</guid>
-    </item>
-    <item>
-      <title>10 Crazy Features Powering Google&#x27;s Pixel 10 Phones (and Watch)</title>
-      <link>https://www.wired.com/story/all-the-new-ai-features-in-google-pixel-10-phones/</link>
-      <description>Google’s latest AI features include real-time translated phone calls in your own AI-generated voice, an AI camera coach that makes you a better Instagram husband, and a voicemail replacement.</description>
-      <pubDate>Wed, 20 Aug 2025 16:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/all-the-new-ai-features-in-google-pixel-10-phones/</guid>
-    </item>
-    <item>
-      <title>Google Cloud unveils AI ally for security teams</title>
-      <link>https://www.artificialintelligence-news.com/news/google-cloud-unveils-ai-ally-for-security-teams/</link>
-      <description>Google Cloud believes the answer to overworked security teams isn’t just more tools, but an AI-powered ally.At its Security Summit 2025, Google laid out its vision for a future where AI frees up human security experts from tedious work to focus on what matters most.The central idea is to use AI to defend your organisation while securing your own AI initiatives from attack. As businesses increasingly rely on AI agents, these agents themselves become a new frontier for security concerns.Securing the AI ecosystemBefore AI can become a trusted defender, its own environment must be secure. To this end, Google Cloud is enhancing its AI Protection solution within the Security Command Center.New capabilities, arriving soon in preview, will automatically discover all the AI agents and servers in your environment. This will give security teams a clear view of their entire AI agent ecosystem, helping them to spot vulnerabilities, misconfigurations, and risky interactions.Real-time protection is also getting a boost. Model Armor’s in-line protection is being extended to prompts and responses within Agentspace, helping to block threats like prompt injection and data leaks as they happen.To ensure AI agents are always playing by the rules, new posture controls will help them stick to company security policies. And with new threat detections powered by intelligence from Mandiant and Google Cloud, security teams can now better spot and respond to unusual or suspicious behaviour from their AI assets.Rise of the agentic SOCPerhaps the most forward-looking announcement is Google’s vision for an “agentic security operations centre (SOC)”. Imagine a system where AI agents collaborate to manage threats, automate alert investigations, and even help engineers create new detections to fill security gaps.The first step in this direction is the new Alert Investigation agent, which is now in preview. This tool acts like a junior analyst, autonomously looking into security events, analysing command-line activity, and mapping out process trees based on the proven methods of Mandiant’s frontline experts. The agent provides its verdict on alerts and suggests next steps for human analysts, promising to cut down on manual work and speed up response times.AI security built on Google Cloud’s ...</description>
-      <pubDate>Wed, 20 Aug 2025 15:21:44 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/google-cloud-unveils-ai-ally-for-security-teams/</guid>
-    </item>
-    <item>
-      <title>Yext Unveils Scout and Launches Webinar to Help Brands Stay Visible in AI &amp; Local Search</title>
-      <link>https://www.artificialintelligence-news.com/news/yext-unveils-scout-and-launches-webinar-to-help-brands-stay-visible-in-ai-local-search/</link>
-      <description>In March Yext, the leading brand visibility platform, launched Yext Scout, an AI search and competitive intelligence agent designed to give brands visibility and actionable insights across both traditional and AI-driven search platforms.Integrated within the Yext platform, Scout provides insights into visibility across traditional and AI search platforms, benchmarks performance against competitors, and delivers actionable recommendations.Yext is set to explore the impact of AI on search behaviour and how Scout can empower brands and marketing professionals across EMEA at the webinar, Winning Search in EMEA: How Yext Scout Drives Visibility Across Local and AI Platforms, on Wednesday, 24 September 2025 at 1PM BST / 2PM CEST.</description>
-      <pubDate>Wed, 20 Aug 2025 12:12:12 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/yext-unveils-scout-and-launches-webinar-to-help-brands-stay-visible-in-ai-local-search/</guid>
-    </item>
-    <item>
-      <title>Chinese ‘Virtual Human’ Salespeople Are Outperforming Their Real Human Counterparts</title>
-      <link>https://www.wired.com/story/artificial-intelligence-tiktok-shop-ecommerce-china/</link>
+      <title>Researchers Are Already Leaving Meta’s New Superintelligence Lab</title>
+      <link>https://www.wired.com/story/researchers-leave-meta-superintelligence-labs-openai/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Wed, 20 Aug 2025 11:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/artificial-intelligence-tiktok-shop-ecommerce-china/</guid>
+      <pubDate>Tue, 26 Aug 2025 18:00:37 GMT</pubDate>
+      <guid>https://www.wired.com/story/researchers-leave-meta-superintelligence-labs-openai/</guid>
     </item>
     <item>
-      <title>I Saw the Future of AI Film and It Was Empty</title>
-      <link>https://www.wired.com/story/cream-of-the-slop-an-ai-film-festival-screening-left-me-with-more-questions-than-answers/</link>
-      <description>From a POV butterfly larvae doc to something that resembled a perfume commercial, Runway AI’s film festival selections did little to convince me of AI’s artistry.</description>
-      <pubDate>Wed, 20 Aug 2025 10:30:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/cream-of-the-slop-an-ai-film-festival-screening-left-me-with-more-questions-than-answers/</guid>
+      <title>AI’s dual nature: Genuine innovation amid localised bubbles</title>
+      <link>https://www.artificialintelligence-news.com/news/ais-dual-nature-genuine-innovation-amid-localised-bubbles/</link>
+      <description>AI’s growing dominance in the world, whether it be reshaping industries’ workflows or influencing investor portfolios, is redefining how society and economies evolve. Of course, the hype and buzz around AI has been and is hard to ignore, but the question is, does this hype often overshadow the real challenges and limitations of AI? According […]
+The post AI’s dual nature: Genuine innovation amid localised bubbles appeared first on AI News.</description>
+      <pubDate>Tue, 26 Aug 2025 15:23:15 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/ais-dual-nature-genuine-innovation-amid-localised-bubbles/</guid>
     </item>
     <item>
-      <title>New Nvidia Blackwell chip for China may outpace H20 model</title>
-      <link>https://www.artificialintelligence-news.com/news/new-nvidia-blackwell-chip-for-china-may-outpace-h20-model/</link>
-      <description>Nvidia is working on a new AI chip for China that could be stronger than the H20 model it currently sells there, according to people familiar with the plans, Reuters reported. The chip will be based on the company’s latest Blackwell design.Last week, US President Donald Trump suggested that more advanced Nvidia chips might eventually be sold in China. But approval is uncertain, as US officials remain wary of giving Beijing too much access to American AI technology.The new chip, referred to internally as the B30A, is expected to use a single-die design. That means all the core parts of the chip are built on one piece of silicon, instead of split in two dies like in Nvidia’s flagship B300. People familiar with the details said this would likely give the B30A about half the power of the B300, but still make it stronger than the H20.Like the H20, the B30A will feature high-bandwidth memory and NVLink, Nvidia’s technology for moving data quickly between processors. Final specifications haven’t been locked in, but the company hopes to send samples to Chinese customers for testing as early as next month.Nvidia, in a statement about its strategy for China, said: “We evaluate a variety of products for our roadmap, so that we can be prepared to compete to the extent that governments allow. Everything we offer is with the full approval of the applicable authorities and designed solely for beneficial commercial use.”US Commerce Secretary Howard Lutnick told CNBC that Nvidia CEO Jensen Huang has been pushing for approval. “Of course he would like to sell a new chip to China,” Lutnick said, adding that Huang often pitches the idea directly to the president. “The president listens to our great technology companies, and he’ll decide how he wants to play it. But the fact Jensen is pitching a new chip shouldn’t surprise anybody.”US-China trade tensions grow over Nvidia chipsThe question of how much access China should have to advanced AI chips has become one of the main points of tension between Washington and Beijing. China accounted for 13% of Nvidia’s revenue last year.Nvidia only resumed selling the H20 in July after US regulators abruptly halted sales in April. The H20 was designed in 2023 to meet export rules which restricted chip sales to China.Donald Trump said recen...</description>
-      <pubDate>Wed, 20 Aug 2025 08:44:32 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/new-nvidia-blackwell-chip-for-china-may-outpace-h20-model/</guid>
+      <title>X and xAI sue Apple and OpenAI over AI monopoly claims</title>
+      <link>https://www.artificialintelligence-news.com/news/x-and-xai-sue-apple-and-openai-ai-monopoly-claims/</link>
+      <description>Elon Musk’s X and xAI are taking on Apple and OpenAI, accusing the tech giants of an AI monopoly to crush their competition.A lawsuit by the companies filed in a Texas federal court claims the exclusive partnership between Apple and OpenAI to put ChatGPT on the iPhone is a calculated move by “two monopolists joining forces to ensure their continued dominance.”The deal to integrate ChatGPT deep into Apple’s operating system makes the world’s most renowned AI assistant currently the one and only to be able to control core iPhone features; effectively locking out rivals like xAI’s own chatbot, Grok.The lawsuit claims this denies users a fair choice, ironically quoting an OpenAI strategy document that states, “Real choice drives competition and benefits everyone. Users should be able to pick their Al assistant.”The real prize, according to the complaint, is data. Generative AI gets smarter and better with every user question, creating a powerful feedback loop.By giving ChatGPT exclusive access to potentially billions of prompts from hundreds of millions of iPhones, the partnership effectively builds an impenetrable “moat” around OpenAI’s market leadership. It starves competitors of the data they need to improve their own models and truly compete, thereby helping to sustain the alleged AI monopoly.So valuable is this stream of data, the lawsuit claims, that OpenAI is giving Apple its technology for free, considering the access “of equal or greater value than monetary payments.”As for why Apple would agree to this, the lawsuit argues it’s a defensive move against an existential threat: the rise of “super apps”. These all-in-one applications – like the one X is building, similar to popular Chinese platform WeChat – combine social media, messaging, payments, and other services into a single platform. As these super apps become more powerful with cloud-based AI services, they make the smartphone itself less important. Users could simply buy a cheaper phone and get all the functionality they need from the app, threatening Apple’s lucrative hardware sales.The complaint alleges Apple is acutely aware of this danger, citing one company manager who warned that letting super apps take over would be like letting “the barbarians in at the gate.”But the allegations don’t sto...</description>
+      <pubDate>Tue, 26 Aug 2025 12:52:12 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/x-and-xai-sue-apple-and-openai-ai-monopoly-claims/</guid>
     </item>
     <item>
-      <title>UK urged to seize ‘once-in-20-years’ AI chip design opportunity</title>
-      <link>https://www.artificialintelligence-news.com/news/uk-urged-seize-once-20-years-ai-chip-design-opportunity/</link>
-      <description>The Council for Science and Technology (CST) urges the UK to seize a “once-in-20-years opportunity” to build a world-class AI chip design industry, or risk becoming a nation that simply consumes, rather than creates, the technology that will define our future. In a report published this week, the council argues the UK must get serious […]
-The post UK urged to seize ‘once-in-20-years’ AI chip design opportunity appeared first on AI News.</description>
-      <pubDate>Tue, 19 Aug 2025 12:27:29 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/uk-urged-seize-once-20-years-ai-chip-design-opportunity/</guid>
+      <title>Top AI vibe-coding platforms powering Web3 builds</title>
+      <link>https://www.artificialintelligence-news.com/news/top-ai-vibe-coding-platforms-powering-web3-builds/</link>
+      <description>Vibe coding is making lots of noise in software development, but perhaps nowhere will its presence be felt more keenly than in the Web3 coding space.Of course, not every AI code generator is cut out for Web3 development. That’s because it’s a niche area that requires deep expertise in blockchain languages and smart contract frameworks. So the most popular vibe coding platforms, like Cursor, Devin, and GitHub’s CoPilot are out of the question when it comes to automating smart contract creation. But fortunately, there are a number of Web3-specific coding tools emerging that promise to turbocharge blockchain automation.The beauty of Web3 vibe coding tools is that they can abstract away much of the complexity of blockchain and smart contracts, opening the doors for many more developers to participate in building decentralised applications.</description>
+      <pubDate>Tue, 26 Aug 2025 09:26:51 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/top-ai-vibe-coding-platforms-powering-web3-builds/</guid>
     </item>
     <item>
-      <title>Hidden costs of AI implementation every CEO should know</title>
-      <link>https://www.artificialintelligence-news.com/news/hidden-costs-of-ai-implementation-every-ceo-should-know/</link>
-      <description>AI has been a game-changer for many businesses, and CEOs are eager to get in on the action. Smart move! But, before you start envisioning robots handling your customer service and algorithms optimising everything from inventory to cafeteria orders, let’s talk about the elephant in the room: the costs no one mentions at those slick AI vendor presentations.Naturally, everyone knows that AI involves up-front investment. What they don’t tell you is that the sticker price is just the tip of the iceberg. The real costs lurk beneath the waterline, waiting to ambush even the most experienced executives.</description>
-      <pubDate>Tue, 19 Aug 2025 10:32:15 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/hidden-costs-of-ai-implementation-every-ceo-should-know/</guid>
+      <title>Alexis Ohanian’s Next Social Platform Has One Rule: Don’t Act Like an Asshole</title>
+      <link>https://www.wired.com/story/uncanny-valley-podcast-big-interview-alexis-ohanian/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Tue, 26 Aug 2025 09:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/uncanny-valley-podcast-big-interview-alexis-ohanian/</guid>
     </item>
     <item>
-      <title>Why security chiefs demand urgent regulation of AI like DeepSeek</title>
-      <link>https://www.artificialintelligence-news.com/news/why-security-chiefs-demand-urgent-regulation-of-ai-like-deepseek/</link>
-      <description>Anxiety is growing among Chief Information Security Officers (CISOs) in security operation centres, particularly around Chinese AI giant DeepSeek.AI was heralded as a new dawn for business efficiency and innovation, but for the people on the front lines of corporate defence, it’s casting some very long and dark shadows.Four in five (81%) UK CISOs believe the Chinese AI chatbot requires urgent regulation from the government. They fear that without swift intervention, the tool could become the catalyst for a full-scale national cyber crisis. This isn’t speculative unease; it’s a direct response to a technology whose data handling practices and potential for misuse are raising alarm bells at the highest levels of enterprise security.The findings, commissioned by Absolute Security for its UK Resilience Risk Index Report, are based on a poll of 250 CISOs at large UK organisations. The data suggests that the theoretical threat of AI has now landed firmly on the CISO’s desk, and their reactions have been decisive.In what would have been almost unthinkable a couple of years ago, over a third (34%) of these security leaders have already implemented outright bans on AI tools due to cybersecurity concerns. A similar number, 30 percent, have already pulled the plug on specific AI deployments within their organisations.This retreat is not a sign of Luddism but a pragmatic response to an escalating problem. Businesses are already facing complex and hostile threats, as evidenced by high-profile incidents like the recent Harrods breach. CISOs are struggling to keep pace, and the addition of sophisticated AI tools into the attacker’s arsenal is a challenge many feel ill-equipped to handle.A growing security readiness gap for AI platforms like DeepSeekThe core of the issue with platforms like DeepSeek lies in their potential to expose sensitive corporate data and be weaponised by cybercriminals.Three out of five (60%) CISOs predict a direct increase in cyberattacks as a result of DeepSeek’s proliferation. An identical proportion reports that the technology is already tangling their privacy and governance frameworks, making an already difficult job almost impossible.This has prompted a shift in perspective. Once viewed as a potential silver bullet for cybersecurity, AI is now...</description>
-      <pubDate>Mon, 18 Aug 2025 15:13:46 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/why-security-chiefs-demand-urgent-regulation-of-ai-like-deepseek/</guid>
+      <title>Malaysia launches Ryt Bank, its first AI-powered bank</title>
+      <link>https://www.artificialintelligence-news.com/news/malaysia-launches-ryt-bank-its-first-ai-powered-bank/</link>
+      <description>AI is steadily changing the way banks work. The technology can sift through massive amounts of data, calculate risks, and handle routine tasks at speeds people can’t match. Now, Malaysia has entered that space with the launch of Ryt Bank, billed as the first AI-powered bank created in the country.The new venture, led by YTL Group in partnership with Sea Limited, arrives just ahead of Merdeka. “Ryt Bank demonstrates that groundbreaking innovation can be imagined, built, and led right here in Malaysia,” said Dato’ Seri Yeoh Seok Hong, Managing Director of YTL Power International. “By combining homegrown AI with the values and diversity of our people, we’ve created a bank that Malaysians can proudly call their own – one that speaks our languages, understands our culture, and sets a new standard for how banking should feel.”Banking for MalaysiansRyt Bank has been designed to work in the languages most Malaysians use every day. Its app is already available in Bahasa Malaysia and English, with Mandarin support scheduled to arrive by next month (September 2025). By offering multilingual access, the bank aims to make financial services more inclusive and easy to use for people in many different communities.The centrepiece of the AI-powered bank is Ryt AI, a digital assistant powered by ILMU, Malaysia’s first locally-developed large language model. Ryt AI can understand natural conversation – in Bahasa Malaysia, English, or a mixture of both – and act on requests instantly.The AI assistant can read and pay bills, track spending, and explain financial basics in plain terms. The idea is to blend convenience with cultural familiarity, while maintaining enterprise-grade security.Everyday AI banking in one appRyt Bank is designed to pull together multiple financial needs into one platform. Customers can use the AI bank app to save, spend, borrow, and pay bills, with Ryt AI making the process more conversational and personal.Personal banking with Ryt AISend money or pay bills through text chat, with support for DuitNow and JomPAY.Snap and upload bills or receipts for instant payment.Access guides and simple financial explanations as you bank.All actions are encrypted and verified for security.New users can claim a small launch reward of up to RM5 when they try Ryt AI.Grow...</description>
+      <pubDate>Tue, 26 Aug 2025 08:15:39 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/malaysia-launches-ryt-bank-its-first-ai-powered-bank/</guid>
     </item>
     <item>
-      <title>Is Perplexity AI’s $34.5b Chrome bid a strategic master stroke or elaborate PR stunt?</title>
-      <link>https://www.artificialintelligence-news.com/news/perplexity-ai-chrome-bid-analysis/</link>
-      <description>The artificial intelligence company Perplexity’s audacious offer to acquire Chrome has sent shockwaves through Silicon Valley, but questions remain about whether the move represents a genuine strategy or a calculated publicity stunt. Perplexity AI made an unsolicited $34.5 billion bid for Google’s Chrome browser last Tuesday, a figure that exceeds the startup’s own $18 billion […]
-The post Is Perplexity AI’s $34.5b Chrome bid a strategic master stroke or elaborate PR stunt? appeared first on AI News.</description>
-      <pubDate>Mon, 18 Aug 2025 14:49:09 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/perplexity-ai-chrome-bid-analysis/</guid>
+      <title>AI Is Eliminating Jobs for Younger Workers</title>
+      <link>https://www.wired.com/story/stanford-research-ai-replace-jobs-young-workers/</link>
+      <description>New research from Stanford provides the clearest available evidence that AI is reshaping the workforce—but it’s complicated.</description>
+      <pubDate>Tue, 26 Aug 2025 07:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/stanford-research-ai-replace-jobs-young-workers/</guid>
+    </item>
+    <item>
+      <title>Elon Musk’s xAI Sues Apple and OpenAI Over App Store Rankings</title>
+      <link>https://www.wired.com/story/elon-musks-xai-sues-apple-and-openai-over-alleged-app-store-rigging/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Mon, 25 Aug 2025 16:57:24 GMT</pubDate>
+      <guid>https://www.wired.com/story/elon-musks-xai-sues-apple-and-openai-over-alleged-app-store-rigging/</guid>
+    </item>
+    <item>
+      <title>IBM and NASA Develop a Digital Twin of the Sun to Predict Future Solar Storms</title>
+      <link>https://www.wired.com/story/ibm-and-nasa-develop-a-digital-twin-of-the-sun-to-predict-future-solar-storms/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Mon, 25 Aug 2025 09:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/ibm-and-nasa-develop-a-digital-twin-of-the-sun-to-predict-future-solar-storms/</guid>
+    </item>
+    <item>
+      <title>The Hidden Ingredients Behind AI’s Creativity</title>
+      <link>https://www.wired.com/story/researchers-uncover-hidden-ingredients-behind-ai-creativity/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Sun, 24 Aug 2025 11:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/researchers-uncover-hidden-ingredients-behind-ai-creativity/</guid>
     </item>
   </channel>
 </rss>
