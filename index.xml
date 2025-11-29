@@ -7,169 +7,171 @@
 Principais notícias relacionadas a inteligência artificial
 dos últimos 7 dias, em Inglês.
     </description>
-    <lastBuildDate>Sat, 22 Nov 2025 09:04:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Nov 2025 09:04:46 GMT</lastBuildDate>
     <item>
-      <title>OpenAI Locks Down San Francisco Offices Following Alleged Threat From Activist</title>
-      <link>https://www.wired.com/story/openai-office-lockdown-threat-san-francisco/</link>
+      <title>How background AI builds operational resilience &amp; visible ROI</title>
+      <link>https://www.artificialintelligence-news.com/news/how-background-ai-builds-operational-resilience-visible-roi/</link>
+      <description>If you asked most enterprise leaders which AI tools are delivering ROI, many would point to front-end chatbots or customer support automation. That’s the wrong door. The most value-generating AI systems today aren’t loud, customer-facing marvels. They’re tucked away in backend operations. They work silently, flagging irregularities in real-time, automating risk reviews, mapping data lineage, or helping compliance teams detect anomalies before regulators do. The tools don’t ask for credit, but are saving millions.Operational resilience no longer comes from having the loudest AI tool. It comes from having the smartest one, placed where it quietly does the work of five teams before lunch.</description>
+      <pubDate>Fri, 28 Nov 2025 10:51:13 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/how-background-ai-builds-operational-resilience-visible-roi/</guid>
+    </item>
+    <item>
+      <title>Poems Can Trick AI Into Helping You Make a Nuclear Weapon</title>
+      <link>https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Fri, 21 Nov 2025 23:54:29 GMT</pubDate>
-      <guid>https://www.wired.com/story/openai-office-lockdown-threat-san-francisco/</guid>
+      <pubDate>Fri, 28 Nov 2025 10:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/</guid>
     </item>
     <item>
-      <title>WorldGen: Meta reveals generative AI for interactive 3D worlds</title>
-      <link>https://www.artificialintelligence-news.com/news/worldgen-meta-generative-ai-for-interactive-3d-worlds/</link>
-      <description>With its WorldGen system, Meta is shifting the use of generative AI for 3D worlds from creating static imagery to fully interactive assets. The main bottleneck in creating immersive spatial computing experiences – whether for consumer gaming, industrial digital twins, or employee training simulations – has long been the labour-intensive nature of 3D modelling. The […]
-The post WorldGen: Meta reveals generative AI for interactive 3D worlds appeared first on AI News.</description>
-      <pubDate>Fri, 21 Nov 2025 16:35:32 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/worldgen-meta-generative-ai-for-interactive-3d-worlds/</guid>
+      <title>SAP outlines new approach to European AI and cloud sovereignty</title>
+      <link>https://www.artificialintelligence-news.com/news/sap-outlines-new-approach-to-european-ai-and-cloud-sovereignty/</link>
+      <description>SAP is moving its sovereignty plans forward with EU AI Cloud, a setup meant to unify its efforts in the region under one approach. The goal is to give organisations in Europe more choice and control of how they run AI and cloud services. EU AI Cloud is built to support organisations using SAP’s data […]
+The post SAP outlines new approach to European AI and cloud sovereignty appeared first on AI News.</description>
+      <pubDate>Thu, 27 Nov 2025 14:06:00 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/sap-outlines-new-approach-to-european-ai-and-cloud-sovereignty/</guid>
     </item>
     <item>
-      <title>There Is Only One AI Company. Welcome to the Blob</title>
-      <link>https://www.wired.com/story/ai-industry-monopoly-nvidia-microsoft-google/</link>
-      <description>As Nvidia, OpenAI, Google, and Microsoft forge partnerships and deals, the AI industry is looking more like one interconnected machine. What does that mean for all of us?</description>
-      <pubDate>Fri, 21 Nov 2025 16:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/ai-industry-monopoly-nvidia-microsoft-google/</guid>
+      <title>How the MCP spec update boosts security as infrastructure scales</title>
+      <link>https://www.artificialintelligence-news.com/news/how-the-mcp-spec-update-boosts-security-as-infrastructure-scales/</link>
+      <description>The latest MCP spec update fortifies enterprise infrastructure with tighter security, moving AI agents from pilot to production. Marking its first year, the Anthropic-created open-source project released a revised spec this week aimed at the operational headaches keeping generative AI agents stuck in pilot mode. Backed by Amazon Web Services (AWS), Microsoft, and Google Cloud, […]
+The post How the MCP spec update boosts security as infrastructure scales appeared first on AI News.</description>
+      <pubDate>Thu, 27 Nov 2025 13:34:34 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/how-the-mcp-spec-update-boosts-security-as-infrastructure-scales/</guid>
     </item>
     <item>
-      <title>Apple’s Most Overlooked App Just Got a Lot Better</title>
-      <link>https://www.wired.com/story/apple-shortcuts-just-got-a-lot-better/</link>
-      <description>Apple Shortcuts, which lets users write custom automations, recently earned some new capabilities thanks to Apple Intelligence. Here,s how to make the most of this upgrade.</description>
-      <pubDate>Fri, 21 Nov 2025 11:45:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/apple-shortcuts-just-got-a-lot-better/</guid>
+      <title>Edge AI inside the human body: Cochlear’s machine learning implant breakthrough</title>
+      <link>https://www.artificialintelligence-news.com/news/edge-ai-medical-devices-cochlear-implants/</link>
+      <description>The next frontier for edge AI medical devices isn’t wearables or bedside monitors—it’s inside the human body itself. Cochlear’s newly launched Nucleus Nexa System represents the first cochlear implant capable of running machine learning algorithms while managing extreme power constraints, storing personalised data on-device, and receiving over-the-air firmware updates to improve its AI models over time. For AI […]
+The post Edge AI inside the human body: Cochlear’s machine learning implant breakthrough appeared first on AI News.</description>
+      <pubDate>Thu, 27 Nov 2025 09:00:00 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/edge-ai-medical-devices-cochlear-implants/</guid>
     </item>
     <item>
-      <title>A $100 Million AI Super PAC Targeted New York Democrat Alex Bores. He Thinks It Backfired</title>
-      <link>https://www.wired.com/story/alex-bores-andreessen-horowitz-super-pac-ai-regulation-new-york/</link>
+      <title>Jeff Bezos’ New AI Venture Quietly Acquired an Agentic Computing Startup</title>
+      <link>https://www.wired.com/story/jeff-bezos-new-ai-company-acquired-agentic-computing-startup/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Fri, 21 Nov 2025 11:30:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/alex-bores-andreessen-horowitz-super-pac-ai-regulation-new-york/</guid>
+      <pubDate>Wed, 26 Nov 2025 20:02:13 GMT</pubDate>
+      <guid>https://www.wired.com/story/jeff-bezos-new-ai-company-acquired-agentic-computing-startup/</guid>
     </item>
     <item>
-      <title>Instead of Fitbit’s AI Health Coach, You Could Just Have Friends</title>
-      <link>https://www.wired.com/story/google-fitbit-health-coach-preview/</link>
-      <description>I used the public preview of Fitbit’s new AI Health Coach and became both faster and noticeably weirder.</description>
-      <pubDate>Fri, 21 Nov 2025 10:30:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/google-fitbit-health-coach-preview/</guid>
-    </item>
-    <item>
-      <title>ChatGPT group chats may help teams bring AI into daily planning</title>
-      <link>https://www.artificialintelligence-news.com/news/chatgpt-group-chats-may-help-teams-bring-ai-into-daily-planning/</link>
-      <description>OpenAI has introduced group chats inside ChatGPT, giving people a way to bring up to 20 others into a shared conversation with the chatbot. The feature is now available to all logged-in users after a short pilot earlier this month, and it shifts ChatGPT from a mostly one-on-one tool to something that supports small-group collaboration. […]
-The post ChatGPT group chats may help teams bring AI into daily planning appeared first on AI News.</description>
-      <pubDate>Fri, 21 Nov 2025 08:00:00 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/chatgpt-group-chats-may-help-teams-bring-ai-into-daily-planning/</guid>
-    </item>
-    <item>
-      <title>Hands On With Google’s Nano Banana Pro Image Generator</title>
-      <link>https://www.wired.com/story/google-nano-banana-pro-hands-on/</link>
-      <description>Google’s latest AI image model is vastly better than the previous release at generating text in images. You can expect companies to go buck wild with this update.</description>
-      <pubDate>Fri, 21 Nov 2025 00:21:08 GMT</pubDate>
-      <guid>https://www.wired.com/story/google-nano-banana-pro-hands-on/</guid>
-    </item>
-    <item>
-      <title>4 People Indicted in Alleged Conspiracy to Smuggle Supercomputers and Nvidia Chips to China</title>
-      <link>https://www.wired.com/story/smuggling-supercomputers-china-nvidia-indictment/</link>
+      <title>Amazon Workers Issue Warning About Company’s ‘All-Costs-Justified’ Approach to AI Development</title>
+      <link>https://www.wired.com/story/amazon-employees-open-letter-artificial-intelligence-layoffs/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 20 Nov 2025 22:26:17 GMT</pubDate>
-      <guid>https://www.wired.com/story/smuggling-supercomputers-china-nvidia-indictment/</guid>
+      <pubDate>Wed, 26 Nov 2025 19:04:54 GMT</pubDate>
+      <guid>https://www.wired.com/story/amazon-employees-open-letter-artificial-intelligence-layoffs/</guid>
     </item>
     <item>
-      <title>How the Royal Navy is using AI to cut its recruitment workload</title>
-      <link>https://www.artificialintelligence-news.com/news/how-the-royal-navy-is-using-ai-to-cut-recruitment-workload/</link>
-      <description>The Royal Navy is handing the first line of its recruitment operations to a real-time AI avatar called Atlas.Atlas is powered by a large language model and has been deployed to field questions from prospective submariners. The deployment shows how AI can support a shift from slow text-based triage to fast and immersive automated support.Public sector IT projects often suffer from bloated timelines and vague deliverables, but the Navy’s latest deployment is grounded in hard operational metrics. The launch of Atlas follows a specific business case: the need to filter and support candidates for one of the service’s most demanding roles while reducing the administrative burden on human staff.The data behind the deploymentThe Royal Navy, working with WPP Media’s Wavemaker, has spent years refining its automated entry points. Before the avatar, there was a text-based assistant.That initial system, which was recently upgraded to a full LLM and retrieval-augmented generation (RAG) solution, proved the efficacy of the model. It fielded over 460,000 queries from more than 165,000 users and logged a 93 percent satisfaction rate.More importantly for the bottom line, the text-based system slashed the workload for live-agent teams by 76 percent. It also generated 89,000 expressions of interest, proving that automation could widen the funnel without overwhelming the recruiting officers. Atlas is effectively the visual evolution of those successes, designed to arrest the attention of a younger demographic that engages differently with digital channels.Under the hood of the AI recruitment avatarThe architecture relies on a multi-vendor ecosystem rather than a single-source solution. Wavemaker led the strategic direction and conversational design, ensuring the “brain” of the operation was trained on the correct knowledge base. Voxly Digital built the front and back end, supported by Great State, the Navy’s digital agency.Functionally, Atlas does more than recite policy. It uses a conversational interface that is multimedia-enabled. If a candidate asks about life on a submarine – a notorious pain point for recruitment conversion due to the unique lifestyle – Atlas can respond with spoken answers, on-screen captions, and relevant videos or quotes from serving personnel.The goa...</description>
-      <pubDate>Thu, 20 Nov 2025 17:41:37 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/how-the-royal-navy-is-using-ai-to-cut-recruitment-workload/</guid>
-    </item>
-    <item>
-      <title>Swatch’s New OpenAI-Powered Tool Lets You Design Your Own Watch</title>
-      <link>https://www.wired.com/story/swatchs-new-openai-powered-tool-lets-you-design-your-own-watch/</link>
-      <description>The new AI-DADA tool lets you create a unique Swatch design using AI prompts. You can’t make a custom MoonSwatch yet—but it’s not entirely off the table.</description>
-      <pubDate>Thu, 20 Nov 2025 16:19:48 GMT</pubDate>
-      <guid>https://www.wired.com/story/swatchs-new-openai-powered-tool-lets-you-design-your-own-watch/</guid>
-    </item>
-    <item>
-      <title>How to choose the best thermal binoculars for long-range detection in 2026</title>
-      <link>https://www.artificialintelligence-news.com/news/how-to-choose-the-best-thermal-binoculars-for-long-range-detection-in-2026/</link>
-      <description>Choosing the right thermal binoculars is essential for security professionals and outdoor specialists who need reliable long-range detection. Many users who previously relied on the market’s best night vision binoculars now seek advanced thermal imaging for superior clarity, extended range, and weather-independent performance. In 2026, ATN continues to lead the market with cutting-edge thermal binoculars designed for precision and durability.</description>
-      <pubDate>Thu, 20 Nov 2025 14:09:08 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/how-to-choose-the-best-thermal-binoculars-for-long-range-detection-in-2026/</guid>
-    </item>
-    <item>
-      <title>Pure Storage and Azure’s role in AI-ready data for enterprises</title>
-      <link>https://www.artificialintelligence-news.com/news/pure-storage-and-azures-role-in-ai-ready-data-for-enterprise/</link>
-      <description>Many organisations are trying to update their infrastructure to improve efficiency and manage rising costs. But the path is rarely simple. Hybrid setups, legacy systems, and new demands from AI in the enterprise often create trade-offs for IT teams. Recent moves by Microsoft and several storage and data-platform vendors highlight how enterprises are trying to […]
-The post Pure Storage and Azure’s role in AI-ready data for enterprises appeared first on AI News.</description>
-      <pubDate>Thu, 20 Nov 2025 13:11:00 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/pure-storage-and-azures-role-in-ai-ready-data-for-enterprise/</guid>
-    </item>
-    <item>
-      <title>Lightweight LLM powers Japanese enterprise AI deployments</title>
-      <link>https://www.artificialintelligence-news.com/news/lightweight-llm-enterprise-deployment-single-gpu/</link>
-      <description>Enterprise AI deployment faces a fundamental tension: organisations need sophisticated language models but baulk at the infrastructure costs and energy consumption of frontier systems. NTT’s recent launch of tsuzumi 2, a lightweight large language model (LLM) running on a single GPU, demonstrates how businesses are resolving this constraint – with early deployments showing performance matching […]
-The post Lightweight LLM powers Japanese enterprise AI deployments appeared first on AI News.</description>
-      <pubDate>Thu, 20 Nov 2025 12:00:00 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/lightweight-llm-enterprise-deployment-single-gpu/</guid>
-    </item>
-    <item>
-      <title>With the Rise of AI, Cisco Sounds an Urgent Alarm About the Risks of Aging Tech</title>
-      <link>https://www.wired.com/story/cisco-aging-technical-infrastructure/</link>
+      <title>The Trump Administration’s Data Center Push Could Open the Door for New Forever Chemicals</title>
+      <link>https://www.wired.com/story/the-trump-administrations-data-center-push-could-open-the-door-for-new-forever-chemicals/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 20 Nov 2025 10:00:00 GMT</pubDate>
-      <guid>https://www.wired.com/story/cisco-aging-technical-infrastructure/</guid>
+      <pubDate>Wed, 26 Nov 2025 12:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/the-trump-administrations-data-center-push-could-open-the-door-for-new-forever-chemicals/</guid>
     </item>
     <item>
-      <title>Trump Takes Aim at State AI Laws in Draft Executive Order</title>
-      <link>https://www.wired.com/story/trump-prepares-executive-order-challenging-state-ai-laws/</link>
+      <title>New Microsoft cloud updates support Indonesia’s long-term AI goals</title>
+      <link>https://www.artificialintelligence-news.com/news/new-microsoft-cloud-updates-support-indonesia-long-term-ai-goals/</link>
+      <description>Indonesia’s push into AI-led growth is gaining momentum as more local organisations look for ways to build their own applications, update their systems, and strengthen data oversight. The country now has broader access to cloud and AI tools after Microsoft expanded the services available in the Indonesia Central cloud region, which first went live six […]
+The post New Microsoft cloud updates support Indonesia’s long-term AI goals appeared first on AI News.</description>
+      <pubDate>Wed, 26 Nov 2025 09:36:00 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/new-microsoft-cloud-updates-support-indonesia-long-term-ai-goals/</guid>
+    </item>
+    <item>
+      <title>WIRED Roundup: Gemini 3 Release, Nvidia Earnings, Epstein Files Fallout</title>
+      <link>https://www.wired.com/story/uncanny-valley-podcast-wired-roundup-gemini-3-release-nvidia-earnings-epstein-files-fallout/</link>
       <description>Save StorySave this story</description>
-      <pubDate>Thu, 20 Nov 2025 01:50:39 GMT</pubDate>
-      <guid>https://www.wired.com/story/trump-prepares-executive-order-challenging-state-ai-laws/</guid>
+      <pubDate>Tue, 25 Nov 2025 21:24:53 GMT</pubDate>
+      <guid>https://www.wired.com/story/uncanny-valley-podcast-wired-roundup-gemini-3-release-nvidia-earnings-epstein-files-fallout/</guid>
     </item>
     <item>
-      <title>What Europe’s AI education experiments can teach a business</title>
-      <link>https://www.artificialintelligence-news.com/news/ai-education-the-european-experience/</link>
-      <description>We’re all chasing talent. It’s become as crucial to success as building amazing products, and a lot of businesses are feeling the squeeze. The problem is that demand for people with AI skills is skyrocketing, but the supply isn’t keeping up. The OECD points this out – lots of us need AI expertise, but very […]
-The post What Europe’s AI education experiments can teach a business appeared first on AI News.</description>
-      <pubDate>Wed, 19 Nov 2025 12:30:36 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/ai-education-the-european-experience/</guid>
+      <title>Manufacturing’s pivot: AI as a strategic driver</title>
+      <link>https://www.artificialintelligence-news.com/news/manufacturings-pivot-ai-as-a-strategic-driver/</link>
+      <description>Manufacturers today are working against rising input costs, labour shortages, supply-chain fragility, and pressure to offer more customised products. AI is becoming an important part of a response to those pressures. When enterprise strategy depends on AI Most manufacturers seek to reduce cost while improving throughput and quality. AI supports these aims by predicting equipment […]
+The post Manufacturing’s pivot: AI as a strategic driver appeared first on AI News.</description>
+      <pubDate>Tue, 25 Nov 2025 16:04:39 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/manufacturings-pivot-ai-as-a-strategic-driver/</guid>
     </item>
     <item>
-      <title>Gartner Data &amp; Analytics Summit unveils expanded AI agenda for 2026</title>
-      <link>https://www.artificialintelligence-news.com/news/gartner-data-analytics-summit-unveils-expanded-ai-agenda-for-2026/</link>
-      <description>By 2027, half of all business decisions will be augmented or automated by AI agents for decision intelligence. This seismic shift is changing how organisations operate, and AI leaders are under pressure to adapt, innovate, and guide their teams through complexity. Gartner Data &amp; Analytics Summit 2026 is designed to help these leaders meet their biggest challenges head-on.This year, Gartner is expanding its AI content to ensure attendees have the resources and insights they need to succeed. The summit’s agenda places AI at the forefront, with a track dedicated entirely to artificial intelligence. Sessions will cover everything from AI strategy and responsible AI to risk management, governance, generative AI, large language models, retrieval augmented generation, prompt engineering, and machine learning. Attendees will have the opportunity to learn from experts who understand the nuances of scaling AI, building resilient architectures, and navigating the ethical considerations that come with advanced technologies.In addition to technical deep dives, the summit introduces a spotlight track focused on AI leadership. The programme is crafted for executives tasked with building world-class AI organisations. It explores real-world use cases, robust delivery models, and the importance of strong governance to ensure safe and scalable operations. The conference recognises that AI agents are not infallible, but with the right knowledge and collaboration, leaders can empower their organisations to make smarter, more confident decisions.The Gartner Data &amp; Analytics Summit 2026 will take place from March 9 to 11 in Orlando, Florida. Attendees will join a global community of data, analytics, and AI professionals, gaining exclusive access to Gartner’s trusted research, expert insights, and networking opportunities with peers and thought leaders. For AI leaders ready to shape the future, this event offers the clarity, confidence, and connections needed to accelerate innovation and drive impact.Learn more about the Gartner Data &amp; Analytics Summit and how you can advance your AI strategy here.</description>
-      <pubDate>Wed, 19 Nov 2025 09:18:21 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/gartner-data-analytics-summit-unveils-expanded-ai-agenda-for-2026/</guid>
+      <title>Adversarial learning breakthrough enables real-time AI security</title>
+      <link>https://www.artificialintelligence-news.com/news/adversarial-learning-breakthrough-real-time-ai-security/</link>
+      <description>The ability to execute adversarial learning for real-time AI security offers a decisive advantage over static defence mechanisms. The emergence of AI-driven attacks – utilising reinforcement learning (RL) and Large Language Model (LLM) capabilities – has created a class of “vibe hacking” and adaptive threats that mutate faster than human teams can respond. This represents […]
+The post Adversarial learning breakthrough enables real-time AI security appeared first on AI News.</description>
+      <pubDate>Tue, 25 Nov 2025 14:12:05 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/adversarial-learning-breakthrough-real-time-ai-security/</guid>
     </item>
     <item>
-      <title>Microsoft, NVIDIA, and Anthropic forge AI compute alliance</title>
-      <link>https://www.artificialintelligence-news.com/news/microsoft-nvidia-and-anthropic-forge-ai-compute-alliance/</link>
-      <description>Microsoft, Anthropic, and NVIDIA are setting a bar for cloud infrastructure investment and AI model availability with a new compute alliance. This agreement signals a divergence from single-model dependency toward a diversified, hardware-optimised ecosystem, altering the governance landscape for senior technology leaders. Microsoft CEO Satya Nadella says the relationship is a reciprocal integration where the […]
-The post Microsoft, NVIDIA, and Anthropic forge AI compute alliance appeared first on AI News.</description>
-      <pubDate>Tue, 18 Nov 2025 16:29:24 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/microsoft-nvidia-and-anthropic-forge-ai-compute-alliance/</guid>
+      <title>Can Tech Get Rid of Bad Trips?</title>
+      <link>https://www.wired.com/story/uncanny-valley-podcast-can-tech-get-rid-of-bad-trips/</link>
+      <description>In this episode of Uncanny Valley, we talk about some of the latest drug trends and all the ways drugs are changing as they continue to be intertwined with tech.</description>
+      <pubDate>Tue, 25 Nov 2025 11:30:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/uncanny-valley-podcast-can-tech-get-rid-of-bad-trips/</guid>
     </item>
     <item>
-      <title>Franklin Templeton &amp; Wand AI bring agentic AI to asset management</title>
-      <link>https://www.artificialintelligence-news.com/news/franklin-templeton-wand-ai-bring-agentic-ai-to-asset-management/</link>
-      <description>Firms in the asset management industry are turning increasingly to generative and agentic AI to streamline operations, improve decision-making, and uncover new sources of alpha (the measure of an investment strategy’s ability to outperform the market after accounting for risk). The trend is continuing with the latest partnership between Franklin Templeton and Wand AI, marking […]
-The post Franklin Templeton &amp; Wand AI bring agentic AI to asset management appeared first on AI News.</description>
-      <pubDate>Tue, 18 Nov 2025 15:09:52 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/franklin-templeton-wand-ai-bring-agentic-ai-to-asset-management/</guid>
+      <title>e-Conomy SEA 2025: Malaysia takes 32% of regional AI funding</title>
+      <link>https://www.artificialintelligence-news.com/news/malaysia-ai-investment-32-percent-sea-funding-2025/</link>
+      <description>Malaysia has captured 32% of Southeast Asia’s total AI funding – equivalent to US$759 million – between H2 2024 and H1 2025, establishing itself as the region’s dominant destination for artificial intelligence investment as massive infrastructure expansion and high consumer adoption converge to reshape the country’s technology landscape, according to the e-Conomy SEA 2025 report […]
+The post e-Conomy SEA 2025: Malaysia takes 32% of regional AI funding appeared first on AI News.</description>
+      <pubDate>Tue, 25 Nov 2025 09:00:00 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/malaysia-ai-investment-32-percent-sea-funding-2025/</guid>
     </item>
     <item>
-      <title>AI web search risks: Mitigating business data accuracy threats</title>
-      <link>https://www.artificialintelligence-news.com/news/ai-web-search-risks-mitigating-business-data-accuracy-threats/</link>
-      <description>Over half of us now use AI to search the web, yet the stubbornly low data accuracy of common tools creates new business risks. While generative AI (GenAI) offers undeniable efficiency gains, a new investigation highlights a disparity between user trust and technical accuracy that poses specific risks to corporate compliance, legal standing, and financial […]
-The post AI web search risks: Mitigating business data accuracy threats appeared first on AI News.</description>
-      <pubDate>Tue, 18 Nov 2025 12:40:05 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/ai-web-search-risks-mitigating-business-data-accuracy-threats/</guid>
+      <title>ZAYA1: AI model using AMD GPUs for training hits milestone</title>
+      <link>https://www.artificialintelligence-news.com/news/zaya1-ai-model-using-amd-gpus-for-training-hits-milestone/</link>
+      <description>Zyphra, AMD, and IBM spent a year testing whether AMD’s GPUs and platform can support large-scale AI model training, and the result is ZAYA1. In partnership, the three companies trained ZAYA1 – described as the first major Mixture-of-Experts foundation model built entirely on AMD GPUs and networking – which they see as proof that the […]
+The post ZAYA1: AI model using AMD GPUs for training hits milestone appeared first on AI News.</description>
+      <pubDate>Mon, 24 Nov 2025 18:07:40 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/zaya1-ai-model-using-amd-gpus-for-training-hits-milestone/</guid>
     </item>
     <item>
-      <title>Bain &amp; Company issues AI Guide for CEOs, opens Singapore hub</title>
-      <link>https://www.artificialintelligence-news.com/news/bain-company-issues-ai-guide-for-ceos-and-opens-singapore-hub/</link>
-      <description>A new Bain &amp; Company report says many organisations in Southeast Asia are still stuck in early product testing because they treat AI as a set of tools rather than a change in how the business works. In The Southeast Asia CEO’s Guide to AI Transformation, the authors say leaders should first look at how […]
-The post Bain &amp; Company issues AI Guide for CEOs, opens Singapore hub appeared first on AI News.</description>
-      <pubDate>Tue, 18 Nov 2025 12:00:00 GMT</pubDate>
-      <guid>https://www.artificialintelligence-news.com/news/bain-company-issues-ai-guide-for-ceos-and-opens-singapore-hub/</guid>
+      <title>Amazon Is Using Specialized AI Agents for Deep Bug Hunting</title>
+      <link>https://www.wired.com/story/amazon-autonomous-threat-analysis/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Mon, 24 Nov 2025 14:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/amazon-autonomous-threat-analysis/</guid>
+    </item>
+    <item>
+      <title>Google commits to 1000x more AI infrastructure in next 4-5 years</title>
+      <link>https://www.artificialintelligence-news.com/news/google-commits-to-1000x-more-ai-infrastructure-in-next-4-5-years/</link>
+      <description>In order to meet the massive demand for AI, Google wants to double the overall size of its servers every six months, a growth rate that would create a 1000x greater capacity in the next four or five years. The statement came from the head of Google’s AI infrastructure, Amin Vahdat, during an all-hands meeting […]
+The post Google commits to 1000x more AI infrastructure in next 4-5 years appeared first on AI News.</description>
+      <pubDate>Mon, 24 Nov 2025 12:48:13 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/google-commits-to-1000x-more-ai-infrastructure-in-next-4-5-years/</guid>
+    </item>
+    <item>
+      <title>How Europe’s talent can secure a trillion-euro AI economic injection</title>
+      <link>https://www.artificialintelligence-news.com/news/how-europe-talent-can-secure-trillion-euro-ai-economic-injection/</link>
+      <description>A €1.2 trillion AI prize sits on the table for Europe’s economy, and the region has the talent and raw ingredients to claim it. While the global narrative often focuses on competition with the US and China, the view from the ground in Europe is a region of untapped potential, world-class talent, and deep infrastructure […]
+The post How Europe’s talent can secure a trillion-euro AI economic injection appeared first on AI News.</description>
+      <pubDate>Mon, 24 Nov 2025 12:03:53 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/how-europe-talent-can-secure-trillion-euro-ai-economic-injection/</guid>
+    </item>
+    <item>
+      <title>APAC enterprises move AI infrastructure to edge as inference costs rise</title>
+      <link>https://www.artificialintelligence-news.com/news/enterprises-are-rethinking-ai-infrastructure-as-inference-costs-rise/</link>
+      <description>AI spending in Asia Pacific continues to rise, yet many companies still struggle to get value from their AI projects. Much of this comes down to the infrastructure that supports AI, as most systems are not built to run inference at the speed or scale real applications need. Industry studies show many projects miss their […]
+The post APAC enterprises move AI infrastructure to edge as inference costs rise appeared first on AI News.</description>
+      <pubDate>Mon, 24 Nov 2025 12:00:00 GMT</pubDate>
+      <guid>https://www.artificialintelligence-news.com/news/enterprises-are-rethinking-ai-infrastructure-as-inference-costs-rise/</guid>
+    </item>
+    <item>
+      <title>A Research Leader Behind ChatGPT’s Mental Health Work Is Leaving OpenAI</title>
+      <link>https://www.wired.com/story/openai-research-lead-mental-health-quietly-departs/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Mon, 24 Nov 2025 10:30:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/openai-research-lead-mental-health-quietly-departs/</guid>
+    </item>
+    <item>
+      <title>A $100 Billion Chip Project Forced a 91-Year-Old Woman From Her Home</title>
+      <link>https://www.wired.com/story/micron-superfab-evicts-91-year-old-new-york/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Mon, 24 Nov 2025 10:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/micron-superfab-evicts-91-year-old-new-york/</guid>
+    </item>
+    <item>
+      <title>Europe Is Bending the Knee to the US on Tech Policy</title>
+      <link>https://www.wired.com/story/europe-bends-us-digital-policies-eu-ai-act/</link>
+      <description>Save StorySave this story</description>
+      <pubDate>Mon, 24 Nov 2025 07:00:00 GMT</pubDate>
+      <guid>https://www.wired.com/story/europe-bends-us-digital-policies-eu-ai-act/</guid>
     </item>
   </channel>
 </rss>
